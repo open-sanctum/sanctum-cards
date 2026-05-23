@@ -1387,11 +1387,36 @@ git commit -m "feat(extract): orchestrator for v0 pipeline, emit data/cards.json
 **Files:**
 - Modify: `.github/workflows/ci.yml`
 
-- [ ] **Step 1: Add install/build/test steps to the workflow**
+- [ ] **Step 1: Add Node/pnpm setup and the extractor steps to the workflow**
 
-Replace the bottom of `.github/workflows/ci.yml` (after the zip integrity check) with:
+Replace the placeholder comment block in `.github/workflows/ci.yml` (the "pnpm and Node setup are added in M1.1..." comment from the M0 CI fix) with the setup actions, then append the new extractor steps after the zip integrity check. The full `steps:` block in the workflow should look like:
 
 ```yaml
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Verify input zip integrity
+        run: |
+          cd inputs
+          expected=$(grep -oP 'SHA-256:.*\`\K[0-9a-f]+' INPUT.md)
+          actual=$(sha256sum Sanctum18-04.zip | awk '{print $1}')
+          if [ "$expected" != "$actual" ]; then
+            echo "Zip sha256 mismatch: expected $expected, got $actual"
+            exit 1
+          fi
+          echo "Zip sha256 verified: $actual"
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -1413,6 +1438,8 @@ Replace the bottom of `.github/workflows/ci.yml` (after the zip integrity check)
           fi
           echo "Extractor output matches committed data/."
 ```
+
+The `Set up pnpm` / `Set up Node` actions are added here (not in M0) because they require `pnpm-lock.yaml` to exist for the cache configuration; that lockfile is introduced by M1.1.
 
 - [ ] **Step 2: Commit**
 

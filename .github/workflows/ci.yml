@@ -12,16 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'pnpm'
+      # pnpm and Node setup are added in M1.1 once we have a TS workspace
+      # and pnpm-lock.yaml. For M0, only the zip integrity check runs and
+      # it uses Ubuntu's built-in tooling (sha256sum/awk/grep).
 
       - name: Verify input zip integrity
         run: |
