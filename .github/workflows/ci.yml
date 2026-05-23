@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Verify input zip integrity
+        run: |
+          cd inputs
+          expected=$(grep -oP 'SHA-256:.*\`\K[0-9a-f]+' INPUT.md)
+          actual=$(sha256sum Sanctum18-04.zip | awk '{print $1}')
+          if [ "$expected" != "$actual" ]; then
+            echo "Zip sha256 mismatch: expected $expected, got $actual"
+            exit 1
+          fi
+          echo "Zip sha256 verified: $actual"
+
+      # Subsequent steps (install, build, test, verify-extractor-reproducibility)
+      # are added by the M1+ tasks.
