@@ -1,0 +1,47 @@
+# Sanctum Card Database — Attribution Notice
+
+This repository contains two categories of content under different
+licensing arrangements:
+
+## 1. Original Sanctum content (Digital Addiction, Inc., ~1997–2003)
+
+The following are reproduced here for the preservation of an
+abandoned commercial work, and remain the copyright of their
+original authors:
+
+- Card names and rules text from the Sanctum 1.8 client
+  (`Cache/CardText*.txt`, `Cache/Sanctum.ncd`)
+- Card illustrations and art (`bin/bitmaps/cards/**`)
+- Sound effects (`bin/sounds/*.wav`)
+- Preconstructed deck lists (`Decks/PRECONSTRUCTED/*.dck`)
+- Scenario maps (`bin/maps/*.map`)
+
+These items are **not relicensed** by this repository. They are
+included on the understanding that:
+
+- The original publisher (Digital Addiction, Inc.) is defunct.
+- The IP has passed through one or more successors (notably NIOGA).
+- The current rights holder (if any) has not commercialized these
+  assets in over a decade.
+
+If you hold rights to any of the original Sanctum content and wish
+items removed from this repository, please open an issue or contact
+the maintainers. We will comply promptly and in good faith.
+
+## 2. Original work in this repository (sanctum-cards contributors)
+
+- Code (extractor, site, tooling): MIT, see `LICENSE-CODE`
+- Derived JSON data, schema, and documentation: CC-BY 4.0, see `LICENSE-DATA`
+- Attribution: "sanctum-cards contributors,
+  https://github.com/open-sanctum/sanctum-cards"
+
+## 3. Related preservation efforts
+
+- **Sanctum** (the original game) is currently kept playable on a
+  community-run server. The original 1.8 client binary is not
+  redistributed by this repository; only data and assets in the
+  archive are extracted into open formats.
+- **Sanctorum** (https://github.com/SanctorumLLC) is a separate
+  commercial reconstruction by an original Digital Addiction team
+  member, using all-new assets. This repository is independent of
+  Sanctorum and does not redistribute any Sanctorum content.
