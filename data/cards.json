@@ -64,7 +64,7 @@
       "big": "assets/art/big/6.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/6.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -94,7 +94,7 @@
       "big": "assets/art/big/7.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/7.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -124,7 +124,7 @@
       "big": "assets/art/big/8.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/8.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -216,7 +216,7 @@
       "big": "assets/art/big/11.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/11.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -464,7 +464,7 @@
       "big": "assets/art/big/20.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/20.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -706,7 +706,7 @@
       "big": "assets/art/big/32.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/32.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -804,7 +804,7 @@
       "big": "assets/art/big/36.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/36.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -834,7 +834,7 @@
       "big": "assets/art/big/37.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/37.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -979,7 +979,7 @@
       "big": "assets/art/big/42.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/42.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1317,7 +1317,7 @@
       "big": "assets/art/big/59.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/59.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1431,7 +1431,7 @@
       "big": "assets/art/big/67.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/67.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1471,7 +1471,7 @@
       "big": "assets/art/big/68.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/68.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1586,7 +1586,7 @@
       "big": "assets/art/big/72.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/72.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1646,7 +1646,7 @@
       "big": "assets/art/big/75.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/75.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1676,7 +1676,7 @@
       "big": "assets/art/big/76.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/76.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1796,7 +1796,7 @@
       "big": "assets/art/big/80.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/80.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -1864,7 +1864,7 @@
       "big": "assets/art/big/83.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/83.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2145,7 +2145,7 @@
       "big": "assets/art/big/93.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/93.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2325,7 +2325,7 @@
       "big": "assets/art/big/100.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/100.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2385,7 +2385,7 @@
       "big": "assets/art/big/105.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/105.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2445,7 +2445,7 @@
       "big": "assets/art/big/109.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/109.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2484,7 +2484,7 @@
       "big": "assets/art/big/110.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/110.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2700,7 +2700,7 @@
       "big": "assets/art/big/121.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/121.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -2980,7 +2980,7 @@
       "big": "assets/art/big/133.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/133.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -3130,7 +3130,7 @@
       "big": "assets/art/big/139.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/139.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -3220,7 +3220,7 @@
       "big": "assets/art/big/145.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/145.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -3400,7 +3400,7 @@
       "big": "assets/art/big/154.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/154.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -3768,7 +3768,7 @@
       "big": "assets/art/big/175.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/175.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -3896,7 +3896,7 @@
       "big": "assets/art/big/187.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/187.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -4018,7 +4018,7 @@
       "big": "assets/art/big/195.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/195.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -4422,7 +4422,7 @@
       "big": "assets/art/big/225.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/225.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -4482,7 +4482,7 @@
       "big": "assets/art/big/276.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/276.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5090,7 +5090,7 @@
       "big": "assets/art/big/306.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/306.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5150,7 +5150,7 @@
       "big": "assets/art/big/312.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/312.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5300,7 +5300,7 @@
       "big": "assets/art/big/318.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/318.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5339,7 +5339,7 @@
       "big": "assets/art/big/321.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/321.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5417,7 +5417,7 @@
       "big": "assets/art/big/325.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/325.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5456,7 +5456,7 @@
       "big": "assets/art/big/327.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/327.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5795,7 +5795,7 @@
       "big": "assets/art/big/345.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/345.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5825,7 +5825,7 @@
       "big": "assets/art/big/346.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/346.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -5919,7 +5919,7 @@
       "big": "assets/art/big/352.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/352.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6013,7 +6013,7 @@
       "big": "assets/art/big/359.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/359.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6111,7 +6111,7 @@
       "big": "assets/art/big/401.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/401.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6179,7 +6179,7 @@
       "big": "assets/art/big/403.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/403.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6395,7 +6395,7 @@
       "big": "assets/art/big/410.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/410.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6425,7 +6425,7 @@
       "big": "assets/art/big/411.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/411.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6635,7 +6635,7 @@
       "big": "assets/art/big/417.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/417.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6673,7 +6673,7 @@
       "big": "assets/art/big/418.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/418.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6831,7 +6831,7 @@
       "big": "assets/art/big/423.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/423.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6891,7 +6891,7 @@
       "big": "assets/art/big/425.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/425.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6921,7 +6921,7 @@
       "big": "assets/art/big/426.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/426.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6953,7 +6953,7 @@
       "big": "assets/art/big/427.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/427.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -6989,7 +6989,7 @@
       "big": "assets/art/big/428.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/428.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7087,7 +7087,7 @@
       "big": "assets/art/big/431.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/431.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7364,7 +7364,7 @@
       "big": "assets/art/big/439.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/439.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7438,7 +7438,7 @@
       "big": "assets/art/big/441.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/441.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7506,7 +7506,7 @@
       "big": "assets/art/big/443.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/443.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7682,7 +7682,7 @@
       "big": "assets/art/big/448.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/448.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7718,7 +7718,7 @@
       "big": "assets/art/big/449.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/449.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7756,7 +7756,7 @@
       "big": "assets/art/big/450.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/450.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -7792,7 +7792,7 @@
       "big": "assets/art/big/451.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/451.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8020,7 +8020,7 @@
       "big": "assets/art/big/459.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/459.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8252,7 +8252,7 @@
       "big": "assets/art/big/506.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/506.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8312,7 +8312,7 @@
       "big": "assets/art/big/508.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/508.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8351,7 +8351,7 @@
       "big": "assets/art/big/509.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/509.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8389,7 +8389,7 @@
       "big": "assets/art/big/510.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/510.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8449,7 +8449,7 @@
       "big": "assets/art/big/512.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/512.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -8583,7 +8583,7 @@
       "big": "assets/art/big/516.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/516.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -9230,7 +9230,7 @@
       "big": "assets/art/big/536.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/536.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -9717,7 +9717,7 @@
       "big": "assets/art/big/551.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/551.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -9845,7 +9845,7 @@
       "big": "assets/art/big/555.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/555.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -9905,7 +9905,7 @@
       "big": "assets/art/big/557.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/557.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -9935,7 +9935,7 @@
       "big": "assets/art/big/558.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/558.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10028,7 +10028,7 @@
       "big": "assets/art/big/561.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/561.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10156,7 +10156,7 @@
       "big": "assets/art/big/566.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/566.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10194,7 +10194,7 @@
       "big": "assets/art/big/567.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/567.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10346,7 +10346,7 @@
       "big": "assets/art/big/572.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/572.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10384,7 +10384,7 @@
       "big": "assets/art/big/573.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/573.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10512,7 +10512,7 @@
       "big": "assets/art/big/577.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/577.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10542,7 +10542,7 @@
       "big": "assets/art/big/578.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/578.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -10679,7 +10679,7 @@
       "big": "assets/art/big/582.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/582.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -11019,7 +11019,7 @@
       "big": "assets/art/big/606.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/606.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -11089,7 +11089,7 @@
       "big": "assets/art/big/608.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/608.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -11763,7 +11763,7 @@
       "big": "assets/art/big/686.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/686.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -11853,7 +11853,7 @@
       "big": "assets/art/big/689.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/689.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -11973,7 +11973,7 @@
       "big": "assets/art/big/694.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/694.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12093,7 +12093,7 @@
       "big": "assets/art/big/704.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/704.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12197,7 +12197,7 @@
       "big": "assets/art/big/707.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/707.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12377,7 +12377,7 @@
       "big": "assets/art/big/801.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/801.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12407,7 +12407,7 @@
       "big": "assets/art/big/802.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/802.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12467,7 +12467,7 @@
       "big": "assets/art/big/804.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/804.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12497,7 +12497,7 @@
       "big": "assets/art/big/805.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/805.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12652,7 +12652,7 @@
       "big": "assets/art/big/810.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/810.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12722,7 +12722,7 @@
       "big": "assets/art/big/812.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/812.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12796,7 +12796,7 @@
       "big": "assets/art/big/814.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/814.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12832,7 +12832,7 @@
       "big": "assets/art/big/815.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/815.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12868,7 +12868,7 @@
       "big": "assets/art/big/816.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/816.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -12904,7 +12904,7 @@
       "big": "assets/art/big/817.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/817.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -14354,7 +14354,7 @@
       "big": "assets/art/big/864.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/864.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -14714,7 +14714,7 @@
       "big": "assets/art/big/876.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/876.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -14843,7 +14843,7 @@
       "big": "assets/art/big/880.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/880.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -15329,7 +15329,7 @@
       "big": "assets/art/big/896.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/896.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -15359,7 +15359,7 @@
       "big": "assets/art/big/897.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/897.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -15419,7 +15419,7 @@
       "big": "assets/art/big/899.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/899.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -15479,7 +15479,7 @@
       "big": "assets/art/big/901.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/901.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -15509,7 +15509,7 @@
       "big": "assets/art/big/902.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/902.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -16080,7 +16080,7 @@
       "big": "assets/art/big/920.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/920.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -16350,7 +16350,7 @@
       "big": "assets/art/big/1000.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1000.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -16380,7 +16380,7 @@
       "big": "assets/art/big/1001.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1001.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -16590,7 +16590,7 @@
       "big": "assets/art/big/1008.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1008.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -16629,7 +16629,7 @@
       "big": "assets/art/big/1009.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1009.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17109,7 +17109,7 @@
       "big": "assets/art/big/1024.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1024.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17273,7 +17273,7 @@
       "big": "assets/art/big/1029.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1029.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17621,7 +17621,7 @@
       "big": "assets/art/big/1040.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1040.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17651,7 +17651,7 @@
       "big": "assets/art/big/1041.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1041.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17903,7 +17903,7 @@
       "big": "assets/art/big/1049.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1049.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -17933,7 +17933,7 @@
       "big": "assets/art/big/1050.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1050.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18185,7 +18185,7 @@
       "big": "assets/art/big/1058.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1058.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18217,7 +18217,7 @@
       "big": "assets/art/big/1059.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1059.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18313,7 +18313,7 @@
       "big": "assets/art/big/1062.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1062.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18439,7 +18439,7 @@
       "big": "assets/art/big/1066.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1066.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18621,7 +18621,7 @@
       "big": "assets/art/big/1072.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1072.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18713,7 +18713,7 @@
       "big": "assets/art/big/1075.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1075.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18841,7 +18841,7 @@
       "big": "assets/art/big/1079.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1079.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18903,7 +18903,7 @@
       "big": "assets/art/big/1081.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1081.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18933,7 +18933,7 @@
       "big": "assets/art/big/1082.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1082.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -18963,7 +18963,7 @@
       "big": "assets/art/big/1083.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1083.wav",
     "cost": {
       "primary": null,
       "secondary": null,
@@ -19179,7 +19179,7 @@
       "big": "assets/art/big/1090.png",
       "small": null
     },
-    "audio": null,
+    "audio": "assets/sounds/1090.wav",
     "cost": {
       "primary": null,
       "secondary": null,

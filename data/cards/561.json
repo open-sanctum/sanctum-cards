@@ -3,7 +3,7 @@
     "big": "assets/art/big/561.png",
     "small": null
   },
-  "audio": null,
+  "audio": "assets/sounds/561.wav",
   "cost": {
     "primary": null,
     "secondary": null,

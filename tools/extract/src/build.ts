@@ -53,12 +53,14 @@ async function main(): Promise<void> {
 
   const bigArtIds = new Set(Object.keys(manifest.art.big));
   const smallArtIds = new Set(Object.keys(manifest.art.small));
+  const audioIds = new Set(Object.keys(manifest.sounds));
 
   console.log("Merging ...");
   const cards = mergeCards(ncd, cardText, {
     onWarning: (msg) => console.warn(`  WARN: ${msg}`),
     bigArtIds,
     smallArtIds,
+    audioIds,
   });
   console.log(`  ${cards.length} cards`);
 
