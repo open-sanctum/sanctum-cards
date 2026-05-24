@@ -30,10 +30,11 @@ describe("mergeCards", () => {
     expect(out.map((c) => c.id)).toEqual([4, 1000]);
   });
 
-  it("throws if an ncd id has no card text", () => {
-    expect(() =>
-      mergeCards(ncd, [cardText[0]!])
-    ).toThrow(/1000.*no rules text/i);
+  it("warns (but does not throw) if an ncd id has no card text, and omits it from output", () => {
+    const warnings: string[] = [];
+    const out = mergeCards(ncd, [cardText[0]!], { onWarning: (w) => warnings.push(w) });
+    expect(out).toHaveLength(1);
+    expect(warnings.some((w) => w.includes("1000"))).toBe(true);
   });
 
   it("warns (but does not throw) if a card text id is not in ncd", () => {

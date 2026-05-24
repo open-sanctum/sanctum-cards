@@ -3,7 +3,7 @@ export interface CardTextRecord {
   type_letter: string;
   text: string;
   source_file: string;
-  source_line: number;
+  source_line: number; // 1-based line index within source_file
 }
 
 export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[] {
@@ -13,19 +13,18 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i]!;
     if (raw.trim() === "") continue;
-    // Split on the first three tabs only; preserve everything after as the text column.
+    // Format: id\ttype_letter[\ttext]
+    // The text column is optional — some entries have only id and type_letter (empty rules text).
     const t1 = raw.indexOf("\t");
-    const t2 = raw.indexOf("\t", t1 + 1);
-    const t3 = raw.indexOf("\t", t2 + 1);
-    if (t1 < 0 || t2 < 0 || t3 < 0) {
+    if (t1 < 0) {
       throw new Error(
-        `Malformed ${sourceFile} line ${i + 1}: expected at least 4 tab-separated columns: ${JSON.stringify(raw)}`
+        `Malformed ${sourceFile} line ${i + 1}: expected at least 2 tab-separated columns: ${JSON.stringify(raw)}`
       );
     }
-    const lineCol = raw.slice(0, t1).trim();
-    const idCol = raw.slice(t1 + 1, t2).trim();
-    const typeLetter = raw.slice(t2 + 1, t3).trim();
-    const textCol = raw.slice(t3 + 1);
+    const t2 = raw.indexOf("\t", t1 + 1);
+    const idCol = raw.slice(0, t1).trim();
+    const typeLetter = (t2 < 0 ? raw.slice(t1 + 1) : raw.slice(t1 + 1, t2)).trim();
+    const textCol = t2 < 0 ? "" : raw.slice(t2 + 1);
     const id = parseInt(idCol, 10);
     if (!Number.isInteger(id)) {
       throw new Error(
@@ -37,7 +36,7 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
       type_letter: typeLetter,
       text: textCol,
       source_file: sourceFile,
-      source_line: parseInt(lineCol, 10) || i + 1,
+      source_line: i + 1,
     });
   }
   return records;

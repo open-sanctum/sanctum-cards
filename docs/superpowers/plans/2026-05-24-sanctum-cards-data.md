@@ -924,9 +924,9 @@ git commit -m "feat(extract): parse Sanctum.ncd for id and name (raw columns pre
 import { describe, it, expect } from "vitest";
 import { parseCardText } from "../src/input/cardtext.js";
 
-const SAMPLE = `1\t1000\ts\tCast on globe. Every non-friendly town and colony...
-2\t1001\ts\tCast on globe. After start of next turn, all Imps...
-3\t1002\ts\tCast on group. Group dies. The Pact Is Sealed...
+const SAMPLE = `1000\ts\tCast on globe. Every non-friendly town and colony...
+1001\ts\tCast on globe. After start of next turn, all Imps...
+1002\ts\tCast on group. Group dies. The Pact Is Sealed...
 `;
 
 describe("parseCardText", () => {
@@ -947,14 +947,17 @@ describe("parseCardText", () => {
   });
 
   it("preserves embedded tabs, slashes, and punctuation in the text column", () => {
-    const sample = `1\t1\ts\tFoo\\tBar (parenthetical) - hyphen, "quoted", 'apostrophe'\n`;
+    const sample = `1\ts\tFoo\\tBar (parenthetical) - hyphen, "quoted", 'apostrophe'\n`;
     const [rec] = parseCardText(Buffer.from(sample), "CardTextA.txt");
     expect(rec.text).toBe("Foo\\tBar (parenthetical) - hyphen, \"quoted\", 'apostrophe'");
   });
 
-  it("ignores blank lines", () => {
-    const out = parseCardText(Buffer.from(`${SAMPLE}\n\n`), "CardTextA.txt");
+  it("ignores blank lines and assigns source_line by file position", () => {
+    const sample = `\n${SAMPLE}\n\n`;
+    const out = parseCardText(Buffer.from(sample), "CardTextA.txt");
     expect(out).toHaveLength(3);
+    // After the leading blank line, the first record is on file-line 2.
+    expect(out[0].source_line).toBe(2);
   });
 });
 ```
@@ -977,7 +980,7 @@ export interface CardTextRecord {
   type_letter: string;
   text: string;
   source_file: string;
-  source_line: number;
+  source_line: number; // 1-based line index within source_file
 }
 
 export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[] {
@@ -987,19 +990,18 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i]!;
     if (raw.trim() === "") continue;
-    // Split on the first three tabs only; preserve everything after as the text column.
+    // Format: id\ttype_letter[\ttext]
+    // The text column is optional — some entries have only id and type_letter (empty rules text).
     const t1 = raw.indexOf("\t");
-    const t2 = raw.indexOf("\t", t1 + 1);
-    const t3 = raw.indexOf("\t", t2 + 1);
-    if (t1 < 0 || t2 < 0 || t3 < 0) {
+    if (t1 < 0) {
       throw new Error(
-        `Malformed ${sourceFile} line ${i + 1}: expected at least 4 tab-separated columns: ${JSON.stringify(raw)}`
+        `Malformed ${sourceFile} line ${i + 1}: expected at least 2 tab-separated columns: ${JSON.stringify(raw)}`
       );
     }
-    const lineCol = raw.slice(0, t1).trim();
-    const idCol = raw.slice(t1 + 1, t2).trim();
-    const typeLetter = raw.slice(t2 + 1, t3).trim();
-    const textCol = raw.slice(t3 + 1);
+    const t2 = raw.indexOf("\t", t1 + 1);
+    const idCol = raw.slice(0, t1).trim();
+    const typeLetter = (t2 < 0 ? raw.slice(t1 + 1) : raw.slice(t1 + 1, t2)).trim();
+    const textCol = t2 < 0 ? "" : raw.slice(t2 + 1);
     const id = parseInt(idCol, 10);
     if (!Number.isInteger(id)) {
       throw new Error(
@@ -1011,7 +1013,7 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
       type_letter: typeLetter,
       text: textCol,
       source_file: sourceFile,
-      source_line: parseInt(lineCol, 10) || i + 1,
+      source_line: i + 1,
     });
   }
   return records;
@@ -1076,10 +1078,11 @@ describe("mergeCards", () => {
     expect(out.map((c) => c.id)).toEqual([4, 1000]);
   });
 
-  it("throws if an ncd id has no card text", () => {
-    expect(() =>
-      mergeCards(ncd, [cardText[0]!])
-    ).toThrow(/1000.*no rules text/i);
+  it("warns (but does not throw) if an ncd id has no card text, and omits it from output", () => {
+    const warnings: string[] = [];
+    const out = mergeCards(ncd, [cardText[0]!], { onWarning: (w) => warnings.push(w) });
+    expect(out).toHaveLength(1);
+    expect(warnings.some((w) => w.includes("1000"))).toBe(true);
   });
 
   it("warns (but does not throw) if a card text id is not in ncd", () => {
@@ -1154,7 +1157,10 @@ export function mergeCards(
     const rec = ncd[i]!;
     const text = textById.get(rec.id);
     if (!text) {
-      throw new Error(`.ncd id ${rec.id} (${rec.name}) has no rules text`);
+      opts.onWarning?.(
+        `.ncd id ${rec.id} (${rec.name || "<unnamed>"}) has no rules text; skipping`
+      );
+      continue;
     }
     cards.push({
       id: rec.id,

@@ -41,7 +41,10 @@ export function mergeCards(
     const rec = ncd[i]!;
     const text = textById.get(rec.id);
     if (!text) {
-      throw new Error(`.ncd id ${rec.id} (${rec.name}) has no rules text`);
+      opts.onWarning?.(
+        `.ncd id ${rec.id} (${rec.name || "<unnamed>"}) has no rules text; skipping`
+      );
+      continue;
     }
     cards.push({
       id: rec.id,
