@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 524,
+  "keywords": [],
+  "name": "Cruel Whim",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. A swordsman becomes an archer, while an archer becomes a swordsman. Has no effect on Weapon Master or Rakshasa.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 24,
+    "ncd_row": 277
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

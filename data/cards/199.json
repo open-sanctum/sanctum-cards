@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 199,
+  "keywords": [
+    "Desertwalk"
+  ],
+  "name": "Caravan",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group gains Desertwalk. (Group takes no damage from desert.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 130,
+    "ncd_row": 130
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

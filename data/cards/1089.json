@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1089,
+  "keywords": [],
+  "name": "Book of War",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. When any recruit kills any opponents by combat damage, recruit gets +1 level at start of next turn (regardless of the number of kills). (The maximum recruit level is 5.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 90,
+    "ncd_row": 606
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

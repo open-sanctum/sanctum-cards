@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 705,
+  "keywords": [],
+  "name": "Warlord",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:5 A:1 HP:7 L:2 Cast on friendly town or colony. Creates a Human swordsman. Warlord gets +3 hand damage. Other swordsmen in Warlord's group get +1 hand damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 216,
+    "ncd_row": 381
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 5,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "manipulation"
+}

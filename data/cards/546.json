@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4104,
+  "id": 546,
+  "keywords": [],
+  "name": "Golden Grove",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on plains. Square cannot be targeted by summoning spells. Mon- sters cannot enter square. At start of turn of casting +3, Grove matures and becomes forest. (Minions in for- est are concealed, and cannot be targeted by enemy individual spells.) A mature Golden Grove generates 1 mana of its owner's choice, and is captured like a structure. Dispelled if terrain changes.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 46,
+    "ncd_row": 299
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

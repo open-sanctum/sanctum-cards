@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4155,
+  "id": 608,
+  "keywords": [
+    "Firewalk"
+  ],
+  "name": "Lava Flow",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on mountain or volcano. Mountain becomes volcano. At start of turn, volcano has 33% chance to erupt into 1d2 random adjacent non-structure squares except mountain or volcano. Affected squares become lava through current turn +2, then change from lava to barren land. (Lava causes 3 hit points of damage after start of turn unless group has Firewalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 8,
+    "ncd_row": 347
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

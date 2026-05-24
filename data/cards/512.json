@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 512,
+  "keywords": [],
+  "name": "Bellwether",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:0(x0) A:0 HP:10 L:0 Cast on recruit group. Creates a Satyr swordsman. Bellwether does not attack. Its group cannot be targeted by enemy group spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 12,
+    "ncd_row": 265
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 0,
+    "hp_max": 10,
+    "level": 0,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "manipulation"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 449,
+  "keywords": [
+    "Withdraws"
+  ],
+  "name": "Loch Dweller",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3(x3) A:0 HP:15 L:2 Three attacks. Cast on globe. Creates Loch Dweller off the board. Before combat, it appears in a water square, or a square adjacent to a friendly town or colony, that is also adjacent to a non-friendly group. After all combat, it disappears again. Withdraws at the start of combat round 3. Dispelled when killed. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 50,
+    "ncd_row": 243
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "globe",
+  "type": "summoning"
+}

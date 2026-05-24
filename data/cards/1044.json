@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1044,
+  "keywords": [],
+  "name": "Road Building",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Affects all contiguous non-structure squares in the same row, and all contiguous non-structure squares in the same column. Affected squares cannot be targeted by any spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 45,
+    "ncd_row": 561
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

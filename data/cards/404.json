@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 404,
+  "keywords": [],
+  "name": "Wild Plague",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. At start of turn, every monster on the board takes 1 hit point of damage. (Monsters that are off the board are not affected.) May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 5,
+    "ncd_row": 198
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

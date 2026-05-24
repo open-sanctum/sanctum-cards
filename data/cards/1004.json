@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4342,
+  "id": 1004,
+  "keywords": [],
+  "name": "Slavers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group. All members of group get +1 attack rate in their first combat round of attacks. During combat, when any opposing recruit is dying, recruit is healed to 1 hit point, has all spells dispelled, and disappears. Those recruits reappear in Slaver's square when empty, with Enslaved (joins caster's side; can't add; in friendly structure, replaced by equal number of novices).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 5,
+    "ncd_row": 521
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

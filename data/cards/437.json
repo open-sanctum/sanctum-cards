@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 437,
+  "keywords": [
+    "Immobile"
+  ],
+  "name": "Undine",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:15 L:3 Immobile. Cast on water. Plains, forest, desert, and barren land in the four squares adjacent to Undine attract non-friendly player-controlled groups. (Groups adjacent to attracting squares before movement must move toward one of them.) Undine dies if not in water. (Immobile monsters cannot be moved.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 38,
+    "ncd_row": 231
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 15,
+    "level": 3,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

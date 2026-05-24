@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 711,
+  "keywords": [],
+  "name": "Dracha's Trade",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Structure suffers a mana flame-out. Structure generates six primary and three secondary mana for its owner next turn. Thereafter, structure no longer generates its 1 mana. (Mana-generating spells on the structure still produce mana normally.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 221,
+    "ncd_row": 386
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

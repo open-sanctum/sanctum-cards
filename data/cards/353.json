@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 353,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Nereid's Curse",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group gains  Waterwalk. (Group may cross water, and does not drown in water.) At start of turn, all members of group heal 1 hit point of damage if group is in water, or take 1 hit point of damage if group is not in water.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 190,
+    "ncd_row": 190
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

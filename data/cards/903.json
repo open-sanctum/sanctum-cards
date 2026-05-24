@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 903,
+  "keywords": [],
+  "name": "Natural Order",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Dispels all square spells in the 3x3 diamond centered on square. (This does not change terrain or destroy colonies.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 103,
+    "ncd_row": 491
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 154,
+  "keywords": [],
+  "name": "Army of Light",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Creates two Vision novices in structure.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 109,
+    "ncd_row": 109
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "manipulation"
+}

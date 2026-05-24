@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 830,
+  "keywords": [],
+  "name": "The Withering",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. At start of turn, all minions on the board take 1 hit point of damage. (Minions that are off the board are not affected.) Duration: M turns. Revolver (Casting cost M revolves from 1 to 10, starting at 1 and increasing by 1 mana per turn, restarting at 1 when it reaches 10, until cast).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 30,
+    "ncd_row": 418
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 812,
+  "keywords": [],
+  "name": "Brother Wolf",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:0 HP:10 L:1 Cast on friendly recruit group. Creates Wolf. Other members of group no longer attack. When any other member of group is hit (after checking armor), Wolf receives an equal amount of magical damage, and the member who was hit receives no damage. When Wolf dies, his group withdraws at the start of the next round, ending combat. Only one in a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 12,
+    "ncd_row": 400
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": 10,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "manipulation"
+}

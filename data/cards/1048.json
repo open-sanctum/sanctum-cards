@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1048,
+  "keywords": [],
+  "name": "Adriel's Promise",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Neither player may cast any structure spells. (This squanders all subsequent structure spells cast this turn.) Duration: Through turn of casting +7.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 49,
+    "ncd_row": 565
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

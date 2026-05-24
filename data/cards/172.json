@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 172,
+  "keywords": [],
+  "name": "False Prophet",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Structure no longer generates its 1 mana. (Mana-generating spells on the structure still produce mana normally.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 120,
+    "ncd_row": 120
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

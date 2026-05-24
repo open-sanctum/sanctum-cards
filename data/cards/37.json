@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 37,
+  "keywords": [],
+  "name": "Albatross",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. At start of turn, every other member of minion's group takes 1 hit point of damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 28,
+    "ncd_row": 28
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 407,
+  "keywords": [],
+  "name": "Blindness",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster or friendly recruit. Minion no longer deals hand or missile damage. If on a recruit, then at start of combat against a monster group, Blindness transfers to a random monster in the enemy group without Blindness.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 8,
+    "ncd_row": 201
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "conjuration"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1028,
+  "keywords": [],
+  "name": "Odar",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:2 Cast on recruit in a non-friendly group of 3 or more. He is replaced by Odar, a Shadow Hero swordsman. (This does not trigger any death effects.) When cast, Odar kills a random other member of his group. In combat, Odar must attack a random other minion on either side. When Odar is alone in his group, his group joins caster's side, and be- comes player-controlled. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 29,
+    "ncd_row": 545
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit",
+  "type": "hero"
+}

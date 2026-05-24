@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4103,
+  "id": 604,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Ice Age",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Before movement, all water squares become ice. (When group enters ice, group slides in its direction of travel to the first non-ice square, or the first square that blocks movement. A sliding group ignores other groups in all squares except the last square, and all spells in squares except the first ice square and the last square. Flight does not prevent sliding.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 4,
+    "ncd_row": 343
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

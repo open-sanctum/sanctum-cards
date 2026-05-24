@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4305,
+  "id": 848,
+  "keywords": [],
+  "name": "Vale of Peace",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Non-structure squares in the 3x3 diamond centered on structure get Glen of Peace (square cannot be targeted by summoning spells, monsters cannot enter square).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 48,
+    "ncd_row": 436
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

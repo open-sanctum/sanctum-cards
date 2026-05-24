@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 925,
+  "keywords": [],
+  "name": "Palisade",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Archers get +1 armor while in square.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 125,
+    "ncd_row": 513
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 508,
+  "keywords": [
+    "Nomadic",
+    "Waterwalk"
+  ],
+  "name": "Blue Auk",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:0 HP:16 L:1 Nomadic, Waterwalk. Cast within a 3x3 diamond centered on a water square.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 8,
+    "ncd_row": 261
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": 16,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

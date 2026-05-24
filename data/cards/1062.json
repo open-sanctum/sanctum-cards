@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1062,
+  "keywords": [],
+  "name": "Quantum Mechanic",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All spells whose casting costs use only one mana type are drawn to the top of both player's decks.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 63,
+    "ncd_row": 579
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

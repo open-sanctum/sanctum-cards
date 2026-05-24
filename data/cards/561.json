@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 561,
+  "keywords": [],
+  "name": "Tan'u'zhadhi Ploy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Opponent discards all spells in hand that were not cast this turn.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 61,
+    "ncd_row": 314
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

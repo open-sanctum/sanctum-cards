@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1065,
+  "keywords": [],
+  "name": "Force of Mind",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. If the top card of opponent's deck is Force of Mind, one copy of Force of Mind is added to the top of opponent's deck. Otherwise, two copies of Force of Mind are added to the top of opponent's deck.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 66,
+    "ncd_row": 582
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

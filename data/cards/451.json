@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 451,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Simian Warriors",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:7 L:1, H:1 A:0 HP:3 L:2, H:2 A:0 HP:5 L:1 Territorial. Creates three different Simian Warriors.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 52,
+    "ncd_row": 245
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

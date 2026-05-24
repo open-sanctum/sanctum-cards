@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 136,
+  "keywords": [],
+  "name": "Gifts of the Fallen",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. When any member of group dies in combat, all surviving members of its group are fully healed at end of combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 98,
+    "ncd_row": 98
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

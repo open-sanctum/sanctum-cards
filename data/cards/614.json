@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4183,
+  "id": 614,
+  "keywords": [],
+  "name": "Shield of Vela",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit's hits give Gorgon's Gaze (-1 damage and +1 armor, cumulative. A minion who gets three or more Gorgon's Gaze is killed). Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 14,
+    "ncd_row": 353
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

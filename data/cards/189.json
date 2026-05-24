@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 189,
+  "keywords": [],
+  "name": "Parted Sea",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on water. Caster's groups can cross this square without drowning. (This does not allow caster's groups on this square to enter adjacent water squares.) Non-friendly groups can enter or appear in this square, but doing so dispels Parted Sea, and the group suffers the effects.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 126,
+    "ncd_row": 126
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

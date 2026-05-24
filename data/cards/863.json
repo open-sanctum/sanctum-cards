@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4317,
+  "id": 863,
+  "keywords": [],
+  "name": "Auberol's Grace",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Colony becomes town. Every recruit created in structure gets Grace of Auberol (+4 maximum and current hit points).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 63,
+    "ncd_row": 451
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 528,
+  "keywords": [],
+  "name": "Despond",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. All members of group receive +1 damage from Shadows (before checking armor). Visions in group receive +2 damage instead.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 28,
+    "ncd_row": 281
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

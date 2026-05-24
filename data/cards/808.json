@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 808,
+  "keywords": [
+    "Scars of Kolekh"
+  ],
+  "name": "Scars of Kolekh",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly group. Minions in group get -1 hand and missile damage. If group is killed in battle, Scars of Kolekh transfers to the killing group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 8,
+    "ncd_row": 396
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 537,
+  "keywords": [],
+  "name": "Alabaster Guardian",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:2 HP:16 L:1 Moves 2. Cast on friendly recruit group not in a struc- ture. Creates Alabaster Guardian in a random adjacent square. Alaba- ster Guardian is player-controlled when in the 3x3 diamond centered on target group. Otherwise, it seeks target group. When target group dies, or is dispelled, Alabaster Guardian becomes player-controlled. Only one on a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 37,
+    "ncd_row": 290
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 16,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "conjuration"
+}

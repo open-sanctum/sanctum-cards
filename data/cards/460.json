@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 460,
+  "keywords": [],
+  "name": "Geomancy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All non-structure terrain is randomly regenerated, according to the realm of the current game.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 60,
+    "ncd_row": 253
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

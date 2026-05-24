@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 612,
+  "keywords": [],
+  "name": "Oblivion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Each recruit in group no longer attacks. When each recruit is damaged by an attacker, that recruit resumes attacking normally at the start of the next round. Dispelled at end of next combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 12,
+    "ncd_row": 351
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

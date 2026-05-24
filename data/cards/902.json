@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4103,
+  "id": 902,
+  "keywords": [
+    "Flight",
+    "Nomadic"
+  ],
+  "name": "Icecaps",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:1 A:1 HP:1(x3) L:1 Nomadic. Neutral. Creates three Icecaps. When Icecaps' group dies, group's square becomes ice. Icecaps attack all groups, even if friendly. (When group enters ice, group slides in its direction of travel to the first non-ice square, or the first square that blocks movement. Flight does not prevent sliding.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 102,
+    "ncd_row": 490
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 1,
+    "hp_max": 1,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

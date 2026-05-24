@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1008,
+  "keywords": [
+    "Immobile",
+    "Withdraws"
+  ],
+  "name": "Carnivorous Plant",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:0(*) A:1 HP:15 L:1 Immobile. Gets +H hand damage, where H is its current hit points. Gets -5 hand damage if its owner has Initiative. Withdraws at the start of combat round 4. (Immobile monsters cannot be moved.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 9,
+    "ncd_row": 525
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 0,
+    "hp_max": 15,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

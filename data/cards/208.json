@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4136,
+  "id": 208,
+  "keywords": [],
+  "name": "Primeval Forest",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on forest. Affects all contiguous forest squares. Every monster created in Primeval Forest gets Primeval Strength (+1 hand damage). May be cast more than once (but is non-cumulative).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 132,
+    "ncd_row": 132
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

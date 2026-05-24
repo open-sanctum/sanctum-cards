@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4155,
+  "id": 431,
+  "keywords": [
+    "Firewalk",
+    "Territorial"
+  ],
+  "name": "Salamander",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:0 HP:12 L:1 Territorial, Firewalk. Target square becomes lava. (Lava causes 3 hit points of damage after start of turn unless group has Firewalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 32,
+    "ncd_row": 225
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 4,
+    "hp_max": 12,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

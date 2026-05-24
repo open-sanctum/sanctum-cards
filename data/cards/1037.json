@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1037,
+  "keywords": [],
+  "name": "Recall",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group. Group is removed from the game. (This does not trigger any death effects.) For each recruit in group, 1 novice is created in caster's Sanctum.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 38,
+    "ncd_row": 554
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

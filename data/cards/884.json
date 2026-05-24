@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 884,
+  "keywords": [],
+  "name": "Warhammer",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Swordsman gets +N hand damage, where N is swordsman's hand damage when Warhammer enters play. Swordsman does not attack in odd-numbered combat rounds.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 84,
+    "ncd_row": 472
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

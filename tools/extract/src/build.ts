@@ -5,13 +5,16 @@ import { openZip, readZipEntry } from "./input/zip.js";
 import { parseNcd } from "./input/ncd.js";
 import { parseCardText } from "./input/cardtext.js";
 import { mergeCards } from "./enrich/mergeCard.js";
-import { writeCardsBulk } from "./output/writeCards.js";
+import { writeCardsBulk, writeCardsPerCard } from "./output/writeCards.js";
+import { writeEnums } from "./output/writeEnums.js";
+import { validateCards } from "./validate.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(HERE, "../../..");
 
 const ZIP_PATH = resolve(REPO_ROOT, "inputs/Sanctum18-04.zip");
 const DATA_DIR = resolve(REPO_ROOT, "data");
+const SCHEMA_PATH = resolve(REPO_ROOT, "data/schema.json");
 
 const CARD_TEXT_FILES = [
   "CardTextA.txt",
@@ -42,8 +45,19 @@ function main(): void {
   });
   console.log(`  ${cards.length} cards`);
 
+  console.log("Validating against schema ...");
+  validateCards(cards, SCHEMA_PATH);
+  console.log("  all cards valid");
+
   console.log(`Writing ${DATA_DIR}/cards.json ...`);
   writeCardsBulk(cards, DATA_DIR);
+
+  console.log(`Writing per-card files to ${DATA_DIR}/cards/ ...`);
+  writeCardsPerCard(cards, DATA_DIR);
+
+  console.log(`Writing ${DATA_DIR}/enums.json ...`);
+  writeEnums(cards, DATA_DIR);
+
   console.log("Done.");
 }
 

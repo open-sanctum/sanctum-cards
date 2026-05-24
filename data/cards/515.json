@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 515,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Master Vampire",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3(x2) A:1 HP:12 L:2 Territorial. Two attacks. Gets +1 hand damage against Life minions. At end of combat, if Master Vampire survives and any member of its group killed a recruit by combat damage, one Novice Vampire (H:3 A:0 HP:5 L:1 Territorial) is created in group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 15,
+    "ncd_row": 268
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 12,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

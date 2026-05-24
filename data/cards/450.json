@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 450,
+  "keywords": [],
+  "name": "Diomesia",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:0 A:0 HP:7 L:2 Cast on recruit group. Creates Diomesia, a Satyr Hero swordswoman. All swordsmen in her group and any opposing group do not deal hand damage. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 51,
+    "ncd_row": 244
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 0,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

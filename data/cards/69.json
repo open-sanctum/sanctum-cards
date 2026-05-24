@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 69,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Tree Man",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:12 L:1 Territorial. Cast on forest.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 48,
+    "ncd_row": 48
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 12,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

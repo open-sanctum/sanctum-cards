@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 606,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Doppelganger",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2(x2) A:0 HP:15 L:2 Nomadic. Two attacks. At start of combat against monsters, Doppelganger kills the first opposing monster, copies its hand and missile damage, attacks per round, armor, hit points, level, and house, and is fully healed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 6,
+    "ncd_row": 345
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 908,
+  "keywords": [],
+  "name": "Devolution",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster group. Monster group is replaced by an equal number of neutral Misfits of random class. (This does not trigger any death effects.) All members of the new recruit group get -1 level. (Neutral groups move last, attack all other groups, and have \"half- initiative\" in combat. Neutral recruit groups cannot enter structures.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 108,
+    "ncd_row": 496
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster_group",
+  "type": "manipulation"
+}

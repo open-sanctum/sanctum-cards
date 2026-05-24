@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1063,
+  "keywords": [],
+  "name": "Theralda Glaivesforge",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:2 Cast on friendly town or colony. Creates Theralda Glaivesforge, a Dwarven Hero swordswoman. While Theralda is in play, every non-Making spell in her caster's hand that has Order or Will in its casting cost is adjusted by -1 primary and -1 secondary mana of its mana types.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 64,
+    "ncd_row": 580
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "hero"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 121,
+  "keywords": [],
+  "name": "Whipping Boy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion gets +4 maximum and current hit points. When any other member of minion's group is hit (after checking armor), target minion receives an equal amount of magical damage, and the member who was hit receives no damage. (Magical damage ignores armor, immunities, and spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 86,
+    "ncd_row": 86
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

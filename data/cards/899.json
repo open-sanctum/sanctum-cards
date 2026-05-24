@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 899,
+  "keywords": [],
+  "name": "Earthquake",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Target square becomes barren land. Colonies in the four adjacent squares are destroyed. Each minion in the four adjacent squares takes zero to four (1d5-1) hit points of damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 99,
+    "ncd_row": 487
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

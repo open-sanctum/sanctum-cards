@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 802,
+  "keywords": [],
+  "name": "Devouring",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit. It eats (kills) all other recruits in its group, absorbs their maximum and current hit points (recruit gets +M maximum and +C current hit points, where M and C are the sums of maximum and current hit points of all other recruits in its group), and gets +1 armor. (These stat changes cannot be dispelled.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 2,
+    "ncd_row": 390
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 459,
+  "keywords": [],
+  "name": "Stone Circle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square and its occupants cannot be targeted by any spells. Minions get +1 level while in square.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 59,
+    "ncd_row": 252
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

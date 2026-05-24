@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 5,
+  "keywords": [],
+  "name": "Forced March",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group moves twice this turn in its direction of travel.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 2,
+    "ncd_row": 2
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

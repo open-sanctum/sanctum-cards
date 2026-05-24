@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 195,
+  "keywords": [],
+  "name": "Kumatru Library",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of turn, if any group occupies square, group's owner gets +1 Clarity and +1 Will.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 129,
+    "ncd_row": 129
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 427,
+  "keywords": [],
+  "name": "Fingle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:9 L:2 Cast on recruit group. Creates Fingle, a Misfit Hero swordsman. Every player- controlled group in the eight squares surrounding Fingle moves in a random legal direction. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 28,
+    "ncd_row": 221
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 9,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

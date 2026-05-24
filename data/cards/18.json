@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 18,
+  "keywords": [],
+  "name": "Change of Heart",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on neutral town or colony. Structure joins caster's side. Any group in structure is removed from the game. (This does not trigger any death effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 14,
+    "ncd_row": 14
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "manipulation"
+}

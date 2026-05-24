@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 868,
+  "keywords": [],
+  "name": "Fae Quadrille",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. On turn of casting only, all minions in the four adjacent squares are fully healed. Square cannot be entered. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 68,
+    "ncd_row": 456
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

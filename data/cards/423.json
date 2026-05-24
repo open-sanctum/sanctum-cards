@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 423,
+  "keywords": [],
+  "name": "Kumatru Academy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly town or colony. When structure creates any novices, those novices are eliminated, and 1 Djinn archer is created in structure. This archer gets +1 armor and +1 level, and cannot gain a level from experience.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 24,
+    "ncd_row": 217
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

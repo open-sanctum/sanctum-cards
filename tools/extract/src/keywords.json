@@ -1,0 +1,24 @@
+{
+  "_comment": "Curated keyword allowlist for parseKeywords. Derived from corpus scan of data/cards.json. Expand as new keywords are discovered; the parser warns on unknown candidates so we can extend this list iteratively.",
+  "keywords": [
+    "Aura",
+    "Concealed",
+    "Desertwalk",
+    "Expansive",
+    "Field Armor",
+    "Firewalk",
+    "Flight",
+    "Immobile",
+    "Jungle Vigor",
+    "Mountainwalk",
+    "Nomadic",
+    "Outcast",
+    "Rite of Growth",
+    "Scars of Kolekh",
+    "Territorial",
+    "Veteran",
+    "Visionary Armor",
+    "Waterwalk",
+    "Withdraws"
+  ]
+}

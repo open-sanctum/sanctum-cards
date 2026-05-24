@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1039,
+  "keywords": [],
+  "name": "Zana's Escape",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. When any friendly recruit is dying, recruit returns to life, is fully healed, has all group spells dispelled, and disappears, and Zana's Escape is dispelled. At start of next turn (or the earliest turn thereafter), recruit's new group reappears in a random friendly unoccupied structure, or in caster's Sanctum if it is unoccupied and no friendly unoccupied structures exist. Only one per player at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 40,
+    "ncd_row": 556
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

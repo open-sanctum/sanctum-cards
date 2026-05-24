@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 836,
+  "keywords": [
+    "Flight",
+    "Territorial"
+  ],
+  "name": "Frost Dragon",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:13 L:2 Territorial, Flight. At start of combat, casts Frostbite (-3 maximum hit points, +1 maximum hit points per turn for 3 turns) on opposing group. When Frost Dragon damages an opponent, opponent does not attack in the next combat round.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 36,
+    "ncd_row": 424
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 13,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 570,
+  "keywords": [],
+  "name": "Tornado",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. A random adjacent non-structure square becomes the same terrain as target square. Target square then becomes barren land.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 69,
+    "ncd_row": 322
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

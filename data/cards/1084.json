@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1084,
+  "keywords": [],
+  "name": "Mitosis",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group of two or less. For each Misfit in group, Mitosis creates another Misfit of the same class. All Misfits in group with 6 or more current hit points are lowered to 5 current hit points. (Misfits with less than 5 current hit points are not healed.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 85,
+    "ncd_row": 601
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

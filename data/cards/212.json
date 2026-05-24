@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 212,
+  "keywords": [],
+  "name": "Fortitude",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. All members of group get +2 maximum and current hit points.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 135,
+    "ncd_row": 135
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

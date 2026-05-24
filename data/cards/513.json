@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 513,
+  "keywords": [],
+  "name": "Ancestral Home",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Dispels all spells on structure (which destroys colony). Structure cannot be targeted by structure spells. Before movement, if any novices were trained in structure that turn, structure moves to an adjacent empty square, leaving plains. (A new structure dispels its square and changes it to plains.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 13,
+    "ncd_row": 266
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

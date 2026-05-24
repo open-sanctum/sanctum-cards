@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 185,
+  "keywords": [],
+  "name": "Harrowing Cry",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Every member of group gets -1 level. (Any minions who join this group later are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 124,
+    "ncd_row": 124
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

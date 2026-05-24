@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 521,
+  "keywords": [],
+  "name": "Dire Portent",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. When minion damages an opponent, opponent is killed. If opponent is not an Elf, minion dies as well. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 21,
+    "ncd_row": 274
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "conjuration"
+}

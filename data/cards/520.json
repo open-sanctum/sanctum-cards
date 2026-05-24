@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 520,
+  "keywords": [],
+  "name": "Raven Shroud",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group. Group cannot be targeted by enemy group spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 20,
+    "ncd_row": 273
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 704,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Homunculi",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:2 A:0 HP:2(x3) L:1 Nomadic. Creates three Homunculi. Homunculi get +1 missile damage in combat round 1 only.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 215,
+    "ncd_row": 380
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 2,
+    "level": 1,
+    "missile": 2
+  },
+  "target": "square",
+  "type": "summoning"
+}

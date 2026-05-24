@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 875,
+  "keywords": [],
+  "name": "Domed City",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Structure cannot be targeted by structure spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 75,
+    "ncd_row": 463
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

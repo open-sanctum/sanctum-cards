@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 114,
+  "keywords": [],
+  "name": "Accursed Minion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion in group of two or more. At start of combat, minion kills all other minions on both sides (friendly minions first), ending combat. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 80,
+    "ncd_row": 80
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "conjuration"
+}

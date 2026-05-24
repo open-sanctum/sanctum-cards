@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 504,
+  "keywords": [],
+  "name": "Putrefaction",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Every monster on the board dies. (Monsters that are off the board are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 4,
+    "ncd_row": 257
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1041,
+  "keywords": [],
+  "name": "Granite Guardian",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:3 HP:15 L:2 Cast on globe. Creates Granite Guardian off the board. Before combat, it appears adjacent to a non-friendly recruit group that is adjacent to a friendly town. After all combat, it disappears again. Dispelled when killed. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 42,
+    "ncd_row": 558
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 3,
+    "hand_damage": 4,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "globe",
+  "type": "summoning"
+}

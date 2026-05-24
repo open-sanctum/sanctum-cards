@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 419,
+  "keywords": [],
+  "name": "Changing Lands",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. When cast, and at start of turn, square becomes any of plains, forest, barren land, ice, desert, lava, mountain, swamp, volcano, or water, at random. On and after turn of casting +2, square may also become Void.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 20,
+    "ncd_row": 213
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

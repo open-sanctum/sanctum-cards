@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 282,
+  "keywords": [],
+  "name": "Necropolis",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Necropolis generates +2 Mystery for structure owner each turn.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 148,
+    "ncd_row": 148
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

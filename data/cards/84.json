@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4119,
+  "id": 84,
+  "keywords": [],
+  "name": "Swamp Land",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes swamp. (Group in swamp can exit only in the direction from which any group most recently entered that swamp.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 60,
+    "ncd_row": 60
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

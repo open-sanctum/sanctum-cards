@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1050,
+  "keywords": [],
+  "name": "Day of Mourning",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Each time a recruit dies, the top card of its owner's deck is removed from the game. Duration: Through turn of casting +4.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 51,
+    "ncd_row": 567
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4104,
+  "id": 1051,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Faerie Glade",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes forest. (Minions in forest are con- cealed. Concealed minions cannot be targeted by enemy individual spells.) Affects all contiguous forest squares. Enemy recruits in squares get -1 level. May be cast more than once (but is non-cumulative).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 52,
+    "ncd_row": 568
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

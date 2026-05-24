@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 686,
+  "keywords": [],
+  "name": "Fear",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group not in a structure. Group's movement orders are cancelled, and it cannot be moved. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 204,
+    "ncd_row": 369
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

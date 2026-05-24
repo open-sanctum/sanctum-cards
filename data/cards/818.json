@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 818,
+  "keywords": [],
+  "name": "Spirit Binding",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When a new monster or monster group is created on the board, recruit copies the unaltered hand and missile damage, armor, maximum hit points, and level of the first monster in that group, and Spirit Binding becomes Spirit Bound. If this increases recruit's maximum hit points, recruit is also healed by an equal amount. Recruit keeps its own attack types.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 18,
+    "ncd_row": 406
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 68,
+  "keywords": [
+    "Territorial",
+    "Withdraws"
+  ],
+  "name": "Manticore",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:8 A:0 HP:10 L:2 Territorial. Withdraws at the start of combat round 3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 47,
+    "ncd_row": 47
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 8,
+    "hp_max": 10,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

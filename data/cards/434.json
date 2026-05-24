@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 434,
+  "keywords": [],
+  "name": "Dracha",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:9 L:2 Cast on friendly town or colony. Creates Dracha, a Gargoyle Hero swordsman. Cannot be targeted by individual spells. When he dies, he creates a friendly colony if his square is empty, and his group withdraws at the start of the next round, ending combat. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 35,
+    "ncd_row": 228
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 9,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "hero"
+}

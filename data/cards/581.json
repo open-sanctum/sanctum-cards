@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 581,
+  "keywords": [],
+  "name": "Weapon Master",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit gets +1 attack rate. A swordsman gains a missile attack at M:2. An archer gains a sword attack at H:2, and +1 armor. Recruit's attacks alternate between missile damage and hand damage, starting with missile. Recruit may be targeted by both archer and swordsman spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 80,
+    "ncd_row": 333
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

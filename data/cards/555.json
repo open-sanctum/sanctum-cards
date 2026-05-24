@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 555,
+  "keywords": [],
+  "name": "Belvario's Horn",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit not in a structure. All computer-controlled, mobile monsters move towards recruit. When recruit's group moves into a structure, Belvario's Horn is dispelled. (\"Moves\" effects happen before any \"enters square\" effects.) Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 55,
+    "ncd_row": 308
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

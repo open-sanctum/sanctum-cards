@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 321,
+  "keywords": [
+    "Mountainwalk",
+    "Nomadic"
+  ],
+  "name": "Giant",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:16 L:2 Nomadic, Mountainwalk. Cast within a 3x3 diamond centered on a mountain. At start of combat, throws rock (5 hit points of damage) at one random opposing minion.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 171,
+    "ncd_row": 171
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 16,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

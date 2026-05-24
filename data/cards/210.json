@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4272,
+  "id": 210,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Bleak Isle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on non-neutral town or colony. The four squares adjacent to structure become water. On turn of casting, if any group occupies structure, group gains Waterwalking. Every recruit created in structure gets -1 level and Waterwalk (which cannot be dispelled).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 134,
+    "ncd_row": 134
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 448,
+  "keywords": [],
+  "name": "Bear Spirit",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3(x2) A:0 L:0 Two attacks. Cast on swordsman. At start of turn, swordsman changes randomly between Bear and recruit form. The Bear form gets +1 attack rate, +1 hand damage, -1 armor, and -1 level.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 49,
+    "ncd_row": 242
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": null,
+    "level": 0,
+    "missile": null
+  },
+  "target": "recruit",
+  "type": "alteration"
+}

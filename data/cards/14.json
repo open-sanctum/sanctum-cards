@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 14,
+  "keywords": [],
+  "name": "Insurrection",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. All novices in structure are eliminated. When structure creates any novices, those novices are eliminated. Dispelled when entered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 11,
+    "ncd_row": 11
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

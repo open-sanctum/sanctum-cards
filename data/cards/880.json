@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 880,
+  "keywords": [],
+  "name": "Minefield",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. On turn of casting +2, Minefield becomes active. Thereafter, when group enters square, or at start of turn if group occupies square, each member of group takes two to six (1d5+1) hit points of damage, and Minefield is dispelled.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 80,
+    "ncd_row": 468
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

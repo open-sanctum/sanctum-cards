@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4319,
+  "id": 866,
+  "keywords": [],
+  "name": "Elixir Vitae",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Every recruit on the board gets Drop of Elixir Vitae (+6 maximum hit points). (Recruits that are off the board are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 66,
+    "ncd_row": 454
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

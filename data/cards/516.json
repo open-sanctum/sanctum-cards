@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 516,
+  "keywords": [
+    "Flight",
+    "Nomadic"
+  ],
+  "name": "Furies",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:12(x3) L:1 Nomadic, Flight. Cast on square within a 3x3 diamond centered on friendly town or colony. Creates three Furies. At start of combat, each Fury kills one random opposing minion, and all Furies in this group are removed from the game, ending combat. (This does not trigger any death effects for the Furies.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 16,
+    "ncd_row": 269
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 12,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

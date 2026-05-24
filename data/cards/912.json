@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 912,
+  "keywords": [],
+  "name": "Instability",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Each monster group on the board is replaced by a new minion group from a random summoning spell that can be targeted on squares. (This does not trigger any death effects.) A monster group that cannot be replaced is removed from the game instead. (Monster groups that are off the board are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 112,
+    "ncd_row": 500
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

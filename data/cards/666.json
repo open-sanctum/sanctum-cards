@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 666,
+  "keywords": [],
+  "name": "Beta Mana",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster gets +5 of all six mana types each turn. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 19,
+    "ncd_row": 358
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

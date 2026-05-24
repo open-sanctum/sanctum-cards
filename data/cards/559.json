@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 559,
+  "keywords": [],
+  "name": "Djinni Debate",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. If structure is enemy, structure no longer generates its 1 mana. If structure is friendly, caster reselects structure's mana type. (Mana-generating spells on the structure still produce mana normally.) Before movement, if two or more novices were trained in structure that turn, Djinni Debate is dispelled. Dispelled if captured.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 59,
+    "ncd_row": 312
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

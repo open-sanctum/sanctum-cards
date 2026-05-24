@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1095,
+  "keywords": [
+    "Expansive"
+  ],
+  "name": "Growing Strife",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Swordsman gets +1 hand damage. Expansive (When this spell is cast from your hand, a copy of this spell is added to your hand that costs +1 mana; may be cast more than once on the same minion).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 96,
+    "ncd_row": 612
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

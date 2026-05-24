@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1057,
+  "keywords": [],
+  "name": "Boret'hu's Influence",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "When any player casts a spell, a copy of that spell is added to the bottom of its caster's deck. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 58,
+    "ncd_row": 574
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

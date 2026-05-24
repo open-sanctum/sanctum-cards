@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 927,
+  "keywords": [],
+  "name": "Swashbuckler",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Swordsman gets +N levels, where N is its current armor. Swordsman is then set to 0 armor, and cannot gain armor. (These stat changes cannot be dispelled.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 127,
+    "ncd_row": 515
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

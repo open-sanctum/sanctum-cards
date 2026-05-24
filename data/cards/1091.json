@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1091,
+  "keywords": [],
+  "name": "Challenge",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. The player who controls the highest-level recruit on the board gains Initiative. If the highest-level recruit is neutral, or if two or more recruits tie for the highest level and they have different controllers, then Initiative does not change. (Recruits off the board are not considered.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 92,
+    "ncd_row": 608
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

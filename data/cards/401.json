@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 401,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Entrail Eater",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:10 L:2 Nomadic. At start of turn, Entrail Eater is fully healed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 2,
+    "ncd_row": 195
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 10,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 78,
+  "keywords": [],
+  "name": "Minion of Order",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion gets +1 level.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 55,
+    "ncd_row": 55
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

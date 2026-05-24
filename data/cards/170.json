@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 170,
+  "keywords": [],
+  "name": "Mirage",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on forest, ice, desert, plains, or barren land. Square attracts player-controlled groups. (Groups adjacent to attracting squares before movement must move toward one of them.) Dispelled when entered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 118,
+    "ncd_row": 118
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4105,
+  "id": 85,
+  "keywords": [
+    "Mountainwalk"
+  ],
+  "name": "Mountain",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes mountain. (Mountain blocks movement unless group has Mountainwalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 61,
+    "ncd_row": 61
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

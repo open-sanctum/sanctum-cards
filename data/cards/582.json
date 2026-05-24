@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4219,
+  "id": 582,
+  "keywords": [],
+  "name": "Encampment",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group of two or more not in a structure. Group disappears. Creates a friendly colo- ny with Encamped (cannot be tar- geted by spells; created novices are eliminated). At start of turn of cast- ing +3 (or earliest turn thereafter), if not occupied, Colony is dispelled (which destroys colony), group reappears, and is fully healed. If captured, target group is removed from the game.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 81,
+    "ncd_row": 334
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

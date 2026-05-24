@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 430,
+  "keywords": [],
+  "name": "Jumping Land",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on mountain. Before combat, mountain has a 60% chance to move to a random adjacent non-structure, non-mountain square, leaving plains. Any group on the mountain moves with it. Any group in the new square is removed from the game. If mountain enters Void, it falls in (mountain, and any group on the mountain, are removed from the game). (This does not trigger any death effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 31,
+    "ncd_row": 224
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

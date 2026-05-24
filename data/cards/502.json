@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 502,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Husks",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:0 HP:7 L:0 Nomadic, can join other Husks. Cast on square. Square becomes barren land, and cannot be targeted by Nature spells. At start of every other turn, one Husk is created in square. Dispelled if terrain changes or when entered by a recruit group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 2,
+    "ncd_row": 255
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": 7,
+    "level": 0,
+    "missile": null
+  },
+  "target": "square",
+  "type": "alteration"
+}

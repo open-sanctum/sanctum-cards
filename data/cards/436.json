@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 436,
+  "keywords": [],
+  "name": "Justicars' Reserve",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Affects a 3x3 diamond centered on square. Summoning spells must be targeted within this area. (This prevents globe-targeted summoning spells as well.) Duration: Through turn of casting +5. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 37,
+    "ncd_row": 230
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

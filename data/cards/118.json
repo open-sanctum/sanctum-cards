@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4276,
+  "id": 118,
+  "keywords": [],
+  "name": "Bella's Sigil",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square cannot be targeted by summoning spells. Monsters cannot enter square. When monster group is summoned in, or enters, any square adjacent to target square, every monster in group gets Immobility (monster cannot move), and Bella's Sigil is dispelled. (Any monsters who join this group later are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 84,
+    "ncd_row": 84
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

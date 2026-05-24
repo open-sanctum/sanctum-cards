@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 7,
+  "keywords": [],
+  "name": "Jinx",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion gets -2 hand and missile damage. If minion is killed, Jinx transfers to the killer.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 4,
+    "ncd_row": 4
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

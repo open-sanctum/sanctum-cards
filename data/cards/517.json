@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 517,
+  "keywords": [],
+  "name": "Curse of Khobai",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion is lowered to 1 maximum and current hit point. When any member of minion's group kills an opponent by combat damage, minion gets +1 maximum and current hit point.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 17,
+    "ncd_row": 270
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

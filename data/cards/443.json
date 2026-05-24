@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 443,
+  "keywords": [],
+  "name": "Siren Song",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster. Plains, forest, desert, and barren land in the four squares adjacent to monster attract non-friendly player-controlled groups. (Groups adjacent to attracting squares before movement must move toward one of them.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 44,
+    "ncd_row": 237
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster",
+  "type": "alteration"
+}

@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 324,
+  "keywords": [
+    "Flight",
+    "Territorial"
+  ],
+  "name": "Celestial Sphere",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:15 L:2 Territorial, Flight.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 172,
+    "ncd_row": 172
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

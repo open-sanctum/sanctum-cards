@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4283,
+  "id": 417,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Karkara",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4(x2) A:2 HP:25 L:1 Player- controlled, Waterwalk. Two attacks. Cast on friendly recruit group of 3 or more not in a structure. Group disappears. Creates Karkara. Karkara executes target group's movement order on the turn it is created. If dispelled, Karkara is removed, its target group reappears, and it executes Karkara's movement order. If Karkara dies, its target group is removed from the game.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 18,
+    "ncd_row": 211
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 25,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "summoning"
+}

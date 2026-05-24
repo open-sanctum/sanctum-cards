@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4155,
+  "id": 418,
+  "keywords": [
+    "Firewalk"
+  ],
+  "name": "Ring of Fire",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Affects the outermost ring of the board that contains any non-lava squares. If this ring is the edge of the board, the next inner ring is also affected. All squares in the affected rings become lava. (Lava causes 3 hit points of damage after start of turn unless group has Firewalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 19,
+    "ncd_row": 212
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

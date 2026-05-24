@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4185,
+  "id": 441,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Unicorn Herd",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:7(x3) L:1 Territorial. Creates three Unicorns. If a Unicorn is killed by a recruit, recruit gets Unicorn's Blood (recruit is set to level 0 and cannot gain levels).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 42,
+    "ncd_row": 235
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

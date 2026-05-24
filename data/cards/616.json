@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 616,
+  "keywords": [],
+  "name": "Apocalypse II",
+  "rarity": null,
+  "related_card_id": 333,
+  "rules_text": "Cast on globe. Every recruit on the board dies. (Recruits that are off the board are not affected.) Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 16,
+    "ncd_row": 355
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

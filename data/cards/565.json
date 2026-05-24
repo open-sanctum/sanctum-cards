@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4100,
+  "id": 565,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Jade Dragon",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4(x2) A:1 HP:15 L:2 Waterwalk. Two attacks. Target square be- comes water. At start of combat vs. Imps, kills one random Imp. At start of turn, is removed from the game (which does not trigger any death effects). (Each minion drowns (dies) in water when water is created, when minion enters square, after start of turn, before movement, and before combat, unless minion has Waterwalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 64,
+    "ncd_row": 317
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 435,
+  "keywords": [
+    "Immobile"
+  ],
+  "name": "Ebon Guardian",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2(x2) A:3 HP:18 L:1 Immobile. Two attacks. (Immobile monsters cannot be moved.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 36,
+    "ncd_row": 229
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 3,
+    "hand_damage": 2,
+    "hp_max": 18,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

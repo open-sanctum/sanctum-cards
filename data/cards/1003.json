@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1003,
+  "keywords": [],
+  "name": "Perverse Speed",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group. All members of group get -3 maximum hit points and +1 attack rate.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 4,
+    "ncd_row": 520
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4182,
+  "id": 439,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Gorgon",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:7 L:2 Territorial. Gorgon's hits give Gorgon's Gaze (-1 damage and +1 armor, cumulative. A minion who gets three or more Gorgon's Gaze is killed). If killed by a swordsman, swordsman gets Gorgon's Head (swordsman's hits give Gorgon's Gaze; transfers to a swordsman who kills its owner).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 40,
+    "ncd_row": 233
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

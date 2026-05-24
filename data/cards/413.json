@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 413,
+  "keywords": [],
+  "name": "Ogi",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:3 A:3 HP:7 L:2 Cast on friendly town or colony. Creates Ogi, a Dwarven Hero archer. Ogi has Ogi's Armor, Ogi's Arrows, and Ogi's Gauntlet. These spells have no casting cost for Ogi's caster while Ogi is in play. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 14,
+    "ncd_row": 207
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 3,
+    "hand_damage": null,
+    "hp_max": 7,
+    "level": 2,
+    "missile": 3
+  },
+  "target": "structure",
+  "type": "hero"
+}

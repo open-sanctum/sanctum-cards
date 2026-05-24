@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 850,
+  "keywords": [],
+  "name": "Zana's Champion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:4 HP:7 L:2 Cast on friendly, unoccupied town or colony. Structure is replaced by Zana's Champion, a Vision swordsman. Zana's Champion counts as a structure for Initiative purposes. Champion's group and its members cannot be targeted by any group spells or individual spells. Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 50,
+    "ncd_row": 438
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 4,
+    "hand_damage": 4,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "manipulation"
+}

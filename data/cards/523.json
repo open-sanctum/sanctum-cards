@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 523,
+  "keywords": [
+    "Flight",
+    "Nomadic"
+  ],
+  "name": "Makva",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:10 L:3 Nomadic, Flight.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 23,
+    "ncd_row": 276
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 10,
+    "level": 3,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

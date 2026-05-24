@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 690,
+  "keywords": [],
+  "name": "Slay Monster",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster group. Monster group dies.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 208,
+    "ncd_row": 373
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster_group",
+  "type": "manipulation"
+}

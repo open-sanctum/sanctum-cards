@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-sanctum.github.io/sanctum-cards/schema.json",
+  "title": "Sanctum Card",
+  "description": "One card from Sanctum 1.8. See docs/superpowers/specs/2026-05-24-sanctum-cards-design.md §7 for design notes; ADR-0001 for .ncd column meanings.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "target",
+    "cost",
+    "stats",
+    "keywords",
+    "rules_text",
+    "art",
+    "audio",
+    "starter_decks",
+    "effect_record_id",
+    "related_card_id",
+    "sources"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "integer", "minimum": 0 },
+    "name": { "type": "string", "minLength": 1 },
+    "type": {
+      "type": "string",
+      "enum": ["alteration", "conjuration", "manipulation", "summoning", "hero"]
+    },
+    "target": {
+      "type": "string",
+      "enum": [
+        "recruit",
+        "recruit_group",
+        "square",
+        "globe",
+        "structure",
+        "minion",
+        "group",
+        "monster",
+        "monster_group"
+      ]
+    },
+    "cost": {
+      "description": "Mana cost. Currently nullable for all subfields; will be populated by M2.5-RE binary extraction.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "primary", "secondary", "tertiary"],
+      "properties": {
+        "total": { "type": ["integer", "null"], "minimum": 0 },
+        "primary": { "$ref": "#/$defs/manaCost" },
+        "secondary": { "$ref": "#/$defs/manaCost" },
+        "tertiary": { "$ref": "#/$defs/manaCost" }
+      }
+    },
+    "rarity": {
+      "type": ["string", "null"],
+      "description": "Card rarity. Populated by M2.5-RE; null until then."
+    },
+    "set": {
+      "type": ["string", "null"],
+      "description": "Expansion/set the card belongs to. Populated by M2.5-RE; null until then."
+    },
+    "stats": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["hand_damage", "missile", "hp_max", "level", "attack_rate"],
+      "properties": {
+        "hand_damage": { "type": ["integer", "null"] },
+        "missile":     { "type": ["integer", "null"] },
+        "hp_max":      { "type": ["integer", "null"] },
+        "level":       { "type": ["integer", "null"] },
+        "attack_rate": { "type": ["integer", "null"] }
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "rules_text": { "type": "string" },
+    "art": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["big", "small"],
+      "properties": {
+        "big":   { "type": ["string", "null"] },
+        "small": { "type": ["string", "null"] }
+      }
+    },
+    "audio": { "type": ["string", "null"] },
+    "starter_decks": {
+      "description": "Slugs of starter decks this card appears in (e.g., ['despair', 'death']). Empty for non-starter cards. Populated when M4 lands the deck parser.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["abomination", "body", "death", "despair", "hope", "justice", "life", "making", "mind", "nature", "unmaking", "war"]
+      },
+      "uniqueItems": true
+    },
+    "effect_record_id": {
+      "type": ["integer", "null"],
+      "description": "From .ncd col 3. Points to a secondary NCD record that defines a persistent effect (e.g., 4100 = water terrain effect). Null for cards with no persistent effect."
+    },
+    "related_card_id": {
+      "type": ["integer", "null"],
+      "description": "From .ncd col 4. Points to a related card (e.g., 'II' upgrade variants). Null for most cards."
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ncd_row", "card_text_file", "card_text_line"],
+      "properties": {
+        "ncd_row": { "type": "integer", "minimum": 1 },
+        "card_text_file": { "type": "string" },
+        "card_text_line": { "type": "integer", "minimum": 1 }
+      }
+    }
+  },
+  "$defs": {
+    "manaCost": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["type", "amount"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["clarity", "mystery", "order", "strife", "will", "world"]
+        },
+        "amount": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

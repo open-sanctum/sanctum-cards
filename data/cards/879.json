@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4322,
+  "id": 879,
+  "keywords": [],
+  "name": "Master Fletcher",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Every archer created in structure gets Dwarven Arrows (archer ignores opponent's armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 79,
+    "ncd_row": 467
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

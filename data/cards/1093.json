@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1093,
+  "keywords": [],
+  "name": "Defensive Pact",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group not in a structure. A random friendly town or colony on the board is destroyed, and a friendly town is created in group's square. (Structures that are off the board are not considered.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 94,
+    "ncd_row": 610
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

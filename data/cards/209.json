@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 209,
+  "keywords": [],
+  "name": "Ill Winds",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Affects all minions attacking into or out of structure. Missile attacks by minions friendly to caster ignore opponents' armor. Archers hostile to caster get -1 missile damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 133,
+    "ncd_row": 133
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

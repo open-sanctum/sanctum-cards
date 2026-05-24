@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 409,
+  "keywords": [],
+  "name": "Terrain Bind",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group cannot enter a terrain type different from the one it is currently in. Structures and Sanctum entrance squares count as plains. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 10,
+    "ncd_row": 203
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

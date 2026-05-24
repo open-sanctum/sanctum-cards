@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 887,
+  "keywords": [],
+  "name": "Ch'tai Exchange",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit in group that can add new recruits. Recruit exchanges places with a random recruit from a non-friendly group that can add new recruits. (Each recruit leaves its group, has all group spells dispelled, then joins the other recruit's group.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 87,
+    "ncd_row": 475
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

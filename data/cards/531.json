@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 531,
+  "keywords": [],
+  "name": "Inspiration",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. A random spell is added to the top of caster's deck, altered to caster's house and mana types.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 31,
+    "ncd_row": 284
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

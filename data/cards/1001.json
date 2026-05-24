@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1001,
+  "keywords": [],
+  "name": "Crucible",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. After start of next turn, all Imps in lava or volcano squares are fully healed, and take no damage from lava or volcanoes, and Crucible is dispelled.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 2,
+    "ncd_row": 518
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

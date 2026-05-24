@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 862,
+  "keywords": [],
+  "name": "Adriel's Mantle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group and its members cannot be targeted by any group spells or individual spells. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 62,
+    "ncd_row": 450
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1019,
+  "keywords": [],
+  "name": "Harm Monster",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster group. Each member of group is lowered to 1 current hit point.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 20,
+    "ncd_row": 536
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster_group",
+  "type": "manipulation"
+}

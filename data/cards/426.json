@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4155,
+  "id": 426,
+  "keywords": [
+    "Firewalk"
+  ],
+  "name": "Lode Star",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly town or colony. Five random non-structure squares in the 5x5 diamond centered on structure become lava. (Lava causes 3 hit points of damage after start of turn unless group has Firewalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 27,
+    "ncd_row": 220
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "manipulation"
+}

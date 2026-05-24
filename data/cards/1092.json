@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1092,
+  "keywords": [],
+  "name": "Decoy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:0 A:3 HP:7 L:1 Cast on friendly recruit group. Creates a Human swordsman. Decoy gets +2 armor. Decoy does not attack, nor deal hand or missile damage. In combat, all enemy shooters (minions with missile attacks), and all unpaired enemy bashers (minions with only hand attacks), must attack Decoy. Only one in a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 93,
+    "ncd_row": 609
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 3,
+    "hand_damage": 0,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "manipulation"
+}

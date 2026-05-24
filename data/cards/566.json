@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 566,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Goldcaps",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:1 A:0 HP:3(x3) L:0 Territorial. Neutral. Creates three Goldcaps. Goldcaps attack all groups, even if friendly.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 65,
+    "ncd_row": 318
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 1,
+    "hp_max": 3,
+    "level": 0,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

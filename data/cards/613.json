@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 613,
+  "keywords": [],
+  "name": "Pyre",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Dispels all individual spells on swordsman. Swordsman gets +1 hand damage for each spell dispelled.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 13,
+    "ncd_row": 352
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

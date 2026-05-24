@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4105,
+  "id": 1060,
+  "keywords": [
+    "Mountainwalk"
+  ],
+  "name": "Natural Defenses",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square adjacent to friendly structure. Square become mountain. (Mountain blocks movement unless group has Mountainwalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 61,
+    "ncd_row": 577
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

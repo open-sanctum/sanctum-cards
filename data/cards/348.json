@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 348,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Blinding Orb",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All minions are concealed from opponent. (Concealed minions cannot be targeted by enemy individual spells.) Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 187,
+    "ncd_row": 187
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 536,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Tindelhunden",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:10(x2) L:2 Flight, Moves 2. Cast on recruit group. Creates two Tindelhunden in a random edge square. They hunt target group, switching sides if necessary. When target group dies, or is dispelled, Tindelhunden are removed from the game. (This does not trigger any death effects.) Humans get -1 damage per Tindelhund. Only one on a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 36,
+    "ncd_row": 289
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 10,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "conjuration"
+}

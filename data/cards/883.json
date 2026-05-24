@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 883,
+  "keywords": [],
+  "name": "Trebuchet",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group adjacent to friendly town or colony. A random member of group dies.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 83,
+    "ncd_row": 471
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

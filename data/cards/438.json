@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4177,
+  "id": 438,
+  "keywords": [],
+  "name": "Nihil",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:2 Cast on friendly, unoccupied town or colony. Creates Nihil, a Shadow Hero swordsman. Cannot join groups or add recruits. When hit by a minion for 1 or more damage (before checking armor), the attacking minion gets Nihil's Curse (cumulative, -3 hand and missile damage, regains +1 damage per turn for 3 turns). (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 39,
+    "ncd_row": 232
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "hero"
+}

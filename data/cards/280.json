@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 280,
+  "keywords": [],
+  "name": "Citadel",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Citadel generates +2 Order for structure owner each turn.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 146,
+    "ncd_row": 146
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

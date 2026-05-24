@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4372,
+  "id": 1080,
+  "keywords": [],
+  "name": "Destroy Creation",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion, even if it is concealed. Minion is removed from the game. (This does not trigger any death effects.)  World Drain (caster gets -1 World each turn, may be cast more than once) is cast on the globe.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 81,
+    "ncd_row": 597
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "manipulation"
+}

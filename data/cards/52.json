@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 52,
+  "keywords": [],
+  "name": "Berserkers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. When any member of group dies in combat, all other members of group get +1 hand damage per casualty, to a maximum of +3, until end of combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 39,
+    "ncd_row": 39
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

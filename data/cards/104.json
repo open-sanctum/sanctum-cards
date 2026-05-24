@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 104,
+  "keywords": [],
+  "name": "Rain of Blood",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Every member of group without enchantments dies.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 75,
+    "ncd_row": 75
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

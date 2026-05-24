@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 835,
+  "keywords": [],
+  "name": "Dissolution",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Next turn, opponent has all spell casting costs adjusted by +1 primary and +1 secondary mana of opponent's mana types per spell.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 35,
+    "ncd_row": 423
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

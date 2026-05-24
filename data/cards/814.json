@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 814,
+  "keywords": [],
+  "name": "Eagle Spirit",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:3 A:0 L:1 Cast on archer. At start of turn, archer changes randomly between Eagle and recruit form. The Eagle form gets +1 missile damage. When Eagle damages a monster, monster is killed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 14,
+    "ncd_row": 402
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": null,
+    "level": 1,
+    "missile": 3
+  },
+  "target": "recruit",
+  "type": "alteration"
+}

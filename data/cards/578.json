@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4220,
+  "id": 578,
+  "keywords": [],
+  "name": "Thermites",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit hits an opponent who has 1 or more armor, opponent gets Thermite Damage (-1 armor, cumulative). If opponent has 0 armor, opponent takes 1 hit point of magical damage instead. Recruit ignores armor against Gargoyles.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 77,
+    "ncd_row": 330
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

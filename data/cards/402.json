@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 402,
+  "keywords": [],
+  "name": "Rogue Monster",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster group. Group becomes neutral (but keeps previous control by computer or player). (Neutral groups move last, attack all other groups, and have \"half-initiative\" in combat.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 3,
+    "ncd_row": 196
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster_group",
+  "type": "alteration"
+}

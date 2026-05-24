@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 410,
+  "keywords": [],
+  "name": "Karillian Arrows",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. When archer damages an opponent, opponent gets Karillian Venom (1 hit point of damage at the start of each combat round, cumulative; dispelled at end of combat; non-visible). Archers prefer to shoot minions without Karillian Venom.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 11,
+    "ncd_row": 204
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

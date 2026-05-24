@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1073,
+  "keywords": [],
+  "name": "Hailstorm",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Affects square and all adjacent squares. At start of turn, all minions in affected squares take 1 hit point of damage. Duration: Through turn of casting +2. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 74,
+    "ncd_row": 590
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

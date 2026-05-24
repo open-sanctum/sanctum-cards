@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 34,
+  "keywords": [],
+  "name": "Sentinel",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion not in a structure. Its group's movement orders are cancelled, and its group cannot be moved. Minion receives no hand damage (before checking armor). Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 26,
+    "ncd_row": 26
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "conjuration"
+}

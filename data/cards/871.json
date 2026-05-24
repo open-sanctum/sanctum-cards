@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 871,
+  "keywords": [],
+  "name": "Seelie Favor",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on non-friendly group. Group cannot be targeted by group spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 71,
+    "ncd_row": 459
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 563,
+  "keywords": [],
+  "name": "Memorize",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. When opponent casts any spell, a copy of that spell is added to the top of caster's deck, altered to caster's house and mana types, and Memorize is dispelled. Only one per player at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 62,
+    "ncd_row": 315
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

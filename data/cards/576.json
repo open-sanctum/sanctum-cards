@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 576,
+  "keywords": [],
+  "name": "Entropia",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Dispels all spells on structure (which destroys colony). Structure cannot be targeted by structure spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 75,
+    "ncd_row": 328
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

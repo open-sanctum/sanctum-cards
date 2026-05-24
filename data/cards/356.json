@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 356,
+  "keywords": [
+    "Mountainwalk"
+  ],
+  "name": "Mountain Climb",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group gains Mountainwalk. (Group may cross mountains and volcanoes. This does not protect group from volcano damage.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 191,
+    "ncd_row": 191
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

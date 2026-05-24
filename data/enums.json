@@ -1,0 +1,66 @@
+{
+  "house": [
+    "abomination",
+    "body",
+    "death",
+    "despair",
+    "hope",
+    "justice",
+    "life",
+    "making",
+    "mind",
+    "nature",
+    "unmaking",
+    "war"
+  ],
+  "keyword": [
+    "Aura",
+    "Concealed",
+    "Desertwalk",
+    "Expansive",
+    "Field Armor",
+    "Firewalk",
+    "Flight",
+    "Immobile",
+    "Jungle Vigor",
+    "Mountainwalk",
+    "Nomadic",
+    "Outcast",
+    "Rite of Growth",
+    "Scars of Kolekh",
+    "Territorial",
+    "Veteran",
+    "Visionary Armor",
+    "Waterwalk",
+    "Withdraws"
+  ],
+  "mana_type": [
+    "clarity",
+    "mystery",
+    "order",
+    "strife",
+    "will",
+    "world"
+  ],
+  "rarity": [],
+  "set": [],
+  "starter_deck_affiliation": [],
+  "target": [
+    "globe",
+    "group",
+    "minion",
+    "monster",
+    "monster_group",
+    "recruit",
+    "recruit_group",
+    "square",
+    "structure"
+  ],
+  "type": [
+    "alteration",
+    "conjuration",
+    "hero",
+    "manipulation",
+    "summoning"
+  ]
+}

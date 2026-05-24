@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 605,
+  "keywords": [],
+  "name": "Zurzavar",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Any player-controlled group in structure moves in a random legal direction. Duration: Through turn of casting +3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 5,
+    "ncd_row": 344
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

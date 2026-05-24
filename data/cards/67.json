@@ -1,0 +1,37 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4152,
+  "id": 67,
+  "keywords": [
+    "Firewalk",
+    "Mountainwalk",
+    "Nomadic"
+  ],
+  "name": "Obsidian Dragon",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:2 HP:20 L:2 Nomadic, Mountainwalk, Firewalk. If Obsidian Dragon dies in combat against a recruit group, every member of group gets Obsidian Armor (+1 armor). (Any recruits who join that group later are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 46,
+    "ncd_row": 46
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 20,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 359,
+  "keywords": [],
+  "name": "Intercession",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Neither player may cast any spells. (This squanders all subsequent spells cast this turn.) Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 192,
+    "ncd_row": 192
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}
