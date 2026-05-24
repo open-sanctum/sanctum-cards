@@ -47,19 +47,24 @@ jobs:
         run: pnpm --filter @sanctum-cards/extract build
 
       - name: Validate every per-card JSON against the schema
+        # Run from inside the extractor package so ajv resolves from
+        # tools/extract/node_modules (pnpm workspaces don't hoist).
+        working-directory: tools/extract
         run: |
           node --input-type=module -e "
             import { Ajv2020 } from 'ajv/dist/2020.js';
             import addFormats from 'ajv-formats';
             import { readFileSync, readdirSync } from 'node:fs';
-            import { join } from 'node:path';
-            const schema = JSON.parse(readFileSync('data/schema.json', 'utf8'));
+            import { join, resolve } from 'node:path';
+            const repo = resolve('..', '..');
+            const schema = JSON.parse(readFileSync(join(repo, 'data/schema.json'), 'utf8'));
             const ajv = new Ajv2020({ allErrors: true, strict: true });
             addFormats.default(ajv);
             const validate = ajv.compile(schema);
             let bad = 0;
-            for (const f of readdirSync('data/cards')) {
-              const card = JSON.parse(readFileSync(join('data/cards', f), 'utf8'));
+            const dir = join(repo, 'data/cards');
+            for (const f of readdirSync(dir)) {
+              const card = JSON.parse(readFileSync(join(dir, f), 'utf8'));
               if (!validate(card)) {
                 bad++;
                 console.error('FAIL', f, JSON.stringify(validate.errors));
