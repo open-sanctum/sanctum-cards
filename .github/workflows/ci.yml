@@ -74,11 +74,11 @@ jobs:
             console.log('All per-card files valid.');
           "
 
-      - name: Verify data/ is unchanged
+      - name: Verify data/ and assets/manifest.json are unchanged
         run: |
-          if [ -n "$(git status --porcelain data/)" ]; then
-            echo "Extractor produced output that differs from committed data/:"
-            git diff --stat data/
+          if [ -n "$(git status --porcelain data/ assets/manifest.json)" ]; then
+            echo "Extractor produced output that differs from committed files:"
+            git diff --stat data/ assets/manifest.json
             exit 1
           fi
-          echo "Extractor output matches committed data/."
+          echo "Extractor output matches committed data/ and assets/manifest.json."
