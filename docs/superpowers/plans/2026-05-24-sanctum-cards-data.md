@@ -427,8 +427,8 @@ jobs:
 
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
+        # pnpm version comes from `packageManager` in root package.json
+        # (pnpm/action-setup@v4 rejects specifying it in both places).
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -1435,8 +1435,8 @@ Replace the placeholder comment block in `.github/workflows/ci.yml` (the "pnpm a
 
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
+        # pnpm version comes from `packageManager` in root package.json
+        # (pnpm/action-setup@v4 rejects specifying it in both places).
 
       - name: Set up Node
         uses: actions/setup-node@v4
