@@ -924,9 +924,9 @@ git commit -m "feat(extract): parse Sanctum.ncd for id and name (raw columns pre
 import { describe, it, expect } from "vitest";
 import { parseCardText } from "../src/input/cardtext.js";
 
-const SAMPLE = `1\t1000\ts\tCast on globe. Every non-friendly town and colony...
-2\t1001\ts\tCast on globe. After start of next turn, all Imps...
-3\t1002\ts\tCast on group. Group dies. The Pact Is Sealed...
+const SAMPLE = `1000\ts\tCast on globe. Every non-friendly town and colony...
+1001\ts\tCast on globe. After start of next turn, all Imps...
+1002\ts\tCast on group. Group dies. The Pact Is Sealed...
 `;
 
 describe("parseCardText", () => {
@@ -946,15 +946,18 @@ describe("parseCardText", () => {
     });
   });
 
-  it("preserves tabs and special characters inside the text column", () => {
-    const sample = `1\t1\ts\tFoo\\tBar (parenthetical) — em-dash\n`;
+  it("preserves embedded tabs, slashes, and punctuation in the text column", () => {
+    const sample = `1\ts\tFoo\\tBar (parenthetical) - hyphen, "quoted", 'apostrophe'\n`;
     const [rec] = parseCardText(Buffer.from(sample), "CardTextA.txt");
-    expect(rec.text).toBe("Foo\\tBar (parenthetical) — em-dash");
+    expect(rec.text).toBe("Foo\\tBar (parenthetical) - hyphen, \"quoted\", 'apostrophe'");
   });
 
-  it("ignores blank lines", () => {
-    const out = parseCardText(Buffer.from(`${SAMPLE}\n\n`), "CardTextA.txt");
+  it("ignores blank lines and assigns source_line by file position", () => {
+    const sample = `\n${SAMPLE}\n\n`;
+    const out = parseCardText(Buffer.from(sample), "CardTextA.txt");
     expect(out).toHaveLength(3);
+    // After the leading blank line, the first record is on file-line 2.
+    expect(out[0].source_line).toBe(2);
   });
 });
 ```
@@ -977,7 +980,7 @@ export interface CardTextRecord {
   type_letter: string;
   text: string;
   source_file: string;
-  source_line: number;
+  source_line: number; // 1-based line index within source_file
 }
 
 export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[] {
@@ -987,19 +990,18 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i]!;
     if (raw.trim() === "") continue;
-    // Split on the first three tabs only; preserve everything after as the text column.
+    // Format: id\ttype_letter[\ttext]
+    // The text column is optional — some entries have only id and type_letter (empty rules text).
     const t1 = raw.indexOf("\t");
-    const t2 = raw.indexOf("\t", t1 + 1);
-    const t3 = raw.indexOf("\t", t2 + 1);
-    if (t1 < 0 || t2 < 0 || t3 < 0) {
+    if (t1 < 0) {
       throw new Error(
-        `Malformed ${sourceFile} line ${i + 1}: expected at least 4 tab-separated columns: ${JSON.stringify(raw)}`
+        `Malformed ${sourceFile} line ${i + 1}: expected at least 2 tab-separated columns: ${JSON.stringify(raw)}`
       );
     }
-    const lineCol = raw.slice(0, t1).trim();
-    const idCol = raw.slice(t1 + 1, t2).trim();
-    const typeLetter = raw.slice(t2 + 1, t3).trim();
-    const textCol = raw.slice(t3 + 1);
+    const t2 = raw.indexOf("\t", t1 + 1);
+    const idCol = raw.slice(0, t1).trim();
+    const typeLetter = (t2 < 0 ? raw.slice(t1 + 1) : raw.slice(t1 + 1, t2)).trim();
+    const textCol = t2 < 0 ? "" : raw.slice(t2 + 1);
     const id = parseInt(idCol, 10);
     if (!Number.isInteger(id)) {
       throw new Error(
@@ -1011,7 +1013,7 @@ export function parseCardText(buf: Buffer, sourceFile: string): CardTextRecord[]
       type_letter: typeLetter,
       text: textCol,
       source_file: sourceFile,
-      source_line: parseInt(lineCol, 10) || i + 1,
+      source_line: i + 1,
     });
   }
   return records;
@@ -1055,20 +1057,35 @@ const ncd: NcdRecord[] = [
 ];
 
 const cardText: CardTextRecord[] = [
-  { id: 4, type_letter: "a", text: "Wrack text.", source_file: "CardTextA.txt", source_line: 1 },
-  { id: 1000, type_letter: "s", text: "Mock text.", source_file: "CardTextA.txt", source_line: 1 },
+  { id: 4, type_letter: "s", text: "Wrack spell text.", source_file: "CardTextC.txt", source_line: 1 },
+  { id: 4, type_letter: "f", text: "Wrack flavor text.", source_file: "CardTextA.txt", source_line: 1 },
+  { id: 1000, type_letter: "s", text: "Mock spell text.", source_file: "CardTextA.txt", source_line: 1 },
+  { id: 1000, type_letter: "h", text: "Mock help text.", source_file: "CardTextA.txt", source_line: 2 },
 ];
 
 describe("mergeCards", () => {
-  it("joins by id", () => {
+  it("joins by id using spell-text (type_letter === 's') entries", () => {
     const out = mergeCards(ncd, cardText);
     expect(out).toHaveLength(2);
     expect(out[0]).toMatchObject({
       id: 4,
       name: "Wrack",
-      rules_text: "Wrack text.",
+      rules_text: "Wrack spell text.",
+      sources: { card_text_file: "CardTextC.txt", card_text_line: 1 },
+    });
+    expect(out[1]).toMatchObject({
+      id: 1000,
+      rules_text: "Mock spell text.",
       sources: { card_text_file: "CardTextA.txt", card_text_line: 1 },
     });
+  });
+
+  it("ignores non-spell type_letters (f/h/m/n)", () => {
+    const out = mergeCards(ncd, cardText);
+    for (const c of out) {
+      expect(c.rules_text).not.toContain("flavor");
+      expect(c.rules_text).not.toContain("help");
+    }
   });
 
   it("sorts output by ascending id", () => {
@@ -1076,17 +1093,22 @@ describe("mergeCards", () => {
     expect(out.map((c) => c.id)).toEqual([4, 1000]);
   });
 
-  it("throws if an ncd id has no card text", () => {
-    expect(() =>
-      mergeCards(ncd, [cardText[0]!])
-    ).toThrow(/1000.*no rules text/i);
+  it("warns and skips when an ncd id has no spell text", () => {
+    const onlyText4: CardTextRecord[] = [
+      { id: 4, type_letter: "s", text: "Wrack spell text.", source_file: "CardTextC.txt", source_line: 1 },
+    ];
+    const warnings: string[] = [];
+    const out = mergeCards(ncd, onlyText4, { onWarning: (w) => warnings.push(w) });
+    expect(out).toHaveLength(1);
+    expect(out[0].id).toBe(4);
+    expect(warnings.some((w) => w.includes("1000") && /no spell text/i.test(w))).toBe(true);
   });
 
-  it("warns (but does not throw) if a card text id is not in ncd", () => {
+  it("warns (but does not throw) if a spell-text id is not in ncd", () => {
     const orphan: CardTextRecord = {
       id: 9999,
       type_letter: "s",
-      text: "orphan",
+      text: "orphan spell",
       source_file: "CardTextA.txt",
       source_line: 99,
     };
@@ -1107,6 +1129,8 @@ cd tools/extract && pnpm test mergeCard
 Expected: FAIL with module not found.
 
 - [ ] **Step 3: Write the implementation**
+
+> **Important:** CardText files have multiple lines per card id, one per `type_letter` (s=spell, f=flavor, n=short-name, h=help, m=mobile). mergeCards selects spell-text only — the other type_letters are tracked elsewhere in M2+.
 
 `tools/extract/src/enrich/mergeCard.ts`:
 
@@ -1135,16 +1159,27 @@ export function mergeCards(
   cardText: CardTextRecord[],
   opts: MergeOptions = {}
 ): CardV0[] {
+  // Only spell-text entries (type_letter === "s") are used for rules_text.
+  // The other type_letters (f=flavor, n=short-name, h=help, m=mobile) are
+  // tracked elsewhere in later milestones; M1 outputs spell text only.
+  const spellTexts = cardText.filter((t) => t.type_letter === "s");
+
   const textById = new Map<number, CardTextRecord>();
-  for (const t of cardText) {
+  for (const t of spellTexts) {
+    if (textById.has(t.id)) {
+      opts.onWarning?.(
+        `Duplicate spell-text entry for id ${t.id} in ${t.source_file}:${t.source_line}; using first`
+      );
+      continue;
+    }
     textById.set(t.id, t);
   }
 
   const ncdIds = new Set(ncd.map((r) => r.id));
-  for (const t of cardText) {
+  for (const t of spellTexts) {
     if (!ncdIds.has(t.id)) {
       opts.onWarning?.(
-        `Card text id ${t.id} from ${t.source_file}:${t.source_line} has no .ncd entry; skipping`
+        `Spell-text id ${t.id} from ${t.source_file}:${t.source_line} has no .ncd entry; skipping`
       );
     }
   }
@@ -1154,7 +1189,10 @@ export function mergeCards(
     const rec = ncd[i]!;
     const text = textById.get(rec.id);
     if (!text) {
-      throw new Error(`.ncd id ${rec.id} (${rec.name}) has no rules text`);
+      opts.onWarning?.(
+        `.ncd id ${rec.id} (${rec.name}) has no spell text; skipping`
+      );
+      continue;
     }
     cards.push({
       id: rec.id,
@@ -1179,7 +1217,7 @@ export function mergeCards(
 cd tools/extract && pnpm test mergeCard
 ```
 
-Expected: PASS, 4 tests.
+Expected: PASS, 5 tests.
 
 - [ ] **Step 5: Commit**
 
