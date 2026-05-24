@@ -22,16 +22,27 @@ export function mergeCards(
   cardText: CardTextRecord[],
   opts: MergeOptions = {}
 ): CardV0[] {
+  // Only spell-text entries (type_letter === "s") are used for rules_text.
+  // The other type_letters (f=flavor, n=short-name, h=help, m=mobile) are
+  // tracked elsewhere in later milestones; M1 outputs spell text only.
+  const spellTexts = cardText.filter((t) => t.type_letter === "s");
+
   const textById = new Map<number, CardTextRecord>();
-  for (const t of cardText) {
+  for (const t of spellTexts) {
+    if (textById.has(t.id)) {
+      opts.onWarning?.(
+        `Duplicate spell-text entry for id ${t.id} in ${t.source_file}:${t.source_line}; using first`
+      );
+      continue;
+    }
     textById.set(t.id, t);
   }
 
   const ncdIds = new Set(ncd.map((r) => r.id));
-  for (const t of cardText) {
+  for (const t of spellTexts) {
     if (!ncdIds.has(t.id)) {
       opts.onWarning?.(
-        `Card text id ${t.id} from ${t.source_file}:${t.source_line} has no .ncd entry; skipping`
+        `Spell-text id ${t.id} from ${t.source_file}:${t.source_line} has no .ncd entry; skipping`
       );
     }
   }
@@ -42,7 +53,7 @@ export function mergeCards(
     const text = textById.get(rec.id);
     if (!text) {
       opts.onWarning?.(
-        `.ncd id ${rec.id} (${rec.name || "<unnamed>"}) has no rules text; skipping`
+        `.ncd id ${rec.id} (${rec.name}) has no spell text; skipping`
       );
       continue;
     }
