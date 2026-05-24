@@ -946,10 +946,10 @@ describe("parseCardText", () => {
     });
   });
 
-  it("preserves tabs and special characters inside the text column", () => {
-    const sample = `1\t1\ts\tFoo\\tBar (parenthetical) — em-dash\n`;
+  it("preserves embedded tabs, slashes, and punctuation in the text column", () => {
+    const sample = `1\t1\ts\tFoo\\tBar (parenthetical) - hyphen, "quoted", 'apostrophe'\n`;
     const [rec] = parseCardText(Buffer.from(sample), "CardTextA.txt");
-    expect(rec.text).toBe("Foo\\tBar (parenthetical) — em-dash");
+    expect(rec.text).toBe("Foo\\tBar (parenthetical) - hyphen, \"quoted\", 'apostrophe'");
   });
 
   it("ignores blank lines", () => {
