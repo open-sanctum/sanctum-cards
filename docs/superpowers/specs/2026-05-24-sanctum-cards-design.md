@@ -32,9 +32,12 @@ Publish an open, canonical, structured representation of every Sanctum 1.8 card 
 
 - **Not a rules engine, simulator, or play layer.** No spell execution. No combat resolution.
 - **Not the draft tool yet** (sub-project B).
-- **No binary reverse-engineering.** All inputs are extractable data files: `Sanctum.ncd`, `CardText*.txt`, `.dck`, image files, audio files. The executable is not opened.
 - **No new cards.** Sanctorum's cards, community expansions, balance adjustments — all out of scope.
 - **No expansions beyond what ships in Sanctum 1.8.** If others want to publish later sets, that's a separate repo.
+
+### What changed from the original non-goals
+
+The initial spec listed "no binary reverse-engineering" as a non-goal, expecting that `Sanctum.ncd`, `CardText*.txt`, and the bitmap files would carry everything we needed. Empirical investigation (see ADR-0001) showed this was wrong: `Sanctum.ncd` carries only `id, name, type-letter, target-letter, effect-record-fk, related-card-fk` — **mana cost, rarity, and set are not in any extractable data file** and live as static tables inside `Sanctum-Debug-2008.exe`. Skipping RE would leave the schema incomplete, defeating the project's purpose, so light RE of the debug build (which has RTTI + source-path debug strings retained) is now in scope, narrowly: locate and extract the card-data static tables. We are not reading the executable's runtime logic, only its embedded data.
 
 ## 5. Success criteria
 
@@ -108,11 +111,8 @@ Goal: structured enough to filter and reason about, raw enough to never lose inf
 {
   "id": 1026,
   "name": "Nightmare",
-  "house": "despair",
-  "type": "monster",
-  "rarity": "uncommon",
-  "set": "classic",
-  "target": "globe",
+  "type": "summoning",
+  "target": "group",
   "cost": {
     "total": 5,
     "primary":   { "type": "strife", "amount": 3 },
@@ -133,27 +133,30 @@ Goal: structured enough to filter and reason about, raw enough to never lose inf
     "small": "assets/art/small/1026.png"
   },
   "audio":  "assets/sounds/1026.wav",
+  "starter_decks": ["despair"],
+  "effect_record_id": null,
+  "related_card_id": null,
   "sources": {
     "ncd_row":           27,
     "card_text_file":    "CardTextA.txt",
-    "card_text_line":    27
+    "card_text_line":    27,
+    "cost_table_offset": "0x01b34c20"
   }
 }
 ```
+
+> **Why no `house` field on cards?** Investigation showed that house is a property of **decks**, not cards. Each of the 12 houses generates 2 specific mana types from its Sanctum; any card whose mana cost can be paid is castable, regardless of the deck's house. Cards that *flavor-belong* to a house surface that association via the `starter_decks` array (e.g., Nightmare appears in the Despair starter deck). See ADR-0001 and §7.5 below.
 
 ### 7.2 Field-by-field
 
 | Field | Required? | Source | Notes |
 |---|---|---|---|
-| `id` | yes | `.ncd` integer key | canonical identifier; matches `.dck` refs and art filenames |
-| `name` | yes | `.ncd` column 8 | e.g. "Nightmare", "Wrack" |
-| `house` | yes | enum | one of 12: `abomination, body, death, despair, hope, justice, life, making, mind, nature, unmaking, war` |
-| `type` | yes | enum | derived from `.ncd` type-letter column; exact mapping TBD-in-impl |
-| `rarity` | yes | enum | `common / uncommon / rare / promo` (TBD-in-impl from `.ncd` flags) |
-| `set` | yes | enum | `classic` + later expansion names (TBD-in-impl from `.ncd` flag bits) |
-| `target` | yes | enum | derived by parsing leading "Cast on X" in rules text: `globe, group, recruit, monster, square, structure, town, colony, archer, swordsman, minion, ...` |
+| `id` | yes | `.ncd` col 1 | canonical identifier; matches `.dck` refs and art filenames |
+| `name` | yes | `.ncd` col 8 | e.g. "Nightmare", "Wrack" |
+| `type` | yes | enum | `.ncd` col 5 letter → `alteration, conjuration, manipulation, summoning, hero` (per ADR-0001) |
+| `target` | yes | enum | `.ncd` col 6 letter → `recruit, recruit_group, square, globe, structure, minion, group, monster, monster_group` (per ADR-0001) |
 | `cost.total` | yes | computed | sum of primary + secondary + tertiary amounts |
-| `cost.{primary,secondary,tertiary}` | partial | `.ncd` | mana types: `clarity / mystery / order / strife / will / world` |
+| `cost.{primary,secondary,tertiary}` | partial | **`Sanctum-Debug-2008.exe` static table** | mana types: `clarity / mystery / order / strife / will / world` — extracted via Ghidra from the `CSpellCost` table (see §8.3) |
 | `stats.*` | optional (creatures only) | regex-parsed from rules text | `H:3 A:1 HP:10 L:2` → fields; `M:2` for missile units |
 | `keywords` | yes (may be empty) | regex-parsed against allowlist | `Flight, Mountainwalk, Nomadic, Expansive, Concealed, Waterwalk, Withdraws, ...` |
 | `rules_text` | yes | `CardText*.txt` | raw, unmodified |
@@ -163,7 +166,38 @@ Goal: structured enough to filter and reason about, raw enough to never lose inf
 
 ### 7.3 Centralized enums
 
-`data/enums.json` lists canonical values for `house`, `type`, `target`, `rarity`, `set`, `keywords`, `mana_type`. Enums populated during extraction; the extractor **fails the build** if a previously-unseen value appears, forcing either an enum update or a parser fix.
+`data/enums.json` lists canonical values for `type`, `target`, `keywords`, `mana_type`, and `house` (the latter for deck-level use, see §7.6). Enums populated during extraction; the extractor **fails the build** if a previously-unseen value appears, forcing either an enum update or a parser fix.
+
+Fixed enums (won't change without source-data change):
+- `mana_type`: `clarity, mystery, order, strife, will, world`
+- `house`: `abomination, body, death, despair, hope, justice, life, making, mind, nature, unmaking, war`
+- `type`: `alteration, conjuration, manipulation, summoning, hero`
+- `target`: `recruit, recruit_group, square, globe, structure, minion, group, monster, monster_group`
+
+Discovered enums (extractor populates):
+- `keywords` (~30-50 entries from the hand-curated allowlist)
+
+### 7.6 Deck schema (added; see §7.1 note)
+
+Decks are first-class records, separate from cards. House is a deck property — not a card property — per ADR-0001 findings.
+
+```json
+{
+  "name": "PRECON_DESPAIR",
+  "slug": "despair_starter",
+  "house": "despair",
+  "is_preconstructed": true,
+  "cards": [1026, 1026, 1026, 1027, ...]
+}
+```
+
+| Field | Required? | Notes |
+|---|---|---|
+| `name` | yes | the deck's internal name (from `.dck` binary header) |
+| `slug` | yes | filename-safe slug used for `data/decks/<slug>.json` |
+| `house` | yes for preconstructed | one of 12 houses; nullable for community decks if those are ever added |
+| `is_preconstructed` | yes | `true` for the 12 starter decks shipped in 1.8 |
+| `cards` | yes | array of card ids; multiplicities preserved (cards can appear ≥1 times) |
 
 ### 7.4 JSON Schema
 
@@ -219,10 +253,11 @@ tools/extract/
 |---|---|---|
 | `.bm_` | **Renamed JPEG** (magic bytes `FF D8 FF E0 ... JFIF`) | use `sharp` directly; convert to PNG |
 | `.bmp` | Genuine Windows BMP (magic bytes `BM`); minority of card art | `sharp` also handles; same path |
-| `.ncd` | Tab-separated text, no header row. 8 columns: `id, id_dup, flags?, flags?, type_letter, mana_or_target_letter, id_dup, name`. Flag values like 0/4100/4108/4118 suggest a bitfield. | parse defensively; treat unknown bits as opaque; record what we observe |
-| `.nmd` | Likely "monster data" companion to `.ncd`; same tab-sep convention assumed | inspect during impl; parse if it carries info not in `.ncd` |
-| `CardText*.txt` (A, B, C, O, R, W) | Per-card rules text. Tab-separated columns: `line#, id, type_letter, text`. Six files — letter suffix likely indicates set or category | parse all six; cross-check ids against `.ncd` |
+| `.ncd` | Tab-separated text, no header row. 8 columns confirmed (see ADR-0001): `id, id_dup, effect_record_fk, related_card_fk, type_letter, target_letter, id_dup, name`. Col 3/4 are nullable integer foreign keys, not bitfields | direct lookup tables per ADR-0001 |
+| `.nmd` | Plain-text error/status strings file (not monster data despite the name) | not used by the extractor; documented for completeness |
+| `CardText*.txt` (A, B, C, O, R, W) | Per-card rules text. **3 columns**, not 4: `id, type_letter, text`. Multiple rows per card id, one per type_letter (`s=spell, f=flavor, n=short-name, h=help, m=mobile`) | parse all six; filter to `type_letter == 's'` for `rules_text` |
 | `.dck` | Small binary header (deck name length + name + flags) followed by tab-separated ASCII card IDs | parse header bytes (xxd-confirmed layout); ids are ASCII |
+| `Sanctum-Debug-2008.exe` | PE32 (i386), MSVC 2008 build with RTTI symbols and source paths retained. `.rdata` section (~5.6 MB) contains static initializers for `CSpellCost` records — one per card id. **Cost / rarity / set / starter-deck affiliation data lives here.** | extracted via Ghidra (headless or GUI); see §8.6 |
 
 ### 8.4 Keyword extraction policy
 
@@ -240,6 +275,21 @@ This produces a *clean* keyword vocabulary suitable for filtering in the site an
 - `manifest.json` records sha256 + dimensions per file
 - `.wav` audio passed through unchanged to `assets/sounds/<id>.wav`
 
+### 8.6 Binary RE pipeline (one-shot, output committed)
+
+The cost / rarity / set / starter-deck-affiliation data is extracted from `Sanctum-Debug-2008.exe` once and committed as `inputs/extracted-card-data.json` (or similar). The extractor consumes this JSON like any other input — it does not re-run Ghidra on every build.
+
+Pipeline:
+1. Human or subagent runs Ghidra (GUI or `analyzeHeadless`) against `Sanctum-Debug-2008.exe`.
+2. A Ghidra script (Python or Java) follows cross-references from `CSpellCost::CSpellCost` constructor, walks the static initializer array, and emits one JSON record per card id with fields: `cost.primary{type,amount}`, `cost.secondary`, `cost.tertiary`, `rarity`, `set`, `starter_deck_affiliation`.
+3. The script's output is committed as `inputs/cards-from-binary.json` along with the script itself (`tools/re/extract-cost-table.py`) and an ADR (ADR-0002) documenting the table layout discovered.
+4. The TypeScript extractor reads `inputs/cards-from-binary.json` during merge.
+
+Why this design:
+- The Ghidra step is one-shot; nothing about the binary is changing under us.
+- The output is a normal JSON file that's reviewable, diff-able, and reproducible — anyone with the binary + the script can verify it.
+- The TS extractor stays simple (it reads JSON, not PE files).
+
 ## 9. Static site
 
 ### 9.1 Tech stack
@@ -254,7 +304,7 @@ This produces a *clean* keyword vocabulary suitable for filtering in the site an
 | Path | Purpose |
 |---|---|
 | `/` | Landing: what this is, who made Sanctum, link to GH repo, search box, "browse all 1,100 cards" CTA |
-| `/cards/` | Paginated list with filters: house (12), type, rarity, cost ≤ N, set, keyword |
+| `/cards/` | Paginated list with filters: type (5), target (9), cost ≤ N, rarity, set, keyword, starter-deck affiliation |
 | `/cards/<id>/` | Per-card detail: big art, rules text, parsed stats, "appears in deck:" backlinks, link to JSON |
 | `/decks/` | Preconstructed deck list; click → deck detail |
 | `/about/` | Project rationale, license, credits (DA, Jeff, Jamey, community) |
@@ -339,16 +389,17 @@ Each is a discrete shippable artifact, not a phase boundary.
 
 | M | Description | Done when |
 |---|---|---|
-| **M0** | Repo bootstrap | LICENSE-CODE/-DATA/NOTICE in place; .gitignore; basic README |
-| **M1** | Extractor v0 | reads zip, emits `cards.json` with id+name+raw rules text only |
-| **M2** | Extractor v1 | full schema, parsed cost/stats/keywords/target, per-card JSON, enums |
-| **M3** | Asset pipeline | `.bm_`/`.bmp` → PNG; `assets/art/big/*.png` exists for every card with art |
-| **M4** | Decks + audio | `data/decks/*.json` + `assets/sounds/*.wav` |
-| **M5** | Site v0 | 11ty list + detail pages, deployed to GitHub Pages |
-| **M6** | Site v1 | filter UI + Pagefind search working |
-| **M7** | 1.0 release | README polish, Discord/FB announcement, CHANGELOG, tagged `v1.0.0` |
+| **M0** | Repo bootstrap | LICENSE-CODE/-DATA/NOTICE in place; .gitignore; basic README — **done** (PR #3) |
+| **M1** | Extractor v0 | reads zip, emits `cards.json` with id+name+spell rules text — **done** (PR #5) |
+| **M2** | Extractor v1 | full schema, parsed type/target/stats/keywords; per-card JSON, enums; cost/rarity/set from binary RE | **in progress** |
+| **M2.5** | Binary RE | Ghidra extracts `CSpellCost` static table from `Sanctum-Debug-2008.exe` → `inputs/cards-from-binary.json` and ADR-0002 | new, blocks M2 finish |
+| **M3** | Asset pipeline | `.bm_`/`.bmp` → PNG; `assets/art/big/*.png` exists for every card with art |  |
+| **M4** | Decks + audio | `data/decks/*.json` includes `house` and `is_preconstructed`; `assets/sounds/*.wav` |  |
+| **M5** | Site v0 | 11ty list + detail pages, deployed to GitHub Pages |  |
+| **M6** | Site v1 | filter UI + Pagefind search working |  |
+| **M7** | 1.0 release | README polish, Discord/FB announcement, CHANGELOG, tagged `v1.0.0` |  |
 
-Estimated effort, single developer, evenings/weekends: 2–4 weeks for M0–M5; +~1 week for M6–M7.
+Estimated effort revised after ADR-0001 + binary-RE addition: single developer, evenings/weekends, 3–5 weeks for M0–M5; +~1 week for M6–M7. The binary RE adds 1–3 days depending on table layout complexity.
 
 ## 14. Risks / open questions
 
@@ -371,12 +422,16 @@ Estimated effort, single developer, evenings/weekends: 2–4 weeks for M0–M5; 
 | Multiplayer lobby / server | sub-project C |
 | Outreach to Jamey & Jeff | sub-project D (concurrent, not code) |
 | Cards added by Sanctorum or community after 1.8 | future, separate repo |
-| Binary reverse-engineering | only if rules engine ever happens |
+| Reading runtime logic from `Sanctum.exe` | the rules-engine project, sub-project C. M2.5 limits binary RE to data-table extraction only. |
 
 ## 16. Open decisions still TBD
 
-- **Exact `type` enum values:** the single-letter type column in `.ncd` (`a/m/c/s/...`) needs cross-referencing with card behavior. Discovered during M2.
-- **Exact `rarity` and `set` enums:** flag-bit semantics in `.ncd` columns 3-4. Discovered during M2.
+- ~~**Exact `type` enum values:**~~ **Resolved by ADR-0001.** Five values: `alteration, conjuration, manipulation, summoning, hero`.
+- ~~**Exact `target` enum values:**~~ **Resolved by ADR-0001.** Nine values from `.ncd` col 6, listed in §7.3.
+- **Exact `rarity` enum and per-card rarity values:** **TBD via M2.5 binary RE** of the `CSpellCost` static table.
+- **Exact `set` enum:** **TBD via M2.5.** Sanctum 1.8 likely has just `classic`, but the binary may distinguish base set + expansions.
+- **Cost-table layout in the binary:** **TBD via M2.5.** Likely an array of `CSpellCost` records indexed by id; exact field order discovered during RE.
+- **Per-card "starter-deck affiliation":** if the binary records which house's starter pool a card was designed for (separately from which decks it currently appears in), surface as `starter_deck_affiliation`. Otherwise, derive from `data/decks/*_starter.json` membership.
 - **Keyword vocabulary:** final list curated during M2 keyword pass.
 - **Custom domain for the site:** optional; decided at M7.
 - **Whether to ship `assets/sounds/` in the main repo or as a Release tarball:** decided at M4 based on size.
