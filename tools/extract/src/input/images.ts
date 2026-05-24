@@ -12,10 +12,10 @@ const PNG_OPTIONS = {
   effort: 10,
 } as const;
 
-// Decode an uncompressed BI_RGB BMP (24-bit BGR or 32-bit BGRX) to RGBA
-// pixels. The archive contains only this variety; we deliberately don't
-// support palette, bitfields, or RLE. Card art has no transparency, so the
-// alpha byte is always emitted as 0xff.
+// Decode an uncompressed BI_RGB BMP (8-bit palette, 24-bit BGR, or 32-bit
+// BGRX) to RGBA pixels. The archive contains only these variants; we
+// deliberately don't support bitfields or RLE. Card art has no transparency,
+// so the alpha byte is always emitted as 0xff.
 function decodeBmpRgba(buf: Buffer): { width: number; height: number; pixels: Buffer } {
   if (buf.length < 14 || buf[0] !== 0x42 || buf[1] !== 0x4d) {
     throw new Error("BMP: missing 'BM' magic");
@@ -30,14 +30,37 @@ function decodeBmpRgba(buf: Buffer): { width: number; height: number; pixels: Bu
   if (compression !== 0) {
     throw new Error(`BMP: unsupported compression ${compression}`);
   }
-  if (bitCount !== 24 && bitCount !== 32) {
+  if (bitCount !== 8 && bitCount !== 24 && bitCount !== 32) {
     throw new Error(`BMP: unsupported bit depth ${bitCount}`);
   }
   const height = Math.abs(heightRaw);
   const bottomUp = heightRaw > 0;
-  const bytesPerPixel = bitCount / 8;
   const rowStride = Math.floor((bitCount * width + 31) / 32) * 4;
   const pixels = Buffer.alloc(width * height * 4);
+
+  if (bitCount === 8) {
+    // Palette entries are stored as BGRA quads immediately after the header.
+    const paletteStart = 14 + headerSize;
+    const readPaletteColor = (idx: number): [number, number, number] => {
+      const p = paletteStart + idx * 4;
+      return [buf[p + 2]!, buf[p + 1]!, buf[p]!]; // R, G, B
+    };
+    for (let y = 0; y < height; y++) {
+      const srcRow = bottomUp ? height - 1 - y : y;
+      const srcRowStart = dataOffset + srcRow * rowStride;
+      for (let x = 0; x < width; x++) {
+        const [r, g, b] = readPaletteColor(buf[srcRowStart + x]!);
+        const dst = (y * width + x) * 4;
+        pixels[dst] = r;
+        pixels[dst + 1] = g;
+        pixels[dst + 2] = b;
+        pixels[dst + 3] = 0xff;
+      }
+    }
+    return { width, height, pixels };
+  }
+
+  const bytesPerPixel = bitCount / 8;
   for (let y = 0; y < height; y++) {
     const srcRow = bottomUp ? height - 1 - y : y;
     const srcRowStart = dataOffset + srcRow * rowStride;

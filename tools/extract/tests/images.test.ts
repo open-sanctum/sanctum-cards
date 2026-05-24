@@ -25,6 +25,16 @@ describe("decodeImageToPng", () => {
     expect(height).toBe(250);
   });
 
+  it("converts an 8-bit palette BMP (extension .bm_) to PNG", async () => {
+    const zip = openZip(ZIP_PATH);
+    const buf = readZipEntry(zip, "Sanctum18/bin/bitmaps/cards/big_cards/402.bm_");
+    const { png, width, height } = await decodeImage(buf);
+    expect(png.subarray(0, 8).equals(PNG_SIGNATURE)).toBe(true);
+    expect(width).toBe(188);
+    expect(height).toBe(250);
+    expect(png.length).toBeGreaterThan(5000);
+  });
+
   it("converts a 32-bit V4 BMP .bmp to PNG with multi-color content", async () => {
     const zip = openZip(ZIP_PATH);
     const buf = readZipEntry(zip, "Sanctum18/bin/bitmaps/cards/big_cards/1039.bmp");
