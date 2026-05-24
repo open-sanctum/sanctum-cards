@@ -46,6 +46,29 @@ jobs:
       - name: Build extractor and regenerate data/
         run: pnpm --filter @sanctum-cards/extract build
 
+      - name: Validate every per-card JSON against the schema
+        run: |
+          node --input-type=module -e "
+            import { Ajv2020 } from 'ajv/dist/2020.js';
+            import addFormats from 'ajv-formats';
+            import { readFileSync, readdirSync } from 'node:fs';
+            import { join } from 'node:path';
+            const schema = JSON.parse(readFileSync('data/schema.json', 'utf8'));
+            const ajv = new Ajv2020({ allErrors: true, strict: true });
+            addFormats.default(ajv);
+            const validate = ajv.compile(schema);
+            let bad = 0;
+            for (const f of readdirSync('data/cards')) {
+              const card = JSON.parse(readFileSync(join('data/cards', f), 'utf8'));
+              if (!validate(card)) {
+                bad++;
+                console.error('FAIL', f, JSON.stringify(validate.errors));
+              }
+            }
+            if (bad > 0) { console.error(bad, 'files failed'); process.exit(1); }
+            console.log('All per-card files valid.');
+          "
+
       - name: Verify data/ is unchanged
         run: |
           if [ -n "$(git status --porcelain data/)" ]; then
