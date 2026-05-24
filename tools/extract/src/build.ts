@@ -1,13 +1,15 @@
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
-import { openZip, readZipEntry } from "./input/zip.js";
+import { openZip, listZipEntries, readZipEntry } from "./input/zip.js";
 import { parseNcd } from "./input/ncd.js";
 import { parseCardText } from "./input/cardtext.js";
+import { parseDeck } from "./input/decks.js";
 import { mergeCards } from "./enrich/mergeCard.js";
 import { writeCardsBulk, writeCardsPerCard } from "./output/writeCards.js";
 import { writeEnums } from "./output/writeEnums.js";
 import { writeArtAssets } from "./output/writeAssets.js";
+import { writeDecks } from "./output/writeDecks.js";
 import { validateCards } from "./validate.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -72,6 +74,23 @@ async function main(): Promise<void> {
 
   console.log(`Writing ${DATA_DIR}/enums.json ...`);
   writeEnums(cards, DATA_DIR);
+
+  console.log(`Parsing preconstructed decks ...`);
+  const DECKS_PREFIX = "Sanctum18/Decks/PRECONSTRUCTED/";
+  const deckEntries = listZipEntries(zip, DECKS_PREFIX).filter((n) =>
+    n.toLowerCase().endsWith(".dck")
+  );
+  const decks = deckEntries.map((entry) => ({
+    slug: entry
+      .slice(DECKS_PREFIX.length)
+      .replace(/\.dck$/i, "")
+      .toLowerCase(),
+    deck: parseDeck(readZipEntry(zip, entry)),
+  }));
+  console.log(`  ${decks.length} decks`);
+
+  console.log(`Writing per-deck files to ${DATA_DIR}/decks/ ...`);
+  writeDecks(decks, DATA_DIR);
 
   console.log("Done.");
 }
