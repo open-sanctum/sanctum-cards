@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 587,
+  "keywords": [],
+  "name": "Savannah",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. The 3x3 diamond centered on square becomes plains.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 85,
+    "ncd_row": 338
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

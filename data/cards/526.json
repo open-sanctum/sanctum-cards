@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4221,
+  "id": 526,
+  "keywords": [],
+  "name": "Shadowmasque",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit is hit by a swordsman for 1 or more damage (before checking armor), swordsman gets Shadow's Chill (-1 hand damage, regains +1 hand damage per turn until penalty is reduced to 0). If the attacking swordsman already has Shadow's Chill, its penalty increases by -1 hand damage instead.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 26,
+    "ncd_row": 279
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

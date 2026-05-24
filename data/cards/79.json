@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 79,
+  "keywords": [],
+  "name": "Regenerate",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. At start of turn, minion is fully healed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 56,
+    "ncd_row": 56
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 318,
+  "keywords": [
+    "Flight",
+    "Nomadic"
+  ],
+  "name": "Pegasus",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:12 L:2 Nomadic, Flight, Moves 2. Cast within a 3x3 diamond centered on a mountain. Receives -1 damage from minions without Flight (before checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 170,
+    "ncd_row": 170
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 12,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

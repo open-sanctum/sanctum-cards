@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 105,
+  "keywords": [],
+  "name": "Legionnaires",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group with swordsmen. Swordsmen in group get +1 hand damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 76,
+    "ncd_row": 76
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 882,
+  "keywords": [],
+  "name": "Toy Factory",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square adjacent to friendly town or colony. At start of turn, if square is empty or contains friendly Combustioneers, one Combustioneer (M:2 A:0 HP:2 L:1 When killed, killer takes 2 damage) is created in square. Duration: M turns. Revolver (Casting cost M revolves from 1 to 10, starting at 1 and increasing by 1 mana per turn, restarting at 1 when it reaches 10, until cast).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 82,
+    "ncd_row": 470
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

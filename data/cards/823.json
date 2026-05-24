@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4300,
+  "id": 823,
+  "keywords": [],
+  "name": "Drought",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Non-structure squares in the 3x3 diamond centered on target square get Drought Effect (square changes sequentially from water to swamp to plains to barren land to desert). May be cast more than once (but is non-cumulative).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 23,
+    "ncd_row": 411
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

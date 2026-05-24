@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 8,
+  "keywords": [],
+  "name": "Veteran",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit gets +1 hand damage, +1 armor, and +4 maximum and current hit points.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 5,
+    "ncd_row": 5
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

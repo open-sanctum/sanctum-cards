@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 117,
+  "keywords": [],
+  "name": "Cannibalism",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. When cast, and at end of combat, minion kills the most damaged other minion in its group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 83,
+    "ncd_row": 83
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

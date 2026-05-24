@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 895,
+  "keywords": [],
+  "name": "Usam University",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town (not colony). For every novice in structure, structure generates +1 of its selected mana type. Before movement, if any novices were trained in structure that turn, Usam University is dispelled. Dispelled if captured.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 95,
+    "ncd_row": 483
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

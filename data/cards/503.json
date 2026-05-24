@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 503,
+  "keywords": [],
+  "name": "Sawbones",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:1 Cast on recruit group. Creates an Imp swordsman. At end of combat, if any other members of its group are damaged, Sawbones kills the most damaged other recruit in its group, and all surviving members of its group are fully healed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 3,
+    "ncd_row": 256
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "manipulation"
+}

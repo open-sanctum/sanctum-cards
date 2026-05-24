@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1054,
+  "keywords": [],
+  "name": "Standoff",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All recruit groups' movement orders are cancelled, and they cannot be moved. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 55,
+    "ncd_row": 571
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

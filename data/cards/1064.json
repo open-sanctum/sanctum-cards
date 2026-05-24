@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1064,
+  "keywords": [],
+  "name": "Alchemy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster gets +2 Will and -1 Clarity on odd-numbered turns, or -1 Will and +2 Clarity on even-numbered turns. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 65,
+    "ncd_row": 581
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

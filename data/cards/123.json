@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 123,
+  "keywords": [],
+  "name": "Mirrored Armor",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit receives no combat damage (before checking armor). When recruit is hit, Mirrored Armor has 10% chance to shatter (dispel). If Mirrored Armor does not shatter, and attacker is a Gorgon or Cockatrice, attacker dies.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 88,
+    "ncd_row": 88
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

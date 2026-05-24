@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 164,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Ogi's Gauntlet",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit is concealed. (Concealed minions cannot be targeted by enemy individual spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 114,
+    "ncd_row": 114
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

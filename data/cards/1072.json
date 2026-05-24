@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1072,
+  "keywords": [],
+  "name": "Eagle Eyes",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit. Recruit cannot be targeted by non-friendly individual spells. All friendly archers in squares adjacent to recruit get +1 missile damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 73,
+    "ncd_row": 589
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

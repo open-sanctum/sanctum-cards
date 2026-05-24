@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 25,
+  "keywords": [],
+  "name": "Dryad's Favors",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit is removed from the game. (This does not trigger any death effects.) A new recruit of the same nation and class is created in square, and the new recruit disappears through turn of casting +3. (Recruit's new group reappears at start of turn if its square is unoccupied, or on the earliest turn thereafter.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 20,
+    "ncd_row": 20
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

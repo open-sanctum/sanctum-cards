@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 574,
+  "keywords": [],
+  "name": "Bedlam",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of turn, each minion in square gets Chaos Feature. (A recruit who gets 3 or more Chaos Features changes into a Misfit.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 73,
+    "ncd_row": 326
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

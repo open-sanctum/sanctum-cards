@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 607,
+  "keywords": [
+    "Firewalk"
+  ],
+  "name": "Firewalking",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group gains Firewalk. (Group takes no damage from lava or volcanoes. This does not allow group to cross volcanoes.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 7,
+    "ncd_row": 346
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

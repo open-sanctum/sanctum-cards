@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4118,
+  "id": 444,
+  "keywords": [
+    "Desertwalk",
+    "Nomadic"
+  ],
+  "name": "Sand Sphinx",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:12 L:1 Nomadic, Desertwalk. Target square becomes desert. Sand Sphinx seeks opponent's Sanctum. When Sand Sphinx moves, its new square becomes desert. (Desert causes 1 hit point of damage after start of turn unless group has Desertwalk.) (\"Moves\" effects happen before any \"enters square\" effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 45,
+    "ncd_row": 238
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 12,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

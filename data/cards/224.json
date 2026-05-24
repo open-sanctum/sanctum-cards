@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 224,
+  "keywords": [],
+  "name": "Pact of Mystery",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Each player gets +N Mystery next turn, where N is the number of that player's minions that died during the rest of this turn, and from next turn's \"at start of turn\" and \"after start of turn\" effects.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 141,
+    "ncd_row": 141
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

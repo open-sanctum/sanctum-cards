@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4339,
+  "id": 1002,
+  "keywords": [],
+  "name": "Maloch's Pact",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group dies. The Pact Is Sealed (caster gets -2 Will and -2 Strife each turn, may be cast more than once) is cast on the globe.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 3,
+    "ncd_row": 519
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

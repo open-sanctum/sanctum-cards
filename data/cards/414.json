@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 414,
+  "keywords": [],
+  "name": "Zana",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:2 Cast on recruit group. Creates Zana, a Vision Hero swordswoman. While Zana is in play, all monsters join her caster's side (but keep previous control by computer or player). (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 15,
+    "ncd_row": 208
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

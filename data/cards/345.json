@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 345,
+  "keywords": [],
+  "name": "Belvario's Trap",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. All members of group take five hit points of damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 185,
+    "ncd_row": 185
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

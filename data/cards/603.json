@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 603,
+  "keywords": [],
+  "name": "Seelie Court",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town (not colony). Structure has all spells dispelled, and disap- pears. Structure and square cannot be targeted by spells. At start of every 1d3 turns, structure reappears if square is empty, or disappears again. Structure generates mana and creates novices while off the board. If dispelled while off the board, structure is not destroyed, but no longer returns.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 3,
+    "ncd_row": 342
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

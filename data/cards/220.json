@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4124,
+  "id": 220,
+  "keywords": [],
+  "name": "Faerie Circle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on forest. At start of turn, group in square disappears through current turn +1d5. Every member of group is fully healed and gets Faerie Blessing (+1 level; minion's group no longer disappears in Faerie Circle). (Group reappears at start of turn if its square is unoccupied, or on the earliest turn thereafter.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 138,
+    "ncd_row": 138
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

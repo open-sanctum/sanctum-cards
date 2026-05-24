@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1061,
+  "keywords": [
+    "Expansive"
+  ],
+  "name": "Pinnacle of Order",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit gets +1 armor. Expansive (When this spell is cast from your hand, a copy of this spell is added to your hand that costs +1 mana; may be cast more than once on the same minion).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 62,
+    "ncd_row": 578
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

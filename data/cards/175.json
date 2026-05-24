@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4137,
+  "id": 175,
+  "keywords": [],
+  "name": "Fountain of Youth",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. When group enters square, every member of group is fully healed, and gets Youth (-1 level). (Any minions who join this group later are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 121,
+    "ncd_row": 121
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

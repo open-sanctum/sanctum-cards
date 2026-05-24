@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 540,
+  "keywords": [],
+  "name": "Obeisance",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit gets +1 level for every other recruit in its group. All other members of recruit's group are set to level 0 and cannot gain levels. Only one in a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 40,
+    "ncd_row": 293
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 837,
+  "keywords": [],
+  "name": "Frostbite",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Every member of group gets -3 maximum hit points. At start of turn, every member of group gets +1 maximum hit point. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 37,
+    "ncd_row": 425
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

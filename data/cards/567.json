@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 567,
+  "keywords": [],
+  "name": "Revelers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. All members of group lose their natural house abilities.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 66,
+    "ncd_row": 319
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

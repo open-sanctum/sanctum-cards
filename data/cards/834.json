@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 834,
+  "keywords": [],
+  "name": "Corrosion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Every town and colony no longer generates its 1 mana. (Mana-generating spells still produce mana normally.) Duration: Through turn of casting +3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 34,
+    "ncd_row": 422
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

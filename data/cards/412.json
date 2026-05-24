@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 412,
+  "keywords": [],
+  "name": "Ostracize",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group cannot join other groups or add any new recruits.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 13,
+    "ncd_row": 206
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

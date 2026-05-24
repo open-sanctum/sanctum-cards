@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 697,
+  "keywords": [],
+  "name": "Hypnotic Trance",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. If on recruit group, then at start of combat against a monster group that does not have Hypnotic Trance, Hypnotic Trance transfers to the monster group. On monster group, all members of group are set to level 0 and cannot gain levels.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 212,
+    "ncd_row": 377
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

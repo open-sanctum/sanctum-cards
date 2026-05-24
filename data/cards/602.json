@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 602,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Gatemouth",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:1 A:0 HP:3 L:0 Nomadic. Neutral. At start of turn, gets -1 maximum hit point. Before combat, all adjacent groups are teleported to random unoccupied non-structure squares not adjacent to this Gatemouth.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 2,
+    "ncd_row": 341
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 1,
+    "hp_max": 3,
+    "level": 0,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

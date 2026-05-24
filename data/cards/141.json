@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 141,
+  "keywords": [],
+  "name": "Nomadic Tribe",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. At start of every other turn, one level 1 Cyclops swordsman (if group size is three or less) or archer (if group size is four or more) is created in group. (If group is in a structure, all structure spells affect the new recruits.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 101,
+    "ncd_row": 101
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

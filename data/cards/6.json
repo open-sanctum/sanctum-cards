@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 6,
+  "keywords": [],
+  "name": "Rite of Growth",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion gets +1 hand damage and +4 maximum and current hit points.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 3,
+    "ncd_row": 3
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

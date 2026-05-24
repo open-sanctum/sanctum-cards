@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 98,
+  "keywords": [],
+  "name": "Healing Balm",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. At start of turn, recruit heals 1 hit point.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 72,
+    "ncd_row": 72
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

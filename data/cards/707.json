@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 707,
+  "keywords": [],
+  "name": "Unholy Aura",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion receives no combat damage from recruits without enchantments (after checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 218,
+    "ncd_row": 383
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

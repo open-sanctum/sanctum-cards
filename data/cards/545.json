@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 545,
+  "keywords": [],
+  "name": "Seelie Champion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. Archer gets +1 missile damage for each subsequent alteration cast on archer or its group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 45,
+    "ncd_row": 298
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

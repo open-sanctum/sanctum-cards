@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1079,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Watersniper",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. Archer gets +1 missile damage, and its group gains Waterwalk. (Group may cross water, and does not drown in water.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 80,
+    "ncd_row": 596
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

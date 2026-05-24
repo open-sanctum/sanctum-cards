@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 445,
+  "keywords": [],
+  "name": "Touch of Death",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly swordsman. When swordsman damages an opponent, opponent is killed. When Touch of Death expires, swordsman dies. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 46,
+    "ncd_row": 239
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

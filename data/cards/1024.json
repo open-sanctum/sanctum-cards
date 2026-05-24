@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1024,
+  "keywords": [],
+  "name": "Comrades in Dolor",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. At start of turn, one random enemy recruit changes into a Shadow. Shadows receive no combat damage from Shadows (before checking armor). Duration: Through turn of casting +3. Only one per player at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 25,
+    "ncd_row": 541
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

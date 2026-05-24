@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 153,
+  "keywords": [],
+  "name": "Found City",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Creates a neutral colony. (A new structure dispels its square and changes it to plains.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 108,
+    "ncd_row": 108
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

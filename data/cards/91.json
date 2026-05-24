@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4102,
+  "id": 91,
+  "keywords": [],
+  "name": "Void",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes Void. (Void removes group from the game when Void is created, when group enters square, after start of turn, before movement, and before combat. (This does not trigger any death effects.) Void does not block movement.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 66,
+    "ncd_row": 66
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

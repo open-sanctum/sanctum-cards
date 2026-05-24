@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 40,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Revenants",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:5(x3) L:1 Nomadic. Creates three Revenants.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 30,
+    "ncd_row": 30
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 5,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

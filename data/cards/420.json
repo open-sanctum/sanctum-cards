@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4156,
+  "id": 420,
+  "keywords": [],
+  "name": "Scorched Earth",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on forest. Affects all contiguous forest squares. Squares become barren land.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 21,
+    "ncd_row": 214
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

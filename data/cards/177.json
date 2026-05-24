@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 177,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Golem",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:5 A:1 HP:18 L:1 Nomadic. Cast on square within a 3x3 diamond centered on friendly town or colony. Receives -1 damage from swordsmen (before checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 123,
+    "ncd_row": 123
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 5,
+    "hp_max": 18,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

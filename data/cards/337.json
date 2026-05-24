@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 337,
+  "keywords": [],
+  "name": "Burst of Will",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster gets +2 Will next turn.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 178,
+    "ncd_row": 178
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

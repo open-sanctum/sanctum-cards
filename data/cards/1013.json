@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1013,
+  "keywords": [
+    "Outcast"
+  ],
+  "name": "Outcast",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit in group of two or more. Before movement, if recruit's group is moving this turn, recruit leaves its group, and has all group spells dispelled, and Outcast is dispelled. Recruit's new group copies its old group's movement orders, and moves twice this turn in its direction of travel. The remaining group's movement orders are cancelled, and it cannot be moved this turn.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 14,
+    "ncd_row": 530
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

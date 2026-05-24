@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 132,
+  "keywords": [],
+  "name": "Forsaken",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit (and its group) cannot enter structures. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 94,
+    "ncd_row": 94
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 51,
+  "keywords": [],
+  "name": "Rain of Arrows",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group with archers. Archers in group get +1 attack rate. Dispelled at end of next combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 38,
+    "ncd_row": 38
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

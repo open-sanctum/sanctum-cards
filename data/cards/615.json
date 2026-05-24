@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 615,
+  "keywords": [],
+  "name": "Sword of Zana II",
+  "rarity": null,
+  "related_card_id": 22,
+  "rules_text": "Cast on recruit group not in a structure. At start of combat, opposing group dies, ending combat. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 15,
+    "ncd_row": 354
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

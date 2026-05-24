@@ -1,0 +1,30 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 805,
+  "keywords": [
+    "Flight",
+    "Nomadic"
+  ],
+  "name": "Fiend",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:M A:1 HP:2*M L:2 Nomadic, Flight, Moves 2. Cast on globe. Creates Fiend in a random square. Revolver (Casting cost M revolves from 1 to 10, starting at 1 and increasing by 1 mana per turn, restarting at 1 when it reaches 10, until cast).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 5,
+    "ncd_row": 393
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "summoning"
+}

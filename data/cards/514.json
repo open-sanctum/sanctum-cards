@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 514,
+  "keywords": [],
+  "name": "Mask of Woad",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Swordsman gets +1 hand damage. Cyclopes in swordsman's group get +1 hand damage against Djinni.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 14,
+    "ncd_row": 267
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

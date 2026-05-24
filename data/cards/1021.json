@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4348,
+  "id": 1021,
+  "keywords": [],
+  "name": "Slave Labor",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster cannot cast any group or individual spells. Duration: Through turn of casting +2. On expiration, Slave Labor becomes Slave Labor II (alteration, caster gets +1 Mystery and +1 Will each turn). May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 22,
+    "ncd_row": 538
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 542,
+  "keywords": [],
+  "name": "Chamberlain",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit is damaged by an attacker, recruit's group withdraws at the start of the next round, ending combat. If that attacker's group contains any Humans, Cleansing Light (group dispel) is cast on attacker's group. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 42,
+    "ncd_row": 295
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

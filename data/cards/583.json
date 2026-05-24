@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 583,
+  "keywords": [],
+  "name": "Armistice",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. No group enters combat. (This prevents all start-of-combat effects as well.) Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 82,
+    "ncd_row": 335
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

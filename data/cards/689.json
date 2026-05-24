@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 689,
+  "keywords": [],
+  "name": "Circle of Wisdom",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly group. Dispels all group and individual spells on group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 207,
+    "ncd_row": 372
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

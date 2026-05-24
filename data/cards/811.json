@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 811,
+  "keywords": [],
+  "name": "Big Rock",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on Cyclops archer. Archer gets +3 missile damage and -1 level.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 11,
+    "ncd_row": 399
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 163,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Xia's Walk",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion is concealed. (Concealed minions cannot be targeted by enemy individual spells.) Duration: Through turn of casting +4.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 113,
+    "ncd_row": 113
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "conjuration"
+}

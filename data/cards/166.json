@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 166,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Inscrutability",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. All members of group are concealed. (Concealed minions cannot be targeted by enemy individual spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 116,
+    "ncd_row": 116
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

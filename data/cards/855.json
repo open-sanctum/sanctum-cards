@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 855,
+  "keywords": [],
+  "name": "Injunction",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Neither player draws cards. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 55,
+    "ncd_row": 443
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

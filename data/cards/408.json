@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 408,
+  "keywords": [],
+  "name": "Chalice of Hope",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All owned structures create one novice each turn. Duration: Through turn of casting +3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 9,
+    "ncd_row": 202
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

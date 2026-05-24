@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 510,
+  "keywords": [],
+  "name": "Cessao Rift",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of turn of casting +1d3, and with 33% chance per turn thereafter, if square is unoccupied, a neutral recruit group of random nations, injury, and enchantments is created in square. (Neutral recruit groups cannot enter structures.) Duration: Through turn of casting +6.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 10,
+    "ncd_row": 263
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

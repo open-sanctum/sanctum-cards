@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1058,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Dwarven Airship",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly group. Group gains Flight. (Group may cross any terrain, and is immune to adverse terrain effects.) When group moves into a structure, duration is reset to current turn +9. On expiration, group dies. Duration: Through turn of casting +9.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 59,
+    "ncd_row": 575
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "conjuration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 137,
+  "keywords": [],
+  "name": "Necromancer",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit will resurrect every other member of its group once each. When any other member of recruit's group is dying, the dying recruit returns to life, is fully healed, has all individual spells dispelled, and gets -2 maximum hit points (cumulative).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 99,
+    "ncd_row": 99
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

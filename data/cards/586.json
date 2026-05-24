@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 586,
+  "keywords": [],
+  "name": "Iron Shillelagh",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit damages an opponent, opponent has all individual spells dispelled. If opponent is a Dwarf, opponent's group has all group and individual spells dispelled. Duration: Through turn of casting +3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 84,
+    "ncd_row": 337
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

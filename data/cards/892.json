@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 892,
+  "keywords": [],
+  "name": "Seal of Djai",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of turn, group in square has all spells dispelled. When group enters square, group has all spells dispelled. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 92,
+    "ncd_row": 480
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

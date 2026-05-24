@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 165,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Chaos Fog",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Every other member of its group is concealed. Recruit remains visible. (Concealed minions cannot be targeted by enemy individual spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 115,
+    "ncd_row": 115
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

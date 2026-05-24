@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 159,
+  "keywords": [],
+  "name": "Lienna's Sigil",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. At start of combat against monsters, group withdraws, ending combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 111,
+    "ncd_row": 111
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

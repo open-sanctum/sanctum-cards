@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 571,
+  "keywords": [],
+  "name": "Protective Cover",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit no longer attacks, and receives no combat damage (before checking armor). When recruit is hit by an Imp (before checking armor), the Imp receives an equal amount of magical damage (and recruit receives no damage). (Magical damage ignores armor, immunities, and spells.) Dispelled at end of next combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 70,
+    "ncd_row": 323
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

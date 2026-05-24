@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4100,
+  "id": 9,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Deluge",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Affects all non-water squares adjacent to water squares. Affected squares become water through current turn +1, then change from water to plains. Duration: Through turn of casting +1. (Each minion dies in water when water is created, when minion enters square, after start of turn, before movement, and before combat, unless minion has Waterwalk. Water blocks move- ment unless group has Waterwalk.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 6,
+    "ncd_row": 6
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

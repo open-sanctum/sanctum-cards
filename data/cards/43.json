@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 43,
+  "keywords": [
+    "Waterwalk"
+  ],
+  "name": "Water Walking",
+  "rarity": null,
+  "related_card_id": 83,
+  "rules_text": "Cast on group. Group gains Waterwalk. (Group may cross water, and does not drown in water.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 33,
+    "ncd_row": 33
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

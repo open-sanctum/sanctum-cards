@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 893,
+  "keywords": [],
+  "name": "Teleportation",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly town or colony. On each turn thereafter, before move- ment: (i) if any novices were trained in target structure that turn, Telepor- tation is dispelled; (ii) otherwise, for all new recruits created that turn in other friendly towns and colonies, and which remain in their groups, those recruits' groups are teleported to target structure. Dispelled if captured. Only one per player at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 93,
+    "ncd_row": 481
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

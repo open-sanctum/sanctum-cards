@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 816,
+  "keywords": [],
+  "name": "Lizard Spirit",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 L:2 Cast on swordsman. At start of turn, swordsman changes randomly between Lizard and recruit form. The Lizard form gets +1 level, and cannot be targeted by enemy individual spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 16,
+    "ncd_row": 404
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": null,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit",
+  "type": "alteration"
+}

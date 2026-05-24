@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 543,
+  "keywords": [],
+  "name": "Arboriads",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:7(x2) L:1 Cast on globe. Creates two Arboriads off the board. Before combat, they appear in forest adjacent to a non-friendly recruit group. After all combat, they disappear again. They get +4 hand damage against Death minions. Dispelled when killed. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 43,
+    "ncd_row": 296
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "globe",
+  "type": "summoning"
+}

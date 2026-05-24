@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 891,
+  "keywords": [],
+  "name": "Narh'u'ha",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:5 A:0 HP:7 L:2 Neutral. Cast on globe. Created in a random square. Narh'u'ha is a Djinn archer with Djinni Bow, Kumatru Archer, and Mirrored Armor. Cannot join groups or add recruits. Any individual spell targeted on Narh'u'ha is squandered, and a random spell of same total cost is added to the top of caster's deck, altered to caster's house and mana types. Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 91,
+    "ncd_row": 479
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 7,
+    "level": 2,
+    "missile": 5
+  },
+  "target": "globe",
+  "type": "manipulation"
+}

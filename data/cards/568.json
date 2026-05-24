@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 568,
+  "keywords": [],
+  "name": "Scrying Pool",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. When any group occupies square, group's owner ignores concealment when targeting individual spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 67,
+    "ncd_row": 320
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

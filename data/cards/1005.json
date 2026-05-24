@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1005,
+  "keywords": [],
+  "name": "Song of the Doomed",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. If any minion dies during the rest of this turn, or from next turn's \"at start of turn\" and \"after start of turn\" effects, caster gets +1 Will permanently.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 6,
+    "ncd_row": 522
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

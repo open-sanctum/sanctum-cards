@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 557,
+  "keywords": [],
+  "name": "Itrokos Gate",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on plains. Creates a monster group from a random summoning spell that can be targeted on plains.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 57,
+    "ncd_row": 310
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

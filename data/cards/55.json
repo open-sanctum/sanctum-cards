@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 55,
+  "keywords": [],
+  "name": "Disorient",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. If group is player- controlled, it moves in a random legal direction different from its movement order, or stands still. Has no effect on a computer-controlled group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 41,
+    "ncd_row": 41
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

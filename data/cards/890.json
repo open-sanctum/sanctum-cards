@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 890,
+  "keywords": [],
+  "name": "Foresight",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group with archers. At start of combat, each archer in group inflicts 2 hit points of magical damage on random opposing minions. (Magical damage ignores armor, immunities, and spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 90,
+    "ncd_row": 478
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

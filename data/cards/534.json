@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 534,
+  "keywords": [],
+  "name": "Atonement",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. If recruit is killed, the attacker's owner discards all spells in hand. If killed by a recruit, Atonement transfers to the killer.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 34,
+    "ncd_row": 287
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

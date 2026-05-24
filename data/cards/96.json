@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 96,
+  "keywords": [],
+  "name": "Weakness",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion with hand attacks. Minion gets -1 hand damage. May be cast more than once on the same minion.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 70,
+    "ncd_row": 70
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

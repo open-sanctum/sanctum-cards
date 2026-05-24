@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 710,
+  "keywords": [],
+  "name": "Chaos Feature",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Minion gets a random minion alteration or conjuration. (A recruit who gets 3 or more Chaos Features changes into a Misfit.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 220,
+    "ncd_row": 385
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "manipulation"
+}

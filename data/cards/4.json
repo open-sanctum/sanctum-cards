@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 4,
+  "keywords": [],
+  "name": "Wrack",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Dispels all individual spells on minion. Minion cannot be targeted by individual spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 1,
+    "ncd_row": 1
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4281,
+  "id": 403,
+  "keywords": [],
+  "name": "Rampage",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. When monster or monster group is created in square, every new monster in group gets Rampaging (+1 attack rate and +5 maximum and current hit points), and Rampage is dispelled. (Any monsters who join this group later are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 4,
+    "ncd_row": 197
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "conjuration"
+}

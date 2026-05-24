@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 509,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Great Bear",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:18 L:1 Nomadic. Cannot be targeted by Mind spells. In combat against Djinni, Great Bear does a \"combined attack\" (always targets the first opposing Djinn, and each attack hits all opposing Djinni simultaneously).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 9,
+    "ncd_row": 262
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 18,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

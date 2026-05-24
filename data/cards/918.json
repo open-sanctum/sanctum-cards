@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 918,
+  "keywords": [],
+  "name": "Field Surgery",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit group. All damaged members of group are fully healed, and get -1 maximum hit point.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 118,
+    "ncd_row": 506
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

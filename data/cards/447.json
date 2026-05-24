@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 447,
+  "keywords": [
+    "Desertwalk",
+    "Territorial"
+  ],
+  "name": "Priodont",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:4 HP:14 L:1 Territorial, Desertwalk.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 48,
+    "ncd_row": 241
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 4,
+    "hand_damage": 2,
+    "hp_max": 14,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

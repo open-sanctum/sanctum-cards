@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 522,
+  "keywords": [
+    "Mountainwalk",
+    "Nomadic"
+  ],
+  "name": "Phantom",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:2 A:2 HP:14 L:2 Nomadic, Mountainwalk. Gets +3 missile damage against Visions. Phantom's attack deals magical damage. (Magical damage ignores armor, immunities, and spells.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 22,
+    "ncd_row": 275
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": null,
+    "hp_max": 14,
+    "level": 2,
+    "missile": 2
+  },
+  "target": "square",
+  "type": "summoning"
+}

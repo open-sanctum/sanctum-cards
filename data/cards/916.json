@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4336,
+  "id": 916,
+  "keywords": [],
+  "name": "Runts",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on non-neutral town or colony. When structure creates any novices, those novices are eliminated. At start of turn, two swordsmen of random nations are created, and get Runt (-1 hand damage, -2 maximum hit points). Group in structure cannot be targeted by group spells. Duration: Through turn of casting +3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 116,
+    "ncd_row": 504
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

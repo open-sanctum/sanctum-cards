@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 687,
+  "keywords": [],
+  "name": "Fleetness",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group moves twice this turn in its direction of travel.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 205,
+    "ncd_row": 370
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

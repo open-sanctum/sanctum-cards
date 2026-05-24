@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4198,
+  "id": 572,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Cockatrice",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:0 HP:12 L:1 Nomadic. Cockatrice's hits give Cockatrice's Gaze (-1 damage and +1 armor, cumulative. A minion who gets three or more Cockatrice's Gaze is killed).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 71,
+    "ncd_row": 324
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 3,
+    "hp_max": 12,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 411,
+  "keywords": [],
+  "name": "Bard",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:0 A:3 HP:7 L:1 Cast on recruit group. Creates an Elven swordsman. Bard gets +2 armor, and does not deal hand or missile damage. Other swordsmen in Bard's group get +1 hand damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 12,
+    "ncd_row": 205
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 3,
+    "hand_damage": 0,
+    "hp_max": 7,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "manipulation"
+}

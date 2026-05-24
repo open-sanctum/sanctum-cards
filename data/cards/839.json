@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 839,
+  "keywords": [],
+  "name": "Paranoia",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Recruit groups cannot join other groups or add any new recruits. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 39,
+    "ncd_row": 427
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

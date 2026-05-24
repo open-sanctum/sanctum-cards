@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1067,
+  "keywords": [],
+  "name": "Octagon of Force",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. When recruit group enters square, group gets Binding Cube (group cannot be moved through current turn +2).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 68,
+    "ncd_row": 584
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

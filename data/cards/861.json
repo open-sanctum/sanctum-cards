@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 861,
+  "keywords": [],
+  "name": "The Well",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Before movement, any card that caster discarded into the whirlpool this turn is returned to the bottom of caster's deck. (This does not save any cards that were discarded by other effects.) Whirlpool becomes The Well. Duration: Through turn of casting +5. Only one per player at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 61,
+    "ncd_row": 449
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1056,
+  "keywords": [
+    "Immobile"
+  ],
+  "name": "Appeal to Hope",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7(x4) L:2, M:2 A:1 HP:7(x4) L:2 Cast on friendly, unoccupied town or colony. Creates a neutral, immobile group of 4 Vision swordsmen and 4 Vision archers. (At start of turn, if neutral group occupies structure, group captures structure for the neutral player. Immobile groups cannot be moved.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 57,
+    "ncd_row": 573
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "manipulation"
+}

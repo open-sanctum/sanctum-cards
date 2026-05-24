@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 425,
+  "keywords": [],
+  "name": "Siege Engine",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. At start of combat against a group in a structure, Siege Engine inflicts 4 hit points of damage on each member of opposing group. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 26,
+    "ncd_row": 219
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

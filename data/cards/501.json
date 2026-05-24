@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 501,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Volgaris",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4(x2) A:1 HP:20 L:2 Nomadic. Two attacks. Cast on undamaged friendly monster group. Group is replaced by Volgaris. (This does not trigger any death effects.) At start of combat, casts Lightning Bolt (5 hit points of damage) on one random opposing minion.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 1,
+    "ncd_row": 254
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 20,
+    "level": 2,
+    "missile": null
+  },
+  "target": "monster_group",
+  "type": "summoning"
+}

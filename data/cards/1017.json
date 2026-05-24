@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4118,
+  "id": 1017,
+  "keywords": [
+    "Desertwalk"
+  ],
+  "name": "Famine",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. At start of turn, one random non-desert square becomes desert. (Desert causes 1 hit point of damage after start of turn unless group has Desertwalk.) Duration: Through turn of casting +4. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 18,
+    "ncd_row": 534
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

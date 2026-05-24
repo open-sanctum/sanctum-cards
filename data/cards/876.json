@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 876,
+  "keywords": [
+    "Mountainwalk",
+    "Nomadic"
+  ],
+  "name": "Juggernaut",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:10 A:1 HP:40 L:1 Nomadic, Mountainwalk. Neutral. Cast on mountain. Square becomes barren land. Juggernaut cannot be targeted by Unmaking spells. When Juggernaut moves, its new square has all spells dispelled, and becomes barren land. (\"Moves\" effects happen before any \"enters square\" effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 76,
+    "ncd_row": 464
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 10,
+    "hp_max": 40,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

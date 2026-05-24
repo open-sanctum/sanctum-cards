@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4365,
+  "id": 1059,
+  "keywords": [
+    "Field Armor"
+  ],
+  "name": "Field Armorer",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly recruit. At start of turn, a random friendly recruit in an adjacent square without Field Armor gets Field Armor (+1 armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 60,
+    "ncd_row": 576
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

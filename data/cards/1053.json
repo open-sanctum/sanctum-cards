@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1053,
+  "keywords": [],
+  "name": "Spy at Court",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. At start of turn, Spy at Court tells its caster the next card at the top of its caster's deck (after caster has drawn cards this turn), if structure is friendly; or the top card in opponent's deck (before opponent draws cards this turn), if the structure is enemy.  Each additional Spy at Court in play tells the next successive card. Only one per player per structure at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 54,
+    "ncd_row": 570
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

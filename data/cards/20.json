@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4108,
+  "id": 20,
+  "keywords": [],
+  "name": "Civilize",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on monster group. Group is replaced by a neutral colony with Civilized (when structure creates any novices, those novices are eliminated). (This does not trigger any death effects. A new structure dispels its square and changes it to plains.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 16,
+    "ncd_row": 16
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "monster_group",
+  "type": "manipulation"
+}

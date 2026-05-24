@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 573,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Gnax",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:0 HP:4(x2-8) L:0 Territorial. Creates two to eight (1d7+1) Gnax. When a Gnax damages a Dwarf, the Dwarf gets Chaos Feature. (A recruit who gets 3 or more Chaos Features changes into a Misfit.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 72,
+    "ncd_row": 325
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 2,
+    "hp_max": 4,
+    "level": 0,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

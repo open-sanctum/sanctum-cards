@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 223,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Prismatic Serpent",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:2 HP:12 L:2 Nomadic. Gets +4 hand damage against Death or Despair monsters. Cannot be targeted by Death or Despair individual spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 140,
+    "ncd_row": 140
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 12,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

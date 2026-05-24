@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 901,
+  "keywords": [],
+  "name": "Gale Force",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All groups move twice this turn in their direction of travel.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 101,
+    "ncd_row": 489
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

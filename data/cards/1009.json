@@ -1,0 +1,30 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4345,
+  "id": 1009,
+  "keywords": [
+    "Concealed",
+    "Jungle Vigor"
+  ],
+  "name": "Jungle",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes forest. (Minions in forest are concealed. Concealed minions cannot be targeted by enemy individual spells.) Every monster created in Jungle gets Jungle Vigor (+3 maximum and current hit points).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 10,
+    "ncd_row": 526
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

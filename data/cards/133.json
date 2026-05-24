@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4109,
+  "id": 133,
+  "keywords": [],
+  "name": "Master Smith",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Every swordsman created in structure gets Dwarven Blade (+1 hand damage).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 95,
+    "ncd_row": 95
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

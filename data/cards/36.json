@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 36,
+  "keywords": [],
+  "name": "Pixie Dust",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. All other members of minion's group get -2 hand damage. Archers prefer to shoot minions without Pixie Dust.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 27,
+    "ncd_row": 27
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

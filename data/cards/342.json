@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 342,
+  "keywords": [],
+  "name": "Will o' the Wisp",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group not in a structure. Group disappears through turn of casting +2. (Group reappears at start of turn if its square is unoccupied, or on the earliest turn thereafter.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 183,
+    "ncd_row": 183
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

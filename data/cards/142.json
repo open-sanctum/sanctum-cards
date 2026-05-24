@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 142,
+  "keywords": [],
+  "name": "Limbo",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes barren land. Minions get -1 hand damage while in square. At start of turn, if any recruit occupies square, caster gets +1 Strife.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 102,
+    "ncd_row": 102
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

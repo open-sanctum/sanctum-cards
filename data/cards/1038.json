@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1038,
+  "keywords": [],
+  "name": "Spiritual Advisers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:2 A:0 HP:7 L:1 Cast on globe. One Vision archer is created in every recruit group on the board. (Recruit groups off the board are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 39,
+    "ncd_row": 555
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 7,
+    "level": 1,
+    "missile": 2
+  },
+  "target": "globe",
+  "type": "manipulation"
+}

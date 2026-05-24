@@ -1,0 +1,30 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 518,
+  "keywords": [
+    "Desertwalk",
+    "Flight"
+  ],
+  "name": "Shifting Sands",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on desert. Before combat, each minion in square has 50% chance to be removed from the game, unless it has Desertwalk or Flight. (This does not trigger any death effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 18,
+    "ncd_row": 271
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

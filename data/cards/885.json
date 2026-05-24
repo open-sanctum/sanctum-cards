@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 885,
+  "keywords": [],
+  "name": "Bestiary",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Before movement, if any novices were trained in structure that turn, a random summoning spell is added to the top of structure owner's deck, with normal house and mana types. Duration: Through turn of casting +5.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 85,
+    "ncd_row": 473
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

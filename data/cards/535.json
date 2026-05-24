@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 535,
+  "keywords": [],
+  "name": "Piercing Rays",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. Archer gets +1 missile damage. Vision archer gets additional +2 damage against Shadows.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 35,
+    "ncd_row": 288
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

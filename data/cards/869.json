@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 869,
+  "keywords": [],
+  "name": "Individualism",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Neither player may cast any group spells. (This squanders all subsequent group spells cast this turn.) Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 69,
+    "ncd_row": 457
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

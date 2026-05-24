@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1035,
+  "keywords": [
+    "Scars of Kolekh"
+  ],
+  "name": "Heartsong",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:1 A:1 HP:7 L:2 Cast on square not adjacent to any structure, and only after turn 25. Creates Heartsong, an Imp Hero swordsman. Heartsong has Scars of Kolekh. At start of combat against a recruit group of one, if both groups can join, then enemy recruit leaves its group, has all group spells dispelled, and joins Heartsong's group, ending combat. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 36,
+    "ncd_row": 552
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 1,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "hero"
+}

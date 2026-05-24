@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 452,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Flying Carpet",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. Group moves twice each turn in its direction of travel. Group gains Flight. (Group may cross any terrain, and is immune to adverse terrain effects.) Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 53,
+    "ncd_row": 246
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

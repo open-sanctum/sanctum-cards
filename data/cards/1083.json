@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1083,
+  "keywords": [],
+  "name": "Jester at Court",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. At start of turn, Jester at Court tells both players a random card that isn't on top of structure owner's deck. (Start of turn effects happen before card draws.) Only one per player per structure at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 84,
+    "ncd_row": 600
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 433,
+  "keywords": [],
+  "name": "Renegades",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group of three or less not in a structure. Group leaves player control, and becomes neutral. (Neutral groups move last, attack all other groups, and have \"half-initiative\" in combat. Neutral recruit groups cannot enter structures.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 34,
+    "ncd_row": 227
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 429,
+  "keywords": [],
+  "name": "Leechwood",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on forest. Affects all contiguous forest squares. When cast, and at start of turn, groups in all affected squares have all spells dispelled. When group enters square, group has all spells dispelled. May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 30,
+    "ncd_row": 223
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

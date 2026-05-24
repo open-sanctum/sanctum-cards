@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 416,
+  "keywords": [],
+  "name": "Khobai",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:1 L:2 Cast on recruit group. Creates Khobai, a Keeper Hero swordsman. Each time a minion dies, Khobai heals 1 hit point. If undamaged, Khobai also gets +1 maximum hit point. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 17,
+    "ncd_row": 210
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 1,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

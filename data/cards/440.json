@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 440,
+  "keywords": [],
+  "name": "Lienna",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:2 A:0 HP:7 L:2 Cast on recruit group in forest. Creates Lienna, an Elven Hero archer. While Lienna is in play, her caster's side has Initiative. (When Lienna leaves play, her caster's side does not automatically lose Initiative.) (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 41,
+    "ncd_row": 234
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 7,
+    "level": 2,
+    "missile": 2
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

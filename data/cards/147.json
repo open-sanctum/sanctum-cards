@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 147,
+  "keywords": [],
+  "name": "Restoration",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly group. Dispels all group and individual spells on group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 105,
+    "ncd_row": 105
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "manipulation"
+}

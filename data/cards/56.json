@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 56,
+  "keywords": [],
+  "name": "Amok",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group moves twice this turn in its direction of travel. If group is player-controlled, it moves in a random legal direction.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 42,
+    "ncd_row": 42
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "manipulation"
+}

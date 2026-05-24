@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 923,
+  "keywords": [],
+  "name": "Lone Wolf",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman in group of one. Swordsman gets +3 hand damage, +1 armor, and +6 maximum and current hit points. Swordsman cannot join groups, add new recruits, or be targeted by friendly individual spells. Swordsman's group cannot be targeted by friendly group spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 123,
+    "ncd_row": 511
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

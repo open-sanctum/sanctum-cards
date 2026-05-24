@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1086,
+  "keywords": [],
+  "name": "ThudThud",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:4 A:0 HP:9 L:2 Cast on friendly recruit group. Creates ThudThud, a Misfit Hero archer. ThudThud has Iron Shillelagh and Kumatru Archer. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 87,
+    "ncd_row": 603
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 9,
+    "level": 2,
+    "missile": 4
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

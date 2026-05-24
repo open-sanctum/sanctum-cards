@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4361,
+  "id": 1049,
+  "keywords": [],
+  "name": "Court Politics",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster cannot cast any group spells on friendly groups, or individual spells on friendly minions. Duration: Through turn of casting +2. On expiration, Court Politics becomes Court Politics II (alteration, caster gets +2 Clarity each turn). May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 50,
+    "ncd_row": 566
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

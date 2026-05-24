@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 106,
+  "keywords": [],
+  "name": "Shieldbearers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. All members of group get +1 armor.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 77,
+    "ncd_row": 77
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

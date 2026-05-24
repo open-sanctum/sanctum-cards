@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 579,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Hellion",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:16 L:3 Nomadic. After all combat, if Hellion fought only non-Justice minions this turn, she changes sides.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 78,
+    "ncd_row": 331
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 16,
+    "level": 3,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

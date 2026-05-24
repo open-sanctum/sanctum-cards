@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 171,
+  "keywords": [],
+  "name": "Demon's Tongue",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. When swordsman kills an opponent by combat damage, swordsman gets +1 hand damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 119,
+    "ncd_row": 119
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

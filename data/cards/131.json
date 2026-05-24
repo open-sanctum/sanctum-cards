@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 131,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Dracha's Sphere",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group gains Flight. (Group may cross any terrain, and is immune to adverse terrain effects.) All members of group receive -1 damage from missiles (before checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 93,
+    "ncd_row": 93
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

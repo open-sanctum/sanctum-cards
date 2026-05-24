@@ -1,0 +1,30 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 558,
+  "keywords": [
+    "Nomadic",
+    "Waterwalk"
+  ],
+  "name": "Rakshasa",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2/M:2 A:1 HP:12 L:2 Nomadic. Cast on square. Creates a computer- controlled Djinn archer/swordsman without Waterwalk. Can be targeted by archer spells and swordsman spells. Cannot join groups, add recruits, or enter structures. Cannot be targeted by group spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 58,
+    "ncd_row": 311
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "manipulation"
+}

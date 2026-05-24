@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4104,
+  "id": 1014,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Seedbearers",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on group. When group moves, its new square becomes forest. (Minions in forest are concealed. Concealed minions cannot be targeted by enemy individual spells.) (\"Moves\" effects happen before any \"enters square\" effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 15,
+    "ncd_row": 531
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "group",
+  "type": "alteration"
+}

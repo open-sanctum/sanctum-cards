@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4289,
+  "id": 549,
+  "keywords": [],
+  "name": "Yeoman",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. Archer gets +1 missile damage, and its missile damage becomes magical. (Magical damage ignores armor, immunities, and spells.) When cast, archer also gets Arhwazna (when archer hits a Keeper, the Keeper is killed; if the Keeper remains dead, Arhwazna is dispelled).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 49,
+    "ncd_row": 302
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

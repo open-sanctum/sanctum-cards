@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1018,
+  "keywords": [],
+  "name": "Garrote of Bes-Kandra",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on swordsman. Swordsman attacks normally in combat round 1, and gets +3 hand damage in combat round 1 only.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 19,
+    "ncd_row": 535
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

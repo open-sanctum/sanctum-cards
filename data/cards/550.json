@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 550,
+  "keywords": [
+    "Mountainwalk",
+    "Nomadic"
+  ],
+  "name": "Gnome",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:5 A:0 HP:20 L:2 Nomadic, Mountainwalk. Cast on mountain. When Gnome moves, its old square becomes barren land, and its new square becomes mountain. Against Misfits, Gnome casts Mountain under opposing group at start of combat, and withdraws at the start of combat round 3. (\"Moves\" effects happen before any \"enters square\" effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 50,
+    "ncd_row": 303
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 5,
+    "hp_max": 20,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

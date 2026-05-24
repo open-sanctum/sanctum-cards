@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 42,
+  "keywords": [],
+  "name": "Ancient King",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:2 HP:9 L:2 Cast on friendly town or colony. Creates a Dwarven swordsman. Ancient King gets +1 hand damage, +1 armor, and +2 maximum and current hit points. When Ancient King dies, all surviving members of his group get Legacy (+1 level).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 32,
+    "ncd_row": 32
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 3,
+    "hp_max": 9,
+    "level": 2,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "manipulation"
+}

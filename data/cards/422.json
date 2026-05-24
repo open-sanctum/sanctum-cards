@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 422,
+  "keywords": [],
+  "name": "Larval Imp",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit is dying, recruit returns to life, is fully healed, has all individual spells dispelled, and changes into an Imp. Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 23,
+    "ncd_row": 216
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "conjuration"
+}

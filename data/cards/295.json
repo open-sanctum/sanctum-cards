@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 295,
+  "keywords": [],
+  "name": "Shell of Gold",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion. Dispels all individual spells on minion.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 159,
+    "ncd_row": 159
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "manipulation"
+}

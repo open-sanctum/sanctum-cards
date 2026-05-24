@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 538,
+  "keywords": [],
+  "name": "Justicars",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. When group moves, its new square, and any town or colony in that square, have all spells dispelled (which destroys colony), and that square becomes plains. (\"Moves\" effects happen before any \"enters square\" effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 38,
+    "ncd_row": 291
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "alteration"
+}

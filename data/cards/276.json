@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 276,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Sylph",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:3(x2) A:0 HP:15 L:1 Territorial. Two attacks. Receives no combat damage from recruits without enchantments (after checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 144,
+    "ncd_row": 144
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": null,
+    "hp_max": 15,
+    "level": 1,
+    "missile": 3
+  },
+  "target": "square",
+  "type": "summoning"
+}

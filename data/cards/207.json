@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4104,
+  "id": 207,
+  "keywords": [
+    "Concealed"
+  ],
+  "name": "Haunted Forest",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. Square becomes forest. (Minions in forest are con- cealed. Concealed minions cannot be targeted by enemy individual spells.) Affects all contiguous forest squares. All minions in squares except Death or Abomination minions get -1 level. May be cast more than once (but is non-cumulative).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 131,
+    "ncd_row": 131
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

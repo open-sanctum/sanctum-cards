@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4133,
+  "id": 300,
+  "keywords": [],
+  "name": "Hero's Legacy",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. When recruit dies, all surviving members of its group get Legacy (+1 level).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 162,
+    "ncd_row": 162
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

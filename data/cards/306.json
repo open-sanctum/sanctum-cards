@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4132,
+  "id": 306,
+  "keywords": [],
+  "name": "Farm-Boys",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Every recruit created in structure gets Farm-Boy (-1 level).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 164,
+    "ncd_row": 164
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

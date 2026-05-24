@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 694,
+  "keywords": [],
+  "name": "Power",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on minion with hand attacks. Minion gets +1 hand damage.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 211,
+    "ncd_row": 376
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "minion",
+  "type": "alteration"
+}

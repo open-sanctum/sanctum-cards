@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 405,
+  "keywords": [],
+  "name": "Revelation",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Tells caster the next five cards in opponent's hand, and on top of opponent's deck if opponent's hand has fewer than five cards.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 6,
+    "ncd_row": 199
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

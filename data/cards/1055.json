@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1055,
+  "keywords": [],
+  "name": "Strategic Withdrawals",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All groups withdraw at the start of combat round 7, ending combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 56,
+    "ncd_row": 572
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

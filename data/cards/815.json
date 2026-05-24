@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 815,
+  "keywords": [],
+  "name": "Lion Spirit",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:0 L:1 Cast on swordsman. At start of turn, swordsman changes randomly between Lion and recruit form. The Lion form gets +2 hand damage and -1 armor, and receives no combat damage from monsters (before checking armor). Changing to Lion form dispels all other individual spells.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 15,
+    "ncd_row": 403
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 4,
+    "hp_max": null,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit",
+  "type": "alteration"
+}

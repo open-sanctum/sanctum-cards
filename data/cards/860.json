@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 860,
+  "keywords": [],
+  "name": "Prohibition",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. On turn of casting +1, neither player may cast any spell that contains the player's secondary mana in its cost. Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 60,
+    "ncd_row": 448
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

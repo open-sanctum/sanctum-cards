@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 611,
+  "keywords": [
+    "Flight"
+  ],
+  "name": "Cessao Spiral",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of turn, before movement, before combat, and when monster group enters square, monster group is removed from the game, regardless of Flight. (This does not trigger any death effects.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextW.txt",
+    "card_text_line": 11,
+    "ncd_row": 350
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

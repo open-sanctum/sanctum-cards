@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 458,
+  "keywords": [],
+  "name": "Fertility",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Structure creates one novice each turn. Duration: Through turn of casting +6.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 58,
+    "ncd_row": 251
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

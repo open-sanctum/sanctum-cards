@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 155,
+  "keywords": [],
+  "name": "Possession",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group not in a struc- ture. Group joins caster's side (but keeps previous control by computer or player), and its movement orders are cancelled. Group cannot join groups, add recruits, or enter struc- tures. Group and its members can- not be targeted by friendly spells. Duration: Through turn of casting +4. Dispelled after next combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 110,
+    "ncd_row": 110
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1075,
+  "keywords": [],
+  "name": "Smell the Roses",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit group. Group becomes computer-controlled, cannot join groups or create new recruits, and moves like a territorial monster within the 3x3 diamond centered on group's square at time of casting. Duration: Through turn of casting +2.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 76,
+    "ncd_row": 592
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit_group",
+  "type": "conjuration"
+}

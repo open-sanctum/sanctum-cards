@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4354,
+  "id": 1032,
+  "keywords": [],
+  "name": "Abstention",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Caster cannot cast any globe spells, nor discard. For caster only, globe becomes Abstention, whirlpool becomes still water. Duration: Through turn of casting +2. On expiration, Abstention becomes Abstention II (alteration, caster gets +2 Clarity each turn). May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 33,
+    "ncd_row": 549
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

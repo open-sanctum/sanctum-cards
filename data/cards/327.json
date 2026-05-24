@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 327,
+  "keywords": [
+    "Flight",
+    "Territorial"
+  ],
+  "name": "Brimstone Dragon",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:1 HP:16 L:2 Territorial, Flight. Cast on mountain or volcano. At start of combat, casts Fireball (5 hit points of damage) on opposing group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 174,
+    "ncd_row": 174
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 4,
+    "hp_max": 16,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

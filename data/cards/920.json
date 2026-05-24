@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 920,
+  "keywords": [],
+  "name": "Flaming Arrows",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. Archer gets +1 missile damage, or +4 missile damage against groups in a structure or forest. When archer hits opponent in forest, after all combat, opponent's square becomes barren land.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 120,
+    "ncd_row": 508
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

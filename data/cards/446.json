@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 446,
+  "keywords": [
+    "Rite of Growth"
+  ],
+  "name": "Olotus",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:13 L:2 Cast on recruit group. Creates Olotus, a Cyclops Hero swordsman. When Olotus is cast, all Cyclopes on the board (including Olotus) get Rite of Growth (+1 hand damage and +4 maximum and current hit points). (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 47,
+    "ncd_row": 240
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 13,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

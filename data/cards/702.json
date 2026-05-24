@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 702,
+  "keywords": [],
+  "name": "Second Chance",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Dispels all individual spells on recruit. Recruit is fully healed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 214,
+    "ncd_row": 379
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

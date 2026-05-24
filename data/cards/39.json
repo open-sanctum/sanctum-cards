@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 39,
+  "keywords": [
+    "Nomadic",
+    "Withdraws"
+  ],
+  "name": "Mechanical Man",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4(x2) A:2 HP:12 L:2 Nomadic. Two attacks. Withdraws at the start of combat round 3.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 29,
+    "ncd_row": 29
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 12,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

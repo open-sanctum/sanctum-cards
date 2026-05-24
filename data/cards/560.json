@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 560,
+  "keywords": [],
+  "name": "Xin Shian Alcoves",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Both players get +1 of all six mana types each turn. Only one in play at a time.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 60,
+    "ncd_row": 313
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

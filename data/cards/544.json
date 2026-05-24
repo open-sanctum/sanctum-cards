@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4214,
+  "id": 544,
+  "keywords": [
+    "Nomadic"
+  ],
+  "name": "Questing Beast",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:6 L:1 Nomadic. Neutral. Cast on recruit group. Creates Q.B. in a random square. Target group becomes computer-controlled, can- not join groups or enter structures, and hunts this Q.B. At start of combat, Q.B. dies unless free, ending combat. If target group causes this, every member of group gets +1 level. Only one on a group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 44,
+    "ncd_row": 297
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 6,
+    "level": 1,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "conjuration"
+}

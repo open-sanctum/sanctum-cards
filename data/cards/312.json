@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4142,
+  "id": 312,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Minotaur",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:2 HP:12 L:2 Territorial. If Minotaur dies in combat against a recruit group, the first swordsman in group without Minotaur's Axe gets Minotaur's Axe (+1 hand damage).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 166,
+    "ncd_row": 166
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 2,
+    "hand_damage": 4,
+    "hp_max": 12,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

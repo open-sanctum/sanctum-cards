@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 415,
+  "keywords": [],
+  "name": "Al Hakim",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:7 L:2 Cast on recruit group. Creates Al Hakim, a Djinn Hero swordsman. At start of turn, Al Hakim tells his caster the next three cards at the top of his caster's deck (after caster has drawn cards this turn), and all cards in the opponent's hand (before opponent draws cards this turn). (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 16,
+    "ncd_row": 209
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 7,
+    "level": 2,
+    "missile": null
+  },
+  "target": "recruit_group",
+  "type": "hero"
+}

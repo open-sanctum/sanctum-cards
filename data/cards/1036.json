@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4357,
+  "id": 1036,
+  "keywords": [
+    "Visionary Armor"
+  ],
+  "name": "Master Armorer",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on friendly town or colony. Every recruit created in structure gets Visionary Armor (+1 armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 37,
+    "ncd_row": 553
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 109,
+  "keywords": [
+    "Mountainwalk",
+    "Territorial"
+  ],
+  "name": "Skeletal Horror",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:4 A:0 HP:15 L:2 Territorial, Mountainwalk. Receives -2 damage from missiles (before checking armor).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 78,
+    "ncd_row": 78
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 0,
+    "hand_damage": 4,
+    "hp_max": 15,
+    "level": 2,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1031,
+  "keywords": [],
+  "name": "Passing in the Night",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. On turn of casting +1, neither player may cast any spell, nor discard, and no group enters combat. (This prevents all start-of-combat effects as well.) Duration: Through turn of casting +1.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 32,
+    "ncd_row": 548
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "conjuration"
+}

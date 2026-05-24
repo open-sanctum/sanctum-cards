@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 840,
+  "keywords": [],
+  "name": "Shadow Friend",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit has all individual spells dispelled, and changes into a Shadow. Recruit's group has all group spells dispelled.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 40,
+    "ncd_row": 428
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}

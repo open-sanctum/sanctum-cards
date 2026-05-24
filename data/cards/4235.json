@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 4235,
+  "keywords": [],
+  "name": "Colony",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": " When this spell expires, or is dispelled, the colony is destroyed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 522,
+    "ncd_row": 702
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

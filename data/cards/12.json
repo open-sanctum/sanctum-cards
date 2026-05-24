@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 12,
+  "keywords": [],
+  "name": "Altar of Blood",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Before movement, all recruits trained in structure this turn are removed from the game, and recruits' owner gets +2 Will and +2 Strife per affected recruit next turn. (This does not trigger any death effects.) Dispelled when entered, or when any non-friendly recruits are affected.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 9,
+    "ncd_row": 9
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "conjuration"
+}

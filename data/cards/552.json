@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 552,
+  "keywords": [],
+  "name": "Lost Mine",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. A random non- structure square becomes Lost Mine's exit. At start of turn, friendly recruit group in square disappears through current turn +1d3, then reappears in the exit square. (Group reappears at start of turn if its square is unoccupied, or on the earliest turn thereafter.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextO.txt",
+    "card_text_line": 52,
+    "ncd_row": 305
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

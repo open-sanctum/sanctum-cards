@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 194,
+  "keywords": [],
+  "name": "Sanctuary",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on square. At start of combat, any group in square withdraws, ending combat.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 128,
+    "ncd_row": 128
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "square",
+  "type": "alteration"
+}

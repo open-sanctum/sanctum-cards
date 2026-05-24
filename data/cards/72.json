@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4126,
+  "id": 72,
+  "keywords": [],
+  "name": "Changelings",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on town or colony. Every recruit created in structure gets Changeling (-1 hand and missile damage and -3 maximum hit points).",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 50,
+    "ncd_row": 50
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "structure",
+  "type": "alteration"
+}

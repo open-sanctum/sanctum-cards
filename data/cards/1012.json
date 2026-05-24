@@ -1,0 +1,36 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1012,
+  "keywords": [
+    "Rite of Growth",
+    "Veteran"
+  ],
+  "name": "Oro and Vlad",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:3 A:1 HP:13 L:1 (Oro), H:3 A:2 HP:11 L:1 (Vlad) Cast on friendly unoccupied town or colony. Creates Oro, a Cyclops Hero swordsman with Rite of Growth, and Vlad Hrothgar, a Human Hero swordsman with Veteran. (Each Hero may be cast only once per game.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 13,
+    "ncd_row": 529
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 3,
+    "hp_max": 13,
+    "level": 1,
+    "missile": null
+  },
+  "target": "structure",
+  "type": "hero"
+}

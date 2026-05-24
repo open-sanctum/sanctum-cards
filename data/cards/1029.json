@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1029,
+  "keywords": [],
+  "name": "Panic",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Every player-controlled group in every town and colony moves in a random legal direction.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 30,
+    "ncd_row": 546
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

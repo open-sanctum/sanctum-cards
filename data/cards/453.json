@@ -1,0 +1,33 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 453,
+  "keywords": [],
+  "name": "Zana's Blessing",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "M:2 A:1 HP:7(x2) L:1 Cast on recruit group. At start of combat, two level 1 Vision archers are created in group. (If group is in a structure, all structure spells affect the new recruits.) After all combat, they are removed from the game. (This does not trigger any death effects.) Dispelled when triggered.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 54,
+    "ncd_row": 247
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": null,
+    "hp_max": 7,
+    "level": 1,
+    "missile": 2
+  },
+  "target": "recruit_group",
+  "type": "conjuration"
+}

@@ -1,0 +1,35 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 80,
+  "keywords": [
+    "Territorial"
+  ],
+  "name": "Bog Horror",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "H:2 A:1 HP:18 L:1 Territorial. At start of combat, casts Plague (-2 maximum hit points, then 2 hit points of damage) on opposing group.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextC.txt",
+    "card_text_line": 57,
+    "ncd_row": 57
+  },
+  "starter_decks": [],
+  "stats": {
+    "attack_rate": 1,
+    "hand_damage": 2,
+    "hp_max": 18,
+    "level": 1,
+    "missile": null
+  },
+  "target": "square",
+  "type": "summoning"
+}

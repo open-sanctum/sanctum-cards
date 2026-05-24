@@ -1,0 +1,29 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": 4355,
+  "id": 1033,
+  "keywords": [
+    "Aura"
+  ],
+  "name": "Aurora",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. All friendly recruits on the board without Aura get Aura (+1 armor, dispelled when recruit is hit in combat). (Recruits that are off the board are not affected.)",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 34,
+    "ncd_row": 550
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "manipulation"
+}

@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 432,
+  "keywords": [],
+  "name": "Dragon Slayer",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on archer. When archer damages a monster, monster is killed.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextB.txt",
+    "card_text_line": 33,
+    "ncd_row": 226
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "alteration"
+}

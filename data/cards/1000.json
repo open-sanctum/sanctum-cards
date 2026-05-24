@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 1000,
+  "keywords": [],
+  "name": "Civil Unrest",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on globe. Every non-friendly town and colony no longer gene- rates its 1 mana unless it is occupied at start of turn by N or more recruits, where N is the number of friendly copies of this spell on the globe. (Mana-generating spells still produce mana normally.) May be cast more than once.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextA.txt",
+    "card_text_line": 1,
+    "ncd_row": 517
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "globe",
+  "type": "alteration"
+}

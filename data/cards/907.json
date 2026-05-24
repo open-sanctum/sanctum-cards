@@ -1,0 +1,27 @@
+{
+  "art": null,
+  "audio": null,
+  "cost": {
+    "primary": null,
+    "secondary": null,
+    "tertiary": null,
+    "total": null
+  },
+  "effect_record_id": null,
+  "id": 907,
+  "keywords": [],
+  "name": "Cruel Greaves",
+  "rarity": null,
+  "related_card_id": null,
+  "rules_text": "Cast on recruit. Recruit takes N hit points of damage, where N is recruit's armor.",
+  "set": null,
+  "sources": {
+    "card_text_file": "CardTextR.txt",
+    "card_text_line": 107,
+    "ncd_row": 495
+  },
+  "starter_decks": [],
+  "stats": null,
+  "target": "recruit",
+  "type": "manipulation"
+}
