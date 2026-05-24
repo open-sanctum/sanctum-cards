@@ -7,6 +7,7 @@ import { parseCardText } from "./input/cardtext.js";
 import { mergeCards } from "./enrich/mergeCard.js";
 import { writeCardsBulk, writeCardsPerCard } from "./output/writeCards.js";
 import { writeEnums } from "./output/writeEnums.js";
+import { writeArtAssets } from "./output/writeAssets.js";
 import { validateCards } from "./validate.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -14,6 +15,7 @@ const REPO_ROOT = resolve(HERE, "../../..");
 
 const ZIP_PATH = resolve(REPO_ROOT, "inputs/Sanctum18-04.zip");
 const DATA_DIR = resolve(REPO_ROOT, "data");
+const ASSETS_DIR = resolve(REPO_ROOT, "assets");
 const SCHEMA_PATH = resolve(REPO_ROOT, "data/schema.json");
 
 const CARD_TEXT_FILES = [
@@ -25,7 +27,7 @@ const CARD_TEXT_FILES = [
   "CardTextW.txt",
 ] as const;
 
-function main(): void {
+async function main(): Promise<void> {
   console.log(`Opening ${ZIP_PATH}`);
   const zip = openZip(ZIP_PATH);
 
@@ -39,9 +41,22 @@ function main(): void {
   );
   console.log(`  ${cardText.length} records across ${CARD_TEXT_FILES.length} files`);
 
+  console.log(`Writing card art to ${ASSETS_DIR} ...`);
+  const manifest = await writeArtAssets(zip, ASSETS_DIR, {
+    onWarning: (msg) => console.warn(`  WARN: ${msg}`),
+  });
+  console.log(
+    `  ${Object.keys(manifest.art.big).length} big, ${Object.keys(manifest.art.small).length} small`
+  );
+
+  const bigArtIds = new Set(Object.keys(manifest.art.big));
+  const smallArtIds = new Set(Object.keys(manifest.art.small));
+
   console.log("Merging ...");
   const cards = mergeCards(ncd, cardText, {
     onWarning: (msg) => console.warn(`  WARN: ${msg}`),
+    bigArtIds,
+    smallArtIds,
   });
   console.log(`  ${cards.length} cards`);
 
@@ -61,4 +76,7 @@ function main(): void {
   console.log("Done.");
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

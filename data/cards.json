@@ -1,6 +1,9 @@
 [
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/4.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -27,7 +30,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/5.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -54,7 +60,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/6.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -81,7 +90,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/7.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -108,7 +120,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/8.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -135,7 +150,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/9.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -164,7 +182,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/10.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -191,7 +212,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/11.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -218,7 +242,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/12.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -245,7 +272,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/13.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -272,7 +302,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/14.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -299,7 +332,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/15.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -334,7 +370,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/17.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -361,7 +400,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/18.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -388,7 +430,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/19.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -415,7 +460,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/20.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -442,7 +490,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/22.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -469,7 +520,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/23.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -496,7 +550,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/24.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -523,7 +580,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/25.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -550,7 +610,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/26.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -579,7 +642,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/28.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -606,7 +672,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/30.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -633,7 +702,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/32.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -668,7 +740,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/33.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -695,7 +770,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/34.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -722,7 +800,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/36.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -749,7 +830,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/37.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -776,7 +860,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/39.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -812,7 +899,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/40.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -847,7 +937,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/41.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -882,7 +975,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/42.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -915,7 +1011,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/43.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -944,7 +1043,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/44.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -971,7 +1073,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/47.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -998,7 +1103,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/49.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1025,7 +1133,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/50.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1052,7 +1163,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/51.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1079,7 +1193,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/52.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1106,7 +1223,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/54.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1133,7 +1253,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/55.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1160,7 +1283,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/56.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1187,7 +1313,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/59.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1222,7 +1351,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/60.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1257,7 +1389,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/64.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1292,7 +1427,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/67.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1329,7 +1467,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/68.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1365,7 +1506,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/69.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1400,7 +1544,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/71.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1435,7 +1582,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/72.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1462,7 +1612,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/73.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1489,7 +1642,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/75.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1516,7 +1672,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/76.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1543,7 +1702,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/77.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1570,7 +1732,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/78.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1597,7 +1762,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/79.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1624,7 +1792,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/80.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1659,7 +1830,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/82.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1686,7 +1860,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/83.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1715,7 +1892,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/84.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1742,7 +1922,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/85.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1771,7 +1954,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/86.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1798,7 +1984,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/87.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1827,7 +2016,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/89.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1856,7 +2048,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/90.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1883,7 +2078,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/91.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1910,7 +2108,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/92.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1940,7 +2141,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/93.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1967,7 +2171,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/94.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -1994,7 +2201,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/96.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2021,7 +2231,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/97.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2048,7 +2261,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/98.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2075,7 +2291,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/99.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2102,7 +2321,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/100.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2129,7 +2351,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/104.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2156,7 +2381,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/105.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2183,7 +2411,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/106.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2210,7 +2441,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/109.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2246,7 +2480,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/110.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2273,7 +2510,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/114.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2300,7 +2540,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/115.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2327,7 +2570,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/116.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2360,7 +2606,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/117.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2387,7 +2636,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/118.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2414,7 +2666,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/120.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2441,7 +2696,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/121.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2468,7 +2726,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/122.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2495,7 +2756,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/123.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2522,7 +2786,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/124.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2549,7 +2816,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/126.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2576,7 +2846,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/129.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2603,7 +2876,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/130.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2638,7 +2914,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/131.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2667,7 +2946,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/132.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2694,7 +2976,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/133.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2721,7 +3006,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/134.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2748,7 +3036,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/135.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2775,7 +3066,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/136.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2802,7 +3096,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/137.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2829,7 +3126,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/139.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2856,7 +3156,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/141.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2883,7 +3186,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/142.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2910,7 +3216,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/145.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2937,7 +3246,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/146.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2964,7 +3276,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/147.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -2991,7 +3306,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/148.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3018,7 +3336,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/149.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3045,7 +3366,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/153.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3072,7 +3396,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/154.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3099,7 +3426,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/155.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3126,7 +3456,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/159.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3153,7 +3486,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/160.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3180,7 +3516,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/163.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3209,7 +3548,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/164.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3238,7 +3580,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/165.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3267,7 +3612,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/166.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3296,7 +3644,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/167.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3323,7 +3674,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/170.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3350,7 +3704,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/171.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3377,7 +3734,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/172.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3404,7 +3764,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/175.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3431,7 +3794,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/176.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3458,7 +3824,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/177.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3493,7 +3862,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/185.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3520,7 +3892,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/187.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3549,7 +3924,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/189.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3576,7 +3954,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/190.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3603,7 +3984,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/194.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3630,7 +4014,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/195.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3657,7 +4044,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/199.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3686,7 +4076,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/207.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3715,7 +4108,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/208.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3742,7 +4138,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/209.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3769,7 +4168,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/210.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3798,7 +4200,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/212.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3825,7 +4230,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/213.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3852,7 +4260,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/214.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3879,7 +4290,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/220.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3906,7 +4320,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/222.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3933,7 +4350,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/223.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3968,7 +4388,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/224.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -3995,7 +4418,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/225.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4022,7 +4448,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/227.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4049,7 +4478,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/276.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4084,7 +4516,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/279.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4111,7 +4546,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/280.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4138,7 +4576,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/281.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4165,7 +4606,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/282.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4192,7 +4636,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/283.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4219,7 +4666,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/284.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4246,7 +4696,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/285.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4273,7 +4726,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/286.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4300,7 +4756,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/287.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4327,7 +4786,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/288.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4354,7 +4816,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/289.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4381,7 +4846,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/290.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4408,7 +4876,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/293.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4435,7 +4906,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/294.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4462,7 +4936,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/295.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4489,7 +4966,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/296.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4516,7 +4996,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/297.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4543,7 +5026,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/300.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4570,7 +5056,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/301.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4597,7 +5086,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/306.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4624,7 +5116,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/310.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4651,7 +5146,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/312.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4686,7 +5184,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/313.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4721,7 +5222,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/314.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4754,7 +5258,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/317.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4789,7 +5296,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/318.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4825,7 +5335,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/321.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4861,7 +5374,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/324.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4897,7 +5413,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/325.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4933,7 +5452,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/327.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4969,7 +5491,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/330.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -4996,7 +5521,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/333.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5023,7 +5551,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/336.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5050,7 +5581,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/337.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5077,7 +5611,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/338.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5104,7 +5641,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/339.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5131,7 +5671,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/340.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5158,7 +5701,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/341.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5185,7 +5731,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/342.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5212,7 +5761,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/344.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5239,7 +5791,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/345.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5266,7 +5821,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/346.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5295,7 +5853,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/348.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5324,7 +5885,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/350.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5351,7 +5915,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/352.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5378,7 +5945,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/353.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5407,7 +5977,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/356.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5436,7 +6009,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/359.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5463,7 +6039,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/371.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5492,7 +6071,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/400.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5525,7 +6107,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/401.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5560,7 +6145,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/402.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5587,7 +6175,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/403.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5614,7 +6205,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/404.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5641,7 +6235,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/405.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5668,7 +6265,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/406.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5701,7 +6301,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/407.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5728,7 +6331,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/408.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5755,7 +6361,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/409.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5782,7 +6391,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/410.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5809,7 +6421,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/411.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5842,7 +6457,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/412.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5869,7 +6487,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/413.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5902,7 +6523,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/414.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5935,7 +6559,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/415.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -5968,7 +6595,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/416.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6001,7 +6631,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/417.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6036,7 +6669,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/418.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6065,7 +6701,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/419.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6092,7 +6731,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/420.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6119,7 +6761,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/421.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6152,7 +6797,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/422.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6179,7 +6827,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/423.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6206,7 +6857,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/424.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6233,7 +6887,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/425.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6260,7 +6917,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/426.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6289,7 +6949,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/427.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6322,7 +6985,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/428.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6357,7 +7023,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/429.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6384,7 +7053,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/430.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6411,7 +7083,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/431.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6447,7 +7122,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/432.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6474,7 +7152,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/433.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6501,7 +7182,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/434.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6534,7 +7218,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/435.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6569,7 +7256,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/436.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6596,7 +7286,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/437.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6631,7 +7324,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/438.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6664,7 +7360,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/439.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6699,7 +7398,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/440.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6732,7 +7434,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/441.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6767,7 +7472,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/442.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6794,7 +7502,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/443.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6821,7 +7532,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/444.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6857,7 +7571,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/445.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6884,7 +7601,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/446.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6919,7 +7639,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/447.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6955,7 +7678,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/448.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -6988,7 +7714,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/449.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7023,7 +7752,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/450.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7056,7 +7788,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/451.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7091,7 +7826,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/452.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7120,7 +7858,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/453.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7153,7 +7894,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/454.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7182,7 +7926,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/456.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7209,7 +7956,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/457.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7236,7 +7986,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/458.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7263,7 +8016,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/459.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7290,7 +8046,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/460.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7317,7 +8076,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/501.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7352,7 +8114,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/502.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7387,7 +8152,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/503.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7420,7 +8188,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/504.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7447,7 +8218,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/505.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7474,7 +8248,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/506.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7501,7 +8278,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/507.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7528,7 +8308,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/508.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7564,7 +8347,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/509.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7599,7 +8385,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/510.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7626,7 +8415,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/511.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7653,7 +8445,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/512.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7686,7 +8481,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/513.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7713,7 +8511,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/514.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7740,7 +8541,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/515.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7775,7 +8579,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/516.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7811,7 +8618,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/517.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7838,7 +8648,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/518.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7868,7 +8681,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/519.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7895,7 +8711,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/520.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7922,7 +8741,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/521.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7949,7 +8771,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/522.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -7985,7 +8810,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/523.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8021,7 +8849,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/524.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8048,7 +8879,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/525.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8075,7 +8909,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/526.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8102,7 +8939,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/527.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8129,7 +8969,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/528.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8156,7 +8999,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/529.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8192,7 +9038,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/530.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8227,7 +9076,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/531.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8254,7 +9106,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/532.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8281,7 +9136,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/533.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8308,7 +9166,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/534.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8335,7 +9196,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/535.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8362,7 +9226,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/536.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8397,7 +9264,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/537.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8430,7 +9300,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/538.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8457,7 +9330,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/539.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8484,7 +9360,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/540.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8511,7 +9390,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/541.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8538,7 +9420,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/542.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8565,7 +9450,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/543.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8598,7 +9486,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/544.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8633,7 +9524,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/545.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8660,7 +9554,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/546.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8687,7 +9584,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/547.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8714,7 +9614,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/548.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8741,7 +9644,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/549.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8768,7 +9674,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/550.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8804,7 +9713,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/551.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8839,7 +9751,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/552.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8866,7 +9781,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/553.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8893,7 +9811,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/554.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8920,7 +9841,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/555.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8947,7 +9871,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/556.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -8974,7 +9901,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/557.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9001,7 +9931,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/558.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9031,7 +9964,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/559.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9058,7 +9994,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/560.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9085,7 +10024,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/561.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9112,7 +10054,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/563.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9139,7 +10084,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/564.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9166,7 +10114,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/565.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9201,7 +10152,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/566.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9236,7 +10190,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/567.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9263,7 +10220,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/568.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9290,7 +10250,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/569.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9319,7 +10282,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/570.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9346,7 +10312,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/571.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9373,7 +10342,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/572.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9408,7 +10380,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/573.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9443,7 +10418,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/574.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9470,7 +10448,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/575.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9497,7 +10478,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/576.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9524,7 +10508,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/577.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9551,7 +10538,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/578.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9578,7 +10568,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/579.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9613,7 +10606,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/580.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9649,7 +10645,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/581.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9676,7 +10675,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/582.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9703,7 +10705,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/583.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9730,7 +10735,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/584.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9757,7 +10765,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/586.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9784,7 +10795,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/587.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9811,7 +10825,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/600.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9838,7 +10855,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/601.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9865,7 +10885,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/602.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9900,7 +10923,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/603.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9927,7 +10953,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/604.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9956,7 +10985,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/605.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -9983,7 +11015,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/606.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10018,7 +11053,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/607.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10047,7 +11085,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/608.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10076,7 +11117,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/609.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10103,7 +11147,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/610.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10130,7 +11177,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/611.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10159,7 +11209,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/612.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10186,7 +11239,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/613.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10213,7 +11269,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/614.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10240,7 +11299,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/615.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10267,7 +11329,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/616.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10294,7 +11359,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/617.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10323,7 +11391,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/618.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10350,7 +11421,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/666.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10377,7 +11451,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/672.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10404,7 +11481,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/673.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10431,7 +11511,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/674.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10458,7 +11541,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/675.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10485,7 +11571,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/676.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10520,7 +11609,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/677.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10547,7 +11639,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/678.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10574,7 +11669,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/679.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10601,7 +11699,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/681.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10628,7 +11729,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/684.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10655,7 +11759,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/686.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10682,7 +11789,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/687.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10709,7 +11819,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/688.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10736,7 +11849,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/689.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10763,7 +11879,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/690.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10790,7 +11909,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/691.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10817,7 +11939,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/692.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10844,7 +11969,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/694.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10871,7 +11999,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/697.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10898,7 +12029,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/701.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10925,7 +12059,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/702.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10952,7 +12089,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/704.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -10987,7 +12127,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/705.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11020,7 +12163,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/706.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11047,7 +12193,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/707.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11074,7 +12223,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/708.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11101,7 +12253,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/710.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11128,7 +12283,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/711.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11155,7 +12313,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/712.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11182,7 +12343,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/713.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11209,7 +12373,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/801.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11236,7 +12403,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/802.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11263,7 +12433,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/803.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11290,7 +12463,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/804.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11317,7 +12493,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/805.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11347,7 +12526,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/806.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11374,7 +12556,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/807.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11401,7 +12586,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/808.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11430,7 +12618,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/809.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11457,7 +12648,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/810.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11494,7 +12688,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/811.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11521,7 +12718,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/812.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11554,7 +12754,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/813.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11589,7 +12792,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/814.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11622,7 +12828,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/815.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11655,7 +12864,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/816.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11688,7 +12900,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/817.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11715,7 +12930,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/818.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11742,7 +12960,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/819.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11771,7 +12992,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/820.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11798,7 +13022,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/821.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11828,7 +13055,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/822.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11863,7 +13093,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/823.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11890,7 +13123,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/824.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11917,7 +13153,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/825.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11946,7 +13185,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/826.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -11973,7 +13215,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/827.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12000,7 +13245,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/828.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12027,7 +13275,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/829.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12054,7 +13305,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/830.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12081,7 +13335,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/831.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12108,7 +13365,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/832.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12135,7 +13395,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/833.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12162,7 +13425,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/834.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12189,7 +13455,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/835.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12216,7 +13485,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/836.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12252,7 +13524,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/837.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12279,7 +13554,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/838.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12308,7 +13586,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/839.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12335,7 +13616,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/840.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12362,7 +13646,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/841.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12389,7 +13676,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/842.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12416,7 +13706,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/843.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12445,7 +13738,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/844.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12472,7 +13768,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/845.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12499,7 +13798,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/846.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12526,7 +13828,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/847.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12553,7 +13858,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/848.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12580,7 +13888,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/849.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12607,7 +13918,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/850.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12640,7 +13954,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/851.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12667,7 +13984,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/852.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12694,7 +14014,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/853.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12721,7 +14044,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/854.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12748,7 +14074,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/855.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12775,7 +14104,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/856.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12808,7 +14140,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/857.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12835,7 +14170,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/858.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12862,7 +14200,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/859.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12889,7 +14230,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/860.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12916,7 +14260,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/861.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12943,7 +14290,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/862.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12970,7 +14320,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/863.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -12997,7 +14350,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/864.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13024,7 +14380,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/865.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13051,7 +14410,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/866.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13078,7 +14440,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/867.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13105,7 +14470,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/868.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13132,7 +14500,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/869.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13159,7 +14530,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/870.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13186,7 +14560,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/871.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13213,7 +14590,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/872.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13240,7 +14620,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/873.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13267,7 +14650,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/874.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13294,7 +14680,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/875.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13321,7 +14710,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/876.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13357,7 +14749,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/877.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13384,7 +14779,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/878.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13411,7 +14809,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/879.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13438,7 +14839,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/880.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13465,7 +14869,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/881.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13492,7 +14899,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/882.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13519,7 +14929,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/883.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13546,7 +14959,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/884.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13573,7 +14989,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/885.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13600,7 +15019,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/886.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13627,7 +15049,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/887.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13654,7 +15079,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/888.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13681,7 +15109,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/889.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13708,7 +15139,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/890.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13735,7 +15169,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/891.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13768,7 +15205,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/892.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13795,7 +15235,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/893.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13822,7 +15265,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/894.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13849,7 +15295,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/895.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13876,7 +15325,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/896.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13903,7 +15355,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/897.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13930,7 +15385,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/898.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13957,7 +15415,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/899.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -13984,7 +15445,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/900.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14011,7 +15475,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/901.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14038,7 +15505,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/902.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14074,7 +15544,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/903.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14101,7 +15574,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/904.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14128,7 +15604,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/905.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14163,7 +15642,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/906.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14190,7 +15672,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/907.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14217,7 +15702,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/908.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14244,7 +15732,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/909.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14271,7 +15762,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/910.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14298,7 +15792,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/911.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14331,7 +15828,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/912.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14358,7 +15858,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/913.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14385,7 +15888,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/914.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14412,7 +15918,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/915.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14439,7 +15948,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/916.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14466,7 +15978,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/917.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14493,7 +16008,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/918.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14520,7 +16038,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/919.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14555,7 +16076,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/920.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14582,7 +16106,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/921.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14609,7 +16136,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/922.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14636,7 +16166,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/923.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14663,7 +16196,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/924.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14690,7 +16226,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/925.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14717,7 +16256,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/926.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14744,7 +16286,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/927.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14771,7 +16316,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/928.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14798,7 +16346,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1000.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14825,7 +16376,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1001.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14852,7 +16406,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1002.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14879,7 +16436,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1003.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14906,7 +16466,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1004.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14933,7 +16496,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1005.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14960,7 +16526,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1006.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -14987,7 +16556,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1007.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15014,7 +16586,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1008.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15050,7 +16625,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1009.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15080,7 +16658,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1010.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15107,7 +16688,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1011.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15136,7 +16720,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1012.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15172,7 +16759,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1013.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15201,7 +16791,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1014.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15230,7 +16823,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1015.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15259,7 +16855,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1016.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15286,7 +16885,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1017.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15315,7 +16917,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1018.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15342,7 +16947,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1019.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15369,7 +16977,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1020.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15402,7 +17013,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1021.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15429,7 +17043,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1022.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15458,7 +17075,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1023.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15485,7 +17105,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1024.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15512,7 +17135,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1025.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15539,7 +17165,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1026.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15574,7 +17203,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1027.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15601,7 +17233,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1028.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15634,7 +17269,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1029.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15661,7 +17299,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1030.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15688,7 +17329,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1031.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15715,7 +17359,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1032.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15742,7 +17389,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1033.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15771,7 +17421,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1034.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15798,7 +17451,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1035.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15833,7 +17489,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1036.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15862,7 +17521,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1037.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15889,7 +17551,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1038.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15922,7 +17587,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1039.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15949,7 +17617,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1040.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -15976,7 +17647,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1041.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16009,7 +17683,10 @@
     "type": "summoning"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1042.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16042,7 +17719,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1043.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16069,7 +17749,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1044.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16096,7 +17779,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1045.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16123,7 +17809,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1046.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16150,7 +17839,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1047.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16177,7 +17869,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1048.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16204,7 +17899,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1049.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16231,7 +17929,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1050.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16258,7 +17959,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1051.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16287,7 +17991,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1052.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16316,7 +18023,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1053.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16343,7 +18053,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1054.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16370,7 +18083,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1055.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16397,7 +18113,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1056.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16432,7 +18151,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1057.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16459,7 +18181,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1058.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16488,7 +18213,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1059.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16517,7 +18245,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1060.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16546,7 +18277,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1061.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16575,7 +18309,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1062.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16602,7 +18339,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1063.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16635,7 +18375,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1064.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16662,7 +18405,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1065.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16689,7 +18435,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1066.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16716,7 +18465,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1067.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16743,7 +18495,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1068.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16770,7 +18525,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1069.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16799,7 +18557,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1070.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16826,7 +18587,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1071.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16853,7 +18617,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1072.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16880,7 +18647,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1073.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16907,7 +18677,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1074.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16936,7 +18709,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1075.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16963,7 +18739,10 @@
     "type": "conjuration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1076.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -16990,7 +18769,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1077.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17023,7 +18805,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1078.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17052,7 +18837,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1079.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17081,7 +18869,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1080.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17108,7 +18899,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1081.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17135,7 +18929,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1082.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17162,7 +18959,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1083.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17189,7 +18989,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1084.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17216,7 +19019,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1085.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17243,7 +19049,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1086.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17276,7 +19085,10 @@
     "type": "hero"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1087.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17303,7 +19115,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1088.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17330,7 +19145,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1089.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17357,7 +19175,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1090.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17384,7 +19205,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1091.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17411,7 +19235,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1092.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17444,7 +19271,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1093.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17471,7 +19301,10 @@
     "type": "manipulation"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1094.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17498,7 +19331,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1095.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
@@ -17527,7 +19363,10 @@
     "type": "alteration"
   },
   {
-    "art": null,
+    "art": {
+      "big": "assets/art/big/1096.png",
+      "small": null
+    },
     "audio": null,
     "cost": {
       "primary": null,
